@@ -159,7 +159,7 @@ export default function RentalsPage() {
             {plans.map((plan, index) => (
               <div key={index} className="text-center">
                 <div className="relative mb-6">
-                  <Badge className="bg-red-500 text-white text-xs px-3 py-1 mb-4">
+                  <Badge className="bg-theme-orange text-white text-xs px-3 py-1 mb-4">
                     {plan.badge}
                   </Badge>
                   <h3 className="text-xl font-bold mb-2">{plan.title}</h3>
