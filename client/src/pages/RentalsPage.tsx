@@ -171,7 +171,7 @@ export default function RentalsPage() {
                     </div>
                   )}
                   
-                  <div className="text-4xl font-bold text-blue-600 mb-2">
+                  <div className="text-4xl font-bold text-theme-primary mb-2">
                     ${plan.price.toLocaleString()}
                   </div>
                   <div className="text-gray-600 text-sm mb-4">{plan.duration}*</div>
@@ -182,7 +182,7 @@ export default function RentalsPage() {
                   </div>
                 </div>
                 
-                <Button className="w-full bg-red-500 hover:bg-red-600 text-white">
+                <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
                   <Phone className="w-4 h-4 mr-2" />
                   RESERVE TODAY
                 </Button>
@@ -256,8 +256,8 @@ export default function RentalsPage() {
             <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
               Our friendly team is here to help you select the perfect golf cart rental for your needs. Whether it's for a special event, vacation, or business use, we have the right cart at the right price.
             </p>
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
-              Book Your Rental Today!
+            <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
+              Call Now 1-844-844-6638
             </Button>
           </div>
         </section>
