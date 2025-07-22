@@ -6,6 +6,10 @@ import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
 import { ArrowLeft, Phone, MessageCircle } from "lucide-react";
 import { Vehicle } from "@shared/schema";
+import SchemaMarkup, { 
+  generateProductSchema,
+  generateBreadcrumbSchema
+} from "@/components/SchemaMarkup";
 
 export default function VehicleDetailPage() {
   const { id } = useParams<{ id: string }>();
@@ -30,17 +34,14 @@ export default function VehicleDetailPage() {
     }).format(price);
   };
 
-  const getStatusBadge = (status: Vehicle["status"]) => {
-    switch (status) {
-      case "available":
-        return <Badge className="bg-emerald-100 text-emerald-800 text-lg px-3 py-1">Available</Badge>;
-      case "pre-order":
-        return <Badge className="bg-yellow-100 text-yellow-800 text-lg px-3 py-1">Pre-Order</Badge>;
-      case "sold":
-        return <Badge className="bg-gray-100 text-gray-800 text-lg px-3 py-1">Sold</Badge>;
-      default:
-        return null;
+  const getStatusBadge = (inStock: boolean, isNew: boolean) => {
+    if (isNew) {
+      return <Badge className="bg-emerald-100 text-emerald-800">NEW</Badge>;
     }
+    if (inStock) {
+      return <Badge className="bg-blue-100 text-blue-800">In Stock</Badge>;
+    }
+    return <Badge className="bg-gray-100 text-gray-800">Out of Stock</Badge>;
   };
 
   if (error) {
@@ -84,8 +85,17 @@ export default function VehicleDetailPage() {
     return null;
   }
 
+  const breadcrumbItems = [
+    { name: "Home", url: "https://oceancountygolfcarts.com" },
+    { name: "Inventory", url: "https://oceancountygolfcarts.com/inventory" },
+    { name: vehicle.name, url: `https://oceancountygolfcarts.com/vehicles/${vehicle.id}` }
+  ];
+
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
+      {/* Schema Markup */}
+      <SchemaMarkup schema={generateProductSchema(vehicle)} />
+      <SchemaMarkup schema={generateBreadcrumbSchema(breadcrumbItems)} />
       <Link href="/inventory">
         <Button variant="ghost" className="mb-6 text-ocean-blue hover:text-blue-600">
           <ArrowLeft className="w-4 h-4 mr-2" />
@@ -102,7 +112,7 @@ export default function VehicleDetailPage() {
             className="w-full h-96 object-cover rounded-lg shadow-lg"
           />
           <div className="absolute top-4 right-4">
-            {getStatusBadge(vehicle.status)}
+            {getStatusBadge(vehicle.inStock, vehicle.isNew)}
           </div>
         </div>
 
@@ -121,12 +131,12 @@ export default function VehicleDetailPage() {
           {/* Quick Specs */}
           <div className="grid grid-cols-2 gap-4 mb-6">
             <div className="text-center bg-gray-50 rounded-lg p-4">
-              <div className="text-2xl font-bold text-navy">{vehicle.seats}</div>
+              <div className="text-2xl font-bold text-navy">{vehicle.specifications.seatingCapacity}</div>
               <div className="text-sm text-gray-600">Seats</div>
             </div>
             <div className="text-center bg-gray-50 rounded-lg p-4">
-              <div className="text-2xl font-bold text-navy">{vehicle.driveType.toUpperCase()}</div>
-              <div className="text-sm text-gray-600">Drive Type</div>
+              <div className="text-2xl font-bold text-navy">{vehicle.brand.toUpperCase()}</div>
+              <div className="text-sm text-gray-600">Brand</div>
             </div>
           </div>
 

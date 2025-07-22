@@ -7,6 +7,14 @@ import { useQuery } from "@tanstack/react-query";
 import type { Vehicle } from "@shared/schema";
 import InventorySection from "@/components/InventorySection";
 import BrandsSection from "@/components/BrandsSection";
+import SchemaMarkup, { 
+  generateOrganizationSchema, 
+  generateLocalBusinessSchema, 
+  generateWebsiteSchema,
+  generateBreadcrumbSchema,
+  generateServiceSchema,
+  generateOfferCatalogSchema
+} from "@/components/SchemaMarkup";
 
 export default function HomePage() {
   const { data: vehicles } = useQuery<Vehicle[]>({
@@ -17,6 +25,12 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen">
+      {/* Schema Markup */}
+      <SchemaMarkup schema={generateOrganizationSchema()} />
+      <SchemaMarkup schema={generateLocalBusinessSchema()} />
+      <SchemaMarkup schema={generateWebsiteSchema()} />
+      <SchemaMarkup schema={generateServiceSchema()} />
+      {vehicles && <SchemaMarkup schema={generateOfferCatalogSchema(vehicles)} />}
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-theme-primary via-blue-800 to-theme-primary text-white py-20 px-4 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(59, 130, 246, 0.8), rgba(14, 46, 85, 0.8)), url('/attached_assets/Ocean County Golf Carts New Jersey 3_1753197335727.jpeg')"}}>
         <div className="max-w-7xl mx-auto">

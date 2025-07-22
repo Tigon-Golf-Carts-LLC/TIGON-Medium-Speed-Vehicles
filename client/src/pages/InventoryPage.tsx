@@ -6,6 +6,10 @@ import VehicleCard from "@/components/VehicleCard";
 import VehicleFilters from "@/components/VehicleFilters";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Vehicle } from "@shared/schema";
+import SchemaMarkup, { 
+  generateBreadcrumbSchema,
+  generateOfferCatalogSchema
+} from "@/components/SchemaMarkup";
 
 
 export default function InventoryPage() {
@@ -40,8 +44,16 @@ export default function InventoryPage() {
     );
   }
 
+  const breadcrumbItems = [
+    { name: "Home", url: "https://oceancountygolfcarts.com" },
+    { name: "Inventory", url: "https://oceancountygolfcarts.com/inventory" }
+  ];
+
   return (
     <div className="min-h-screen">
+      {/* Schema Markup */}
+      <SchemaMarkup schema={generateBreadcrumbSchema(breadcrumbItems)} />
+      {vehicles && <SchemaMarkup schema={generateOfferCatalogSchema(vehicles)} />}
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/a-photograph-of-a-bright-and-airy-modern_cSGtJe7oTWCsurFpyhqrJg_CXQ9jYUGRP2_wh-uk2Htkg_1753199147926.png')"}}>
         <div className="max-w-7xl mx-auto text-center">

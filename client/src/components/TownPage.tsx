@@ -6,6 +6,10 @@ import { Star, Wrench, Percent, Leaf, CheckCircle, MapPin, Phone, Clock, Users }
 import { useQuery } from "@tanstack/react-query";
 import type { Vehicle } from "@shared/schema";
 import SEOHead from "@/components/SEOHead";
+import SchemaMarkup, { 
+  generateLocalBusinessSchema,
+  generateBreadcrumbSchema
+} from "@/components/SchemaMarkup";
 
 interface TownPageProps {
   townName: string;
@@ -72,8 +76,17 @@ export default function TownPage({ townName, townType }: TownPageProps) {
   const pageKeywords = `${townName} golf carts, ${fullTownName} golf cart sales, Ocean County golf carts, electric golf carts ${townName}, golf cart service ${townName}, golf cart rentals ${townName}`;
   const canonicalUrl = `https://oceancountygolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-${townType.toLowerCase()}-golf-carts`;
 
+  const breadcrumbItems = [
+    { name: "Home", url: "https://oceancountygolfcarts.com" },
+    { name: `${townName} Golf Carts`, url: canonicalUrl }
+  ];
+
   return (
     <div className="min-h-screen">
+      {/* Schema Markup */}
+      <SchemaMarkup schema={generateLocalBusinessSchema()} />
+      <SchemaMarkup schema={generateBreadcrumbSchema(breadcrumbItems)} />
+      
       <SEOHead 
         title={pageTitle}
         description={pageDescription}
