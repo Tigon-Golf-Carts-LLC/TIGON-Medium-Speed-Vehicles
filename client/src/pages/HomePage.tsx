@@ -27,7 +27,7 @@ Ocean County Golf Carts Premier Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
                 Discover our extensive selection of new electric golf carts from Evolution and Denago with professional services. 
-                Serving Atlantic County, Cape May County, Middlesex County, Monmouth County, Ocean County and surrounding areas.
+                Serving Ocean County, and all surrounding towns, beach towns, and New Jersey Islands In Ocean County.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/inventory">
