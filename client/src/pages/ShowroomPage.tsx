@@ -42,14 +42,10 @@ export default function ShowroomPage() {
             Visit our TIGON Golf Cart dealership locations in Ocean County, New Jersey. 
             Experience our full lineup of DENAGO and EVOLUTION electric vehicles in person.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
               <Phone className="w-5 h-5 mr-2" />
               Call Us Today
-            </Button>
-            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-theme-primary">
-              <MapPin className="w-5 h-5 mr-2" />
-              Find Location
             </Button>
           </div>
         </div>
@@ -109,9 +105,9 @@ export default function ShowroomPage() {
                       <Clock className="w-5 h-5 text-theme-orange mt-1 flex-shrink-0" />
                       <div>
                         <p className="font-medium text-gray-900">Business Hours</p>
-                        <p className="text-gray-600 text-sm">Mon-Fri: 9:00 AM - 6:00 PM</p>
+                        <p className="text-gray-600 text-sm">Mon-Fri: 9:00 AM - 5:00 PM</p>
                         <p className="text-gray-600 text-sm">Sat: 9:00 AM - 5:00 PM</p>
-                        <p className="text-gray-600 text-sm">Sun: 11:00 AM - 4:00 PM</p>
+                        <p className="text-gray-600 text-sm">Sun: CLOSED</p>
                       </div>
                     </div>
 
