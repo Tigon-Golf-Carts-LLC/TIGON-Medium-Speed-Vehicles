@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, Car } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
@@ -28,8 +28,12 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
-            <div className="bg-theme-orange p-2 rounded-lg">
-              <Car className="h-6 w-6 text-white" />
+            <div className="rounded-lg">
+              <img 
+                src="/attached_assets/Ocean County Golf Carts (3)_1753196262875.png" 
+                alt="Ocean County Golf Carts Logo" 
+                className="h-8 w-8"
+              />
             </div>
             <Link href="/">
               <div className="cursor-pointer">
