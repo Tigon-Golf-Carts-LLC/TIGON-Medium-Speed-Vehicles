@@ -16,8 +16,17 @@ export default function NewInventoryPage() {
   const [categoryFilter, setCategoryFilter] = useState("all");
   const [priceFilter, setPriceFilter] = useState("all");
 
-  const { data: vehicles, isLoading } = useQuery<Vehicle[]>({
-    queryKey: ["/api/vehicles"],
+  const { data: vehicles, isLoading, error } = useQuery<Vehicle[]>({
+    queryKey: ["vehicles"],
+    queryFn: async () => {
+      const response = await fetch('/api/vehicles');
+      if (!response.ok) {
+        throw new Error(`Failed to fetch vehicles: ${response.status}`);
+      }
+      return response.json();
+    },
+    retry: 3,
+    refetchOnWindowFocus: false,
   });
 
   const filteredVehicles = vehicles?.filter(vehicle => {
@@ -125,6 +134,12 @@ export default function NewInventoryPage() {
               </h2>
             </div>
 
+            {error && (
+              <div className="text-center py-8">
+                <p className="text-red-600">Error loading vehicles: {error.message}</p>
+              </div>
+            )}
+            
             {isLoading ? (
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {[...Array(6)].map((_, i) => (
@@ -140,6 +155,15 @@ export default function NewInventoryPage() {
                     </CardContent>
                   </Card>
                 ))}
+              </div>
+            ) : !filteredVehicles || filteredVehicles.length === 0 ? (
+              <div className="text-center py-8">
+                <p className="text-gray-600">No vehicles match your current filters.</p>
+                {vehicles && vehicles.length > 0 && (
+                  <p className="text-sm text-gray-500 mt-2">
+                    Showing 0 of {vehicles.length} total vehicles
+                  </p>
+                )}
               </div>
             ) : (
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
