@@ -166,70 +166,45 @@ export default function NewInventoryPage() {
                 )}
               </div>
             ) : (
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {filteredVehicles?.map((vehicle) => (
-                  <Card key={vehicle.id} className="overflow-hidden hover:shadow-lg transition-shadow">
+                  <Card key={vehicle.id} className="overflow-hidden hover:shadow-lg transition-shadow bg-white border border-gray-200">
                     <div className="relative">
                       <img
                         src={vehicle.images[0] || "/placeholder-golf-cart.jpg"}
                         alt={vehicle.name}
-                        className="w-full h-48 object-cover"
+                        className="w-full h-56 object-cover"
                       />
                       {vehicle.isNew && (
-                        <Badge className="absolute top-4 left-4 bg-green-500 text-white">
+                        <Badge className="absolute top-3 right-3 bg-emerald-500 text-white text-xs font-semibold px-2 py-1 rounded">
                           NEW
-                        </Badge>
-                      )}
-                      {vehicle.brand.toLowerCase() === 'denago' && (
-                        <Badge className="absolute top-4 right-4 bg-blue-600 text-white">
-                          DENAGO
-                        </Badge>
-                      )}
-                      {vehicle.brand.toLowerCase() === 'evolution' && (
-                        <Badge className="absolute top-4 right-4 bg-green-600 text-white">
-                          EVOLUTION
                         </Badge>
                       )}
                     </div>
                     
-                    <CardHeader>
-                      <CardTitle className="text-xl">{vehicle.name}</CardTitle>
-                      <p className="text-gray-600">{vehicle.description}</p>
-                    </CardHeader>
-                    
-                    <CardContent>
-                      <div className="space-y-2 mb-4">
-                        <div className="flex justify-between">
-                          <span className="text-gray-600">Seats:</span>
-                          <span className="font-medium">{vehicle.specifications.seatingCapacity}</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-gray-600">Range:</span>
-                          <span className="font-medium">{vehicle.specifications.range}</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-gray-600">Category:</span>
-                          <span className="font-medium">{vehicle.category}</span>
-                        </div>
-                      </div>
+                    <CardContent className="p-4">
+                      <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                        {vehicle.name}
+                      </h3>
+                      <p className="text-gray-600 text-sm mb-4 line-clamp-3 leading-relaxed">
+                        {vehicle.description}
+                      </p>
                       
                       <div className="flex items-center justify-between">
                         <span className="text-2xl font-bold text-blue-600">
                           ${vehicle.price.toLocaleString()}
                         </span>
+                        <Button 
+                          size="sm" 
+                          className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded text-sm font-medium"
+                          asChild
+                        >
+                          <Link href={`/vehicles/${vehicle.id}`}>
+                            View Details
+                          </Link>
+                        </Button>
                       </div>
                     </CardContent>
-                    
-                    <CardFooter className="flex gap-2">
-                      <Button className="flex-1 bg-red-500 hover:bg-red-600 text-white">
-                        View Details
-                      </Button>
-                      <Link href="/contact">
-                        <Button variant="outline" className="flex-1 border-red-500 text-red-500 hover:bg-red-50">
-                          Contact Us
-                        </Button>
-                      </Link>
-                    </CardFooter>
                   </Card>
                 ))}
               </div>
