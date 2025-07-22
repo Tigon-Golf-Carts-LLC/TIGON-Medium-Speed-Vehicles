@@ -99,7 +99,7 @@ export default function TownPage({ townName, townType }: TownPageProps) {
                     Shop Golf Carts
                   </Button>
                 </Link>
-                <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-gray-900">
+                <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-gray-900">
                   Get Free Quote
                 </Button>
               </div>
