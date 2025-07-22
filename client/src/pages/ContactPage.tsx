@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useMutation } from "@tanstack/react-query";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -15,6 +16,7 @@ import { contactFormSchema, ContactForm } from "@shared/schema";
 export default function ContactPage() {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [, setLocation] = useLocation();
 
   const form = useForm<ContactForm>({
     resolver: zodResolver(contactFormSchema),
@@ -46,12 +48,10 @@ export default function ContactPage() {
       return response.json();
     },
     onSuccess: () => {
-      toast({
-        title: "Message Sent!",
-        description: "Thank you for your message. We'll contact you soon.",
-      });
       form.reset();
       setIsSubmitting(false);
+      // Redirect to thank you page
+      setLocation("/thank-you");
     },
     onError: (error) => {
       toast({
