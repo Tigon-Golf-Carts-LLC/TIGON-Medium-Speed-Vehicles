@@ -247,48 +247,405 @@ export default function EvolutionPage() {
           </div>
         </section>
 
-        {/* Available EVOLUTION Models */}
+        {/* Complete EVOLUTION Vehicle Lineup */}
         <section className="py-16 px-4 bg-gray-50">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4 text-gray-900">
-                Available EVOLUTION Models
+                Complete EVOLUTION Vehicle Lineup
               </h2>
               <p className="text-xl text-gray-600">
-                Browse our current selection of EVOLUTION electric vehicles in stock
+                Explore all EVOLUTION electric vehicle models available in Bucks County
               </p>
             </div>
             
-            {evolutionVehicles.length > 0 ? (
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {evolutionVehicles.map((vehicle) => (
-                  <VehicleCard key={vehicle.id} vehicle={vehicle} />
-                ))}
-              </div>
-            ) : (
-              <Card className="text-center py-12">
-                <CardContent>
-                  <Truck className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">EVOLUTION Models in Stock</h3>
-                  <p className="text-lg text-gray-600 mb-6">
-                    We maintain a comprehensive inventory of EVOLUTION vehicles. Contact us to check 
-                    current availability or schedule a viewing of our EVOLUTION lineup in Bucks County.
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Link href="/contact">
-                      <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
-                        Check Availability
-                      </Button>
-                    </Link>
-                    <Link href="/inventory">
-                      <Button size="lg" variant="outline" className="border-theme-primary text-theme-primary hover:bg-theme-primary hover:text-white">
-                        View All Inventory
-                      </Button>
-                    </Link>
+            {/* Featured EVOLUTION Models with Links */}
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {/* D5 RANGER Series */}
+              <Link href="/vehicles/evolution-d5-ranger-6-plus" className="group">
+                <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={evolutionD5Ranger6Image} 
+                      alt="EVOLUTION D5 RANGER 6 PLUS"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <Badge className="absolute top-2 right-2 bg-theme-orange text-white">
+                      D5 RANGER
+                    </Badge>
                   </div>
-                </CardContent>
-              </Card>
-            )}
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">D5 RANGER 6 PLUS</CardTitle>
+                    <p className="text-sm text-gray-600">Premium 6-passenger recreational vehicle</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              <Link href="/vehicles/evolution-d5-ranger-22-plus" className="group">
+                <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={evolutionD5Ranger4PlusImage} 
+                      alt="EVOLUTION D5 RANGER 2+2 PLUS"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <Badge className="absolute top-2 right-2 bg-theme-orange text-white">
+                      D5 RANGER
+                    </Badge>
+                  </div>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">D5 RANGER 2+2 PLUS</CardTitle>
+                    <p className="text-sm text-gray-600">4-passenger premium golf cart</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              {/* D5 MAVERICK Series */}
+              <Link href="/vehicles/evolution-d5-maverick-4-plus" className="group">
+                <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={evolutionD5Maverick4PlusImage} 
+                      alt="EVOLUTION D5 MAVERICK 4 PLUS"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <Badge className="absolute top-2 right-2 bg-blue-600 text-white">
+                      D5 MAVERICK
+                    </Badge>
+                  </div>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">D5 MAVERICK 4 PLUS</CardTitle>
+                    <p className="text-sm text-gray-600">Family-friendly 4-passenger vehicle</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              <Link href="/vehicles/evolution-d5-maverick-6-plus" className="group">
+                <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={evolutionD5Maverick4PlusImage} 
+                      alt="EVOLUTION D5 MAVERICK 6 PLUS"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <Badge className="absolute top-2 right-2 bg-blue-600 text-white">
+                      D5 MAVERICK
+                    </Badge>
+                  </div>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">D5 MAVERICK 6 PLUS</CardTitle>
+                    <p className="text-sm text-gray-600">Spacious 6-passenger family vehicle</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              {/* D6 MAX Series */}
+              <Link href="/vehicles/evolution-d6-max-gt4" className="group">
+                <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={evolutionD6MaxXT4Image} 
+                      alt="EVOLUTION D6 MAX GT4"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <Badge className="absolute top-2 right-2 bg-red-600 text-white">
+                      D6 MAX
+                    </Badge>
+                  </div>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">D6 MAX GT4</CardTitle>
+                    <p className="text-sm text-gray-600">High-performance 4-passenger vehicle</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              <Link href="/vehicles/evolution-d6-max-gt6" className="group">
+                <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={evolutionD6MaxXT4Image} 
+                      alt="EVOLUTION D6 MAX GT6"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <Badge className="absolute top-2 right-2 bg-red-600 text-white">
+                      D6 MAX
+                    </Badge>
+                  </div>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">D6 MAX GT6</CardTitle>
+                    <p className="text-sm text-gray-600">High-performance 6-passenger vehicle</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              <Link href="/vehicles/evolution-d6-max-xt4" className="group">
+                <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={evolutionD6MaxXT4Image} 
+                      alt="EVOLUTION D6 MAX XT4"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <Badge className="absolute top-2 right-2 bg-red-600 text-white">
+                      D6 MAX
+                    </Badge>
+                  </div>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">D6 MAX XT4</CardTitle>
+                    <p className="text-sm text-gray-600">Extreme terrain 4-passenger vehicle</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              <Link href="/vehicles/evolution-d6-max-xt6" className="group">
+                <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={evolutionD6MaxXT4Image} 
+                      alt="EVOLUTION D6 MAX XT6"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <Badge className="absolute top-2 right-2 bg-red-600 text-white">
+                      D6 MAX
+                    </Badge>
+                  </div>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">D6 MAX XT6</CardTitle>
+                    <p className="text-sm text-gray-600">Extreme terrain 6-passenger vehicle</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              {/* CLASSIC Series */}
+              <Link href="/vehicles/evolution-classic-2-plus" className="group">
+                <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={evolutionClassic4PlusImage} 
+                      alt="EVOLUTION CLASSIC 2 PLUS"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <Badge className="absolute top-2 right-2 bg-green-600 text-white">
+                      CLASSIC
+                    </Badge>
+                  </div>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">CLASSIC 2 PLUS</CardTitle>
+                    <p className="text-sm text-gray-600">Traditional 2-passenger golf cart</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              <Link href="/vehicles/evolution-classic-2-pro" className="group">
+                <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={evolutionClassic4PlusImage} 
+                      alt="EVOLUTION CLASSIC 2 PRO"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <Badge className="absolute top-2 right-2 bg-green-600 text-white">
+                      CLASSIC
+                    </Badge>
+                  </div>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">CLASSIC 2 PRO</CardTitle>
+                    <p className="text-sm text-gray-600">Professional 2-passenger golf cart</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              <Link href="/vehicles/evolution-classic-4-plus" className="group">
+                <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={evolutionClassic4PlusImage} 
+                      alt="EVOLUTION CLASSIC 4 PLUS"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <Badge className="absolute top-2 right-2 bg-green-600 text-white">
+                      CLASSIC
+                    </Badge>
+                  </div>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">CLASSIC 4 PLUS</CardTitle>
+                    <p className="text-sm text-gray-600">Traditional 4-passenger golf cart</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              {/* CARRIER Series */}
+              <Link href="/vehicles/evolution-carrier-6-plus" className="group">
+                <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={evolutionCarrier6PlusImage} 
+                      alt="EVOLUTION CARRIER 6 PLUS"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <Badge className="absolute top-2 right-2 bg-purple-600 text-white">
+                      CARRIER
+                    </Badge>
+                  </div>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">CARRIER 6 PLUS</CardTitle>
+                    <p className="text-sm text-gray-600">6-passenger utility vehicle</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              <Link href="/vehicles/evolution-carrier-8-plus" className="group">
+                <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={evolutionCarrier6PlusImage} 
+                      alt="EVOLUTION CARRIER 8 PLUS"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <Badge className="absolute top-2 right-2 bg-purple-600 text-white">
+                      CARRIER
+                    </Badge>
+                  </div>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">CARRIER 8 PLUS</CardTitle>
+                    <p className="text-sm text-gray-600">8-passenger utility vehicle</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              {/* FORESTER Series */}
+              <Link href="/vehicles/evolution-forester-4-plus" className="group">
+                <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={evolutionForester4PlusImage} 
+                      alt="EVOLUTION FORESTER 4 PLUS"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <Badge className="absolute top-2 right-2 bg-yellow-600 text-white">
+                      FORESTER
+                    </Badge>
+                  </div>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">FORESTER 4 PLUS</CardTitle>
+                    <p className="text-sm text-gray-600">Lifted 4-passenger off-road vehicle</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              {/* TURFMAN Series */}
+              <Link href="/vehicles/evolution-turfman-1000" className="group">
+                <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={evolutionTurfman1000Image} 
+                      alt="EVOLUTION TURFMAN 1000"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <Badge className="absolute top-2 right-2 bg-gray-600 text-white">
+                      TURFMAN
+                    </Badge>
+                  </div>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">TURFMAN 1000</CardTitle>
+                    <p className="text-sm text-gray-600">Heavy-duty utility vehicle</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Link>
+            </div>
+
+            <div className="text-center mt-12">
+              <p className="text-lg text-gray-600 mb-6">
+                Explore our complete EVOLUTION lineup or compare models to find your perfect match.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link href="/inventory">
+                  <Button size="lg" className="bg-theme-primary hover:bg-blue-800 text-white">
+                    View All Models
+                  </Button>
+                </Link>
+                <Link href="/contact">
+                  <Button size="lg" variant="outline" className="border-theme-orange text-theme-orange hover:bg-theme-orange hover:text-white">
+                    Schedule Test Drive
+                  </Button>
+                </Link>
+              </div>
+            </div>
           </div>
         </section>
 

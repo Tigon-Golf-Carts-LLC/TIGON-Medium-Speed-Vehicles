@@ -61,21 +61,76 @@ export default function DenagoPage() {
       description: "Urban mobility redefined with sleek design and efficient performance",
       image: denagoEvCityImage,
       features: ["Street Legal Ready", "LED Lighting", "Premium Interior"],
-      vehicles: ["DENAGO EV CITY"]
+      vehicles: ["DENAGO EV CITY"],
+      price: "Starting at $18,999"
     },
     {
       title: "EV NOMAD Series", 
       description: "Adventure-ready vehicles built for exploration and off-road adventures",
       image: denagoEvNomadImage,
       features: ["All-Terrain Tires", "Lifted Suspension", "Adventure Package"],
-      vehicles: ["DENAGO EV NOMAD", "DENAGO EV NOMAD XL"]
+      vehicles: ["DENAGO EV NOMAD", "DENAGO EV NOMAD XL"],
+      price: "Starting at $22,999"
     },
     {
       title: "EV ROVER Series",
       description: "Luxury family transportation with maximum comfort and capacity",
       image: denagoEvRoverXLImage,
       features: ["6-Passenger Seating", "Premium Materials", "Advanced Safety"],
-      vehicles: ["DENAGO EV ROVER XL", "DENAGO EV ROVER XL6", "DENAGO EV ROVER XXL"]
+      vehicles: ["DENAGO EV ROVER XL", "DENAGO EV ROVER XL6", "DENAGO EV ROVER XXL"],
+      price: "Starting at $24,999"
+    }
+  ];
+
+  // Complete DENAGO vehicle lineup with specifications
+  const allDenagoVehicles = [
+    {
+      name: "DENAGO EV CITY",
+      series: "EV CITY",
+      image: denagoEvCityImage,
+      price: "$18,999",
+      features: ["Street Legal Ready", "LED Light Package", "Premium Seating", "Weather Protection"],
+      specs: { seats: "2", range: "40 miles", topSpeed: "25 mph", driveType: "All-Wheel Drive" }
+    },
+    {
+      name: "DENAGO EV NOMAD",
+      series: "EV NOMAD",
+      image: denagoEvNomadImage,
+      price: "$22,999",
+      features: ["Off-Road Suspension", "All-Terrain Tires", "Adventure Package", "Enhanced Ground Clearance"],
+      specs: { seats: "4", range: "45 miles", topSpeed: "25 mph", driveType: "All-Wheel Drive" }
+    },
+    {
+      name: "DENAGO EV NOMAD XL",
+      series: "EV NOMAD",
+      image: denagoEvNomadXLImage,
+      price: "$24,999",
+      features: ["Extended Range", "Premium Off-Road Package", "Enhanced Cargo Space", "All-Weather Protection"],
+      specs: { seats: "4", range: "55 miles", topSpeed: "25 mph", driveType: "All-Wheel Drive" }
+    },
+    {
+      name: "DENAGO EV ROVER XL",
+      series: "EV ROVER",
+      image: denagoEvRoverXLImage,
+      price: "$26,999",
+      features: ["6-Passenger Seating", "Luxury Interior", "Advanced Safety Features", "Premium Sound"],
+      specs: { seats: "6", range: "50 miles", topSpeed: "25 mph", driveType: "All-Wheel Drive" }
+    },
+    {
+      name: "DENAGO EV ROVER XL6",
+      series: "EV ROVER",
+      image: denagoEvRoverXL6Image,
+      price: "$28,999",
+      features: ["Extended 6-Seat Configuration", "Premium Materials", "Enhanced Comfort", "Smart Technology"],
+      specs: { seats: "6", range: "50 miles", topSpeed: "25 mph", driveType: "All-Wheel Drive" }
+    },
+    {
+      name: "DENAGO EV ROVER XXL",
+      series: "EV ROVER",
+      image: denagoEvRoverXXLImage,
+      price: "$31,999",
+      features: ["Maximum Capacity", "Ultra-Premium Interior", "Advanced Technology Suite", "Superior Performance"],
+      specs: { seats: "8", range: "60 miles", topSpeed: "25 mph", driveType: "All-Wheel Drive" }
     }
   ];
 
@@ -212,46 +267,98 @@ export default function DenagoPage() {
           </div>
         </section>
 
-        {/* Available DENAGO Models */}
+        {/* Complete DENAGO Vehicle Lineup */}
         <section className="py-16 px-4 bg-gray-50">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4 text-gray-900">
-                Available DENAGO Models
+                Complete DENAGO Vehicle Lineup
               </h2>
               <p className="text-xl text-gray-600">
-                Browse our current selection of DENAGO electric vehicles in stock
+                Explore all 6 DENAGO electric vehicle models available in Bucks County
               </p>
             </div>
             
-            {denagoVehicles.length > 0 ? (
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {denagoVehicles.map((vehicle) => (
-                  <VehicleCard key={vehicle.id} vehicle={vehicle} />
-                ))}
-              </div>
-            ) : (
-              <Card className="text-center py-12">
-                <CardContent>
-                  <Truck className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">DENAGO Models Coming Soon</h3>
-                  <p className="text-lg text-gray-600 mb-6">
-                    We're expanding our DENAGO inventory. Contact us to reserve your preferred model 
-                    or get notified when new DENAGO vehicles arrive in Bucks County.
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Link href="/contact">
-                      <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
-                        Reserve Your DENAGO
-                      </Button>
-                    </Link>
-                    <Button size="lg" variant="outline" className="border-theme-primary text-theme-primary hover:bg-theme-primary hover:text-white">
-                      Get Notified
-                    </Button>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {allDenagoVehicles.map((vehicle, index) => (
+                <Card key={index} className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group">
+                  <div className="relative h-64 overflow-hidden">
+                    <img 
+                      src={vehicle.image} 
+                      alt={vehicle.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute top-4 left-4">
+                      <Badge className="bg-theme-orange text-white font-bold">
+                        {vehicle.series}
+                      </Badge>
+                    </div>
+                    <div className="absolute top-4 right-4">
+                      <Badge className="bg-white text-gray-900 font-bold">
+                        {vehicle.price}
+                      </Badge>
+                    </div>
                   </div>
-                </CardContent>
-              </Card>
-            )}
+                  <CardHeader>
+                    <CardTitle className="text-xl text-gray-900">{vehicle.name}</CardTitle>
+                    <div className="grid grid-cols-2 gap-4 text-sm text-gray-600">
+                      <div>
+                        <span className="font-semibold">Seats:</span> {vehicle.specs.seats}
+                      </div>
+                      <div>
+                        <span className="font-semibold">Range:</span> {vehicle.specs.range}
+                      </div>
+                      <div>
+                        <span className="font-semibold">Top Speed:</span> {vehicle.specs.topSpeed}
+                      </div>
+                      <div>
+                        <span className="font-semibold">Drive:</span> AWD
+                      </div>
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-2 mb-6">
+                      {vehicle.features.map((feature, idx) => (
+                        <div key={idx} className="flex items-center text-sm text-gray-600">
+                          <Check className="w-4 h-4 text-theme-orange mr-2" />
+                          {feature}
+                        </div>
+                      ))}
+                    </div>
+                    <div className="flex flex-col gap-3">
+                      <Link href={`/vehicles/${vehicle.name.toLowerCase().replace(/\s+/g, '-')}`}>
+                        <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                          View Details
+                        </Button>
+                      </Link>
+                      <Link href="/contact">
+                        <Button variant="outline" className="w-full border-theme-primary text-theme-primary hover:bg-theme-primary hover:text-white">
+                          Get Quote
+                        </Button>
+                      </Link>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+
+            <div className="text-center mt-12">
+              <p className="text-lg text-gray-600 mb-6">
+                Can't decide? Compare all DENAGO models or schedule a test drive to experience the difference.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link href="/inventory">
+                  <Button size="lg" className="bg-theme-primary hover:bg-blue-800 text-white">
+                    Compare All Models
+                  </Button>
+                </Link>
+                <Link href="/contact">
+                  <Button size="lg" variant="outline" className="border-theme-orange text-theme-orange hover:bg-theme-orange hover:text-white">
+                    Schedule Test Drive
+                  </Button>
+                </Link>
+              </div>
+            </div>
           </div>
         </section>
 
