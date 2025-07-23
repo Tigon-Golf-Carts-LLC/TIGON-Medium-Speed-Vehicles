@@ -71,7 +71,7 @@ export default function NewAboutPage() {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: `url('@assets/0f46bdfb-c558-4e28-9473-6c85686c5a80 (1)_1753279436268.png')`
+              backgroundImage: `url('@assets/a-photograph-of-a-modern-golf-cart-deale_c_kG6NR-SA6qC8Vzl1iBww_ILJUjQXFQCGLKMSveOjbrA_1753283141121.png')`
             }}
           >
             {/* Overlay for better text readability */}
