@@ -38,26 +38,74 @@ interface BucksCountyTownPageProps {
 const getGoogleMapsEmbedUrl = (townName: string, townType: string) => {
   const fullLocation = `${townName} ${townType}, Bucks County, Pennsylvania`;
   const encodedLocation = encodeURIComponent(fullLocation);
-  return `https://www.google.com/maps/embed/v1/place?key=AIzaSyBFGwLQcKaVRhYuBZ8Sb5YflHvOOD9uGjY&q=${encodedLocation}&zoom=13`;
+  // Using standard Google Maps search URL that works reliably
+  return `https://maps.google.com/maps?q=${encodedLocation}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
 };
 
-// Generate Bucks County towns data for structured data
+// Function to generate URL slug for town pages
+const getTownPageUrl = (townName: string, townType: string) => {
+  const slug = `${townName.toLowerCase().replace(/\s+/g, '-')}-${townType.toLowerCase()}-golf-carts`;
+  return `/${slug}`;
+};
+
+// Generate Bucks County towns data with proper links
 const getBucksCountyTownsData = () => [
-  "Bristol Borough", "Chalfont Borough", "Doylestown Borough", "Dublin Borough", 
-  "Hulmeville Borough", "Ivyland Borough", "Langhorne Borough", "Langhorne Manor Borough",
-  "Morrisville Borough", "New Britain Borough", "New Hope Borough", "Newtown Borough",
-  "Penndel Borough", "Perkasie Borough", "Quakertown Borough", "Richlandtown Borough",
-  "Riegelsville Borough", "Sellersville Borough", "Silverdale Borough", "Telford Borough",
-  "Trumbauersville Borough", "Tullytown Borough", "Yardley Borough", "Hatboro Borough",
-  "Souderton Borough", "Bedminster Township", "Bensalem Township", "Bridgeton Township",
-  "Bristol Township", "Buckingham Township", "Doylestown Township", "Durham Township",
-  "East Rockhill Township", "Falls Township", "Haycock Township", "Hilltown Township",
-  "Lower Makefield Township", "Lower Southampton Township", "Middletown Township",
-  "Milford Township", "New Britain Township", "Newtown Township", "Nockamixon Township",
-  "Northampton Township", "Plumstead Township", "Richland Township", "Solebury Township",
-  "Springfield Township", "Tinicum Township", "Upper Makefield Township",
-  "Upper Southampton Township", "Warminster Township", "Warrington Township",
-  "Warwick Township", "West Rockhill Township", "Wrightstown Township"
+  { name: "Bristol", type: "Borough" },
+  { name: "Chalfont", type: "Borough" },
+  { name: "Doylestown", type: "Borough" },
+  { name: "Dublin", type: "Borough" },
+  { name: "Hulmeville", type: "Borough" },
+  { name: "Ivyland", type: "Borough" },
+  { name: "Langhorne", type: "Borough" },
+  { name: "Langhorne Manor", type: "Borough" },
+  { name: "Morrisville", type: "Borough" },
+  { name: "New Britain", type: "Borough" },
+  { name: "New Hope", type: "Borough" },
+  { name: "Newtown", type: "Borough" },
+  { name: "Penndel", type: "Borough" },
+  { name: "Perkasie", type: "Borough" },
+  { name: "Quakertown", type: "Borough" },
+  { name: "Richlandtown", type: "Borough" },
+  { name: "Riegelsville", type: "Borough" },
+  { name: "Sellersville", type: "Borough" },
+  { name: "Silverdale", type: "Borough" },
+  { name: "Telford", type: "Borough" },
+  { name: "Trumbauersville", type: "Borough" },
+  { name: "Tullytown", type: "Borough" },
+  { name: "Yardley", type: "Borough" },
+  { name: "Hatboro", type: "Borough" },
+  { name: "Souderton", type: "Borough" },
+  { name: "Bedminster", type: "Township" },
+  { name: "Bensalem", type: "Township" },
+  { name: "Bridgeton", type: "Township" },
+  { name: "Bristol", type: "Township" },
+  { name: "Buckingham", type: "Township" },
+  { name: "Doylestown", type: "Township" },
+  { name: "Durham", type: "Township" },
+  { name: "East Rockhill", type: "Township" },
+  { name: "Falls", type: "Township" },
+  { name: "Haycock", type: "Township" },
+  { name: "Hilltown", type: "Township" },
+  { name: "Lower Makefield", type: "Township" },
+  { name: "Lower Southampton", type: "Township" },
+  { name: "Middletown", type: "Township" },
+  { name: "Milford", type: "Township" },
+  { name: "New Britain", type: "Township" },
+  { name: "Newtown", type: "Township" },
+  { name: "Nockamixon", type: "Township" },
+  { name: "Northampton", type: "Township" },
+  { name: "Plumstead", type: "Township" },
+  { name: "Richland", type: "Township" },
+  { name: "Solebury", type: "Township" },
+  { name: "Springfield", type: "Township" },
+  { name: "Tinicum", type: "Township" },
+  { name: "Upper Makefield", type: "Township" },
+  { name: "Upper Southampton", type: "Township" },
+  { name: "Warminster", type: "Township" },
+  { name: "Warrington", type: "Township" },
+  { name: "Warwick", type: "Township" },
+  { name: "West Rockhill", type: "Township" },
+  { name: "Wrightstown", type: "Township" }
 ];
 
 export default function BucksCountyTownPage({ townName, townType }: BucksCountyTownPageProps) {
@@ -314,9 +362,15 @@ export default function BucksCountyTownPage({ townName, townType }: BucksCountyT
             
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 text-center">
               {getBucksCountyTownsData().map((town, index) => (
-                <div key={index} className="py-2 px-3 bg-white rounded-lg hover:bg-blue-50 transition-colors">
-                  <span className="text-sm font-medium text-gray-700">{town}</span>
-                </div>
+                <Link 
+                  key={index} 
+                  href={getTownPageUrl(town.name, town.type)}
+                  className="py-2 px-3 bg-white rounded-lg hover:bg-blue-50 hover:border-theme-primary border border-transparent transition-all duration-200 group"
+                >
+                  <span className="text-sm font-medium text-gray-700 group-hover:text-theme-primary">
+                    {town.name} {town.type}
+                  </span>
+                </Link>
               ))}
             </div>
             
