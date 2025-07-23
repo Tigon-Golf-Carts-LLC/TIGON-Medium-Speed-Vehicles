@@ -44,12 +44,12 @@ export default function Footer() {
             <div>
               <ul className="space-y-2">
                 <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">NEW GOLF CARTS</Link></li>
-                <li><Link href="/brands/denago" className="text-gray-600 hover:text-gray-900 text-sm">DENAGO</Link></li>
-                <li><Link href="/brands/evolution" className="text-gray-600 hover:text-gray-900 text-sm">EVOLUTION</Link></li>
+                <li><Link href="/denago" className="text-gray-600 hover:text-gray-900 text-sm">DENAGO</Link></li>
+                <li><Link href="/evolution" className="text-gray-600 hover:text-gray-900 text-sm">EVOLUTION</Link></li>
                 <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">ABOUT</Link></li>
                 <li><Link href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">CONTACT</Link></li>
-                <li><Link href="/privacy" className="text-gray-600 hover:text-gray-900 text-sm">PRIVACY POLICY</Link></li>
-                <li><Link href="/terms" className="text-gray-600 hover:text-gray-900 text-sm">TERMS OF SERVICE</Link></li>
+                <li><Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 text-sm">PRIVACY POLICY</Link></li>
+                <li><Link href="/terms-of-service" className="text-gray-600 hover:text-gray-900 text-sm">TERMS OF SERVICE</Link></li>
               </ul>
             </div>
           </div>
@@ -93,12 +93,12 @@ export default function Footer() {
             <div className="md:col-span-1">
               <ul className="space-y-2">
                 <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">NEW GOLF CARTS</Link></li>
-                <li><Link href="/brands/denago" className="text-gray-600 hover:text-gray-900 text-sm">DENAGO</Link></li>
-                <li><Link href="/brands/evolution" className="text-gray-600 hover:text-gray-900 text-sm">EVOLUTION</Link></li>
+                <li><Link href="/denago" className="text-gray-600 hover:text-gray-900 text-sm">DENAGO</Link></li>
+                <li><Link href="/evolution" className="text-gray-600 hover:text-gray-900 text-sm">EVOLUTION</Link></li>
                 <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">ABOUT</Link></li>
                 <li><Link href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">CONTACT</Link></li>
-                <li><Link href="/privacy" className="text-gray-600 hover:text-gray-900 text-sm">PRIVACY POLICY</Link></li>
-                <li><Link href="/terms" className="text-gray-600 hover:text-gray-900 text-sm">TERMS OF SERVICE</Link></li>
+                <li><Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 text-sm">PRIVACY POLICY</Link></li>
+                <li><Link href="/terms-of-service" className="text-gray-600 hover:text-gray-900 text-sm">TERMS OF SERVICE</Link></li>
               </ul>
             </div>
 
@@ -239,8 +239,8 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-600 text-sm">
               © 2025 Bucks County Golf Carts. All rights reserved. | 
-              <Link href="/privacy" className="hover:text-gray-900 ml-1">Privacy Policy</Link> | 
-              <Link href="/terms" className="hover:text-gray-900 ml-1">Terms of Service</Link>
+              <Link href="/privacy-policy" className="hover:text-gray-900 ml-1">Privacy Policy</Link> | 
+              <Link href="/terms-of-service" className="hover:text-gray-900 ml-1">Terms of Service</Link>
             </div>
             <div className="text-gray-600 text-sm">
               Bucks County Golf Carts - Serving all Bucks County towns with premium golf carts and exceptional service.
