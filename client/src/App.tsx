@@ -19,6 +19,8 @@ import NotFound from "@/pages/not-found";
 import NewInventoryPage from "@/pages/NewInventoryPage";
 import NewServicesPage from "@/pages/NewServicesPage";
 import NewAboutPage from "@/pages/NewAboutPage";
+import { PrivacyPolicyPage } from "@/pages/PrivacyPolicyPage";
+import { TermsOfServicePage } from "@/pages/TermsOfServicePage";
 // Vehicle Page Imports
 import EvolutionD5Ranger6Plus from "@/pages/vehicles/EvolutionD5Ranger6Plus";
 import EvolutionD5Ranger22Plus from "@/pages/vehicles/EvolutionD5Ranger22Plus";
@@ -83,6 +85,8 @@ function App() {
             <Route path="/contact" component={ContactPage} />
             <Route path="/thank-you" component={ThankYouPage} />
             <Route path="/showroom" component={ShowroomPage} />
+            <Route path="/privacy" component={PrivacyPolicyPage} />
+            <Route path="/terms" component={TermsOfServicePage} />
             
             {/* Vehicle Detail Pages */}
             <Route path="/vehicles/evolution-d5-ranger-6-plus" component={EvolutionD5Ranger6Plus} />
