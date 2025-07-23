@@ -12,6 +12,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { useToast } from "@/hooks/use-toast";
 import { MapPin, Phone, Mail, Globe, Clock } from "lucide-react";
 import { contactFormSchema, ContactForm } from "@shared/schema";
+import SEOHead from "@/components/SEOHead";
 
 export default function ContactPage() {
   const { toast } = useToast();
@@ -71,34 +72,29 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: MapPin,
-      label: "Bayville Location",
-      value: "Bayville, NJ",
+      label: "Hatfield Showroom",
+      value: "Hatfield, PA",
     },
     {
       icon: Phone,
-      label: "Bayville Phone",
-      value: "(732) 908-7166",
-    },
-    {
-      icon: MapPin,
-      label: "Waretown Location", 
-      value: "Waretown, NJ",
+      label: "Hatfield Phone",
+      value: "(215) 595-8736",
     },
     {
       icon: Phone,
-      label: "Waretown Phone",
-      value: "(732) 998-8146",
+      label: "Main Line",
+      value: "1-844-844-6638",
     },
     {
       icon: Mail,
       label: "Email",
-      value: "info@oceancountygolfcarts.com",
+      value: "info@bucksgolfcarts.com",
     },
     {
       icon: Globe,
       label: "Website",
-      value: "oceancountygolfcarts.com",
-      link: "https://oceancountygolfcarts.com",
+      value: "bucksgolfcarts.com",
+      link: "https://bucksgolfcarts.com",
     },
   ];
 
@@ -109,10 +105,17 @@ export default function ContactPage() {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
+    <>
+      <SEOHead 
+        title="Contact Bucks County Golf Carts - Get in Touch for Sales & Service"
+        description="Contact Bucks County Golf Carts for sales, service, and support. Visit our Hatfield showroom or call 1-844-844-6638. Serving all 56 Bucks County municipalities."
+        keywords="contact Bucks County golf carts, Hatfield showroom, golf cart sales Pennsylvania, TIGON dealer contact"
+      />
+      
+      <div className="max-w-7xl mx-auto px-4 py-8">
       <div className="text-center mb-12">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Contact Ocean County Golf Carts
+          Contact Bucks County Golf Carts
         </h1>
         <p className="text-xl text-gray-600">
           Get in touch with our team for sales, service, and support
@@ -132,13 +135,13 @@ export default function ContactPage() {
                   const Icon = info.icon;
                   return (
                     <div key={index} className="flex items-center">
-                      <Icon className="w-5 h-5 text-ocean-blue mr-3 flex-shrink-0" />
+                      <Icon className="w-5 h-5 text-theme-orange mr-3 flex-shrink-0" />
                       <div>
                         <div className="text-sm text-gray-500">{info.label}</div>
                         {info.link ? (
                           <a
                             href={info.link}
-                            className="text-ocean-blue hover:underline"
+                            className="text-theme-orange hover:underline"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -294,6 +297,7 @@ export default function ContactPage() {
           </CardContent>
         </Card>
       </div>
-    </div>
+      </div>
+    </>
   );
 }
