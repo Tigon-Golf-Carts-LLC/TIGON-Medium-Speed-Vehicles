@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useLocation } from "wouter";
 
-// Declare gtag function for TypeScript
+// Declare functions for TypeScript
 declare global {
   interface Window {
     gtag: (...args: any[]) => void;
@@ -22,8 +22,19 @@ export function usePageTracking() {
 }
 
 export function trackEvent(action: string, category: string, label?: string, value?: number) {
+  // Track with Google Analytics
   if (typeof window !== 'undefined' && window.gtag) {
     window.gtag('event', action, {
+      event_category: category,
+      event_label: label,
+      value: value,
+    });
+  }
+  
+  // Track with Google Tag Manager dataLayer
+  if (typeof window !== 'undefined' && window.dataLayer) {
+    window.dataLayer.push({
+      event: action,
       event_category: category,
       event_label: label,
       value: value,

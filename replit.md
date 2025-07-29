@@ -61,7 +61,7 @@ Logo: Bucks County Golf Carts logo (Bucks County Golf Carts (3)_1753284044185.pn
 - **Brand Showcase** - Featured manufacturer information
 - **Global Scroll-to-Top** - Automatic page scroll to top on route changes across all devices
 - **SEO Optimization** - Complete sitemap.xml with all pages, vehicle images, and town pages; robots.txt allowing full crawling
-- **Google Analytics** - Comprehensive tracking implementation with GA4 (G-0R3W3GMMRG) including page views and conversion events
+- **Google Analytics & Tag Manager** - Comprehensive tracking implementation with GA4 (G-0R3W3GMMRG) and GTM (GTM-MCBWX8NW) including page views, conversion events, and dataLayer integration
 
 ## Data Flow
 
