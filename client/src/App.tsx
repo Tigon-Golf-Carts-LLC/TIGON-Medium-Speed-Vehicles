@@ -4,6 +4,7 @@ import { Toaster } from "@/components/ui/toaster";
 import useScrollToTop from "@/hooks/useScrollToTop";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import Analytics from "@/components/Analytics";
 import HomePage from "@/pages/HomePage";
 import InventoryPage from "@/pages/InventoryPage";
 import RentalsPage from "@/pages/RentalsPage";
@@ -71,6 +72,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <div className="min-h-screen bg-gray-50 flex flex-col">
+        <Analytics />
         <Navigation />
         <main className="flex-1">
           <Switch>

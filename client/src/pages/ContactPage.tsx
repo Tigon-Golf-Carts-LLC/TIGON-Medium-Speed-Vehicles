@@ -13,6 +13,7 @@ import { useToast } from "@/hooks/use-toast";
 import { MapPin, Phone, Mail, Globe, Clock } from "lucide-react";
 import { contactFormSchema, ContactForm } from "@shared/schema";
 import SEOHead from "@/components/SEOHead";
+import { trackEvent } from "@/components/Analytics";
 
 export default function ContactPage() {
   const { toast } = useToast();
@@ -49,6 +50,8 @@ export default function ContactPage() {
       return response.json();
     },
     onSuccess: () => {
+      // Track contact form submission
+      trackEvent('form_submit', 'contact', 'contact_form');
       form.reset();
       setIsSubmitting(false);
       // Redirect to thank you page
