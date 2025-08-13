@@ -1,0 +1,118 @@
+{
+  "name": "Bucks County Golf Carts",
+  "short_name": "BucksGolfCarts",
+  "description": "Pennsylvania's premier EVOLUTION golf cart dealership serving all 56 Bucks County municipalities with sales, service, rentals, and financing.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0e2e55",
+  "theme_color": "#0e2e55",
+  "orientation": "portrait-primary",
+  "categories": ["automotive", "business", "shopping"],
+  "lang": "en-US",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/attached_assets/image_1753282400827.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Bucks County Golf Carts Homepage"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Vehicle Inventory",
+      "short_name": "Inventory",
+      "description": "Browse our complete EVOLUTION golf cart lineup",
+      "url": "/inventory",
+      "icons": [
+        {
+          "src": "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch for sales, service, or rentals",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Service Center",
+      "short_name": "Service",
+      "description": "Professional golf cart maintenance and repair",
+      "url": "/services",
+      "icons": [
+        {
+          "src": "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Rental Program",
+      "short_name": "Rentals",
+      "description": "Daily, weekly, and seasonal golf cart rentals",
+      "url": "/rentals",
+      "icons": [
+        {
+          "src": "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "share_target": {
+    "action": "/contact",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "mailto",
+      "url": "/contact?email=%s"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "/contact",
+      "accept": {
+        "text/plain": [".txt"],
+        "application/pdf": [".pdf"]
+      }
+    }
+  ],
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7"
+}

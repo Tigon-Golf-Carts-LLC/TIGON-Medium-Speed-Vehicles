@@ -1,0 +1,131 @@
+# Natural Language Processing Training Data - Bucks County Golf Carts
+
+## ENTITY EXTRACTION TRAINING EXAMPLES
+
+### Vehicle Entities
+- EVOLUTION Classic 2 Plus [PRODUCT]
+- EVOLUTION D5 Maverick 4+2 [PRODUCT] 
+- EVOLUTION D6 Max GT6 [PRODUCT]
+- EVOLUTION Carrier 8 Plus [PRODUCT]
+- 48V lithium battery [COMPONENT]
+- AC motor system [COMPONENT]
+- regenerative braking [FEATURE]
+- street legal package [SERVICE]
+
+### Location Entities  
+- Bucks County [REGION]
+- Pennsylvania [STATE]
+- Doylestown [CITY]
+- New Hope [CITY]
+- Quakertown [CITY]
+- Lower Makefield Township [MUNICIPALITY]
+- Bensalem Township [MUNICIPALITY]
+
+### Business Entities
+- Bucks County Golf Carts [ORGANIZATION]
+- EVOLUTION [BRAND]
+- info@bucksgolfcarts.com [CONTACT]
+- bucksgolfcarts.com [WEBSITE]
+
+## INTENT CLASSIFICATION DATASETS
+
+### Purchase Intent
+- "I want to buy a golf cart" [BUY_INTENT]
+- "How much does the D5 Maverick cost" [PRICE_INQUIRY]
+- "Do you have financing options" [FINANCING_INQUIRY]
+- "What models do you have in stock" [INVENTORY_INQUIRY]
+- "I need a 6 passenger cart" [SPECIFICATION_REQUEST]
+
+### Service Intent
+- "My cart needs repair" [SERVICE_REQUEST]
+- "Battery isn't holding charge" [TECHNICAL_ISSUE]
+- "When is my next maintenance due" [MAINTENANCE_INQUIRY]
+- "Do you service EVOLUTION carts" [SERVICE_CAPABILITY]
+- "I need replacement parts" [PARTS_REQUEST]
+
+### Information Intent
+- "What's the difference between models" [COMPARISON_REQUEST]
+- "How far will it go on one charge" [SPECIFICATION_INQUIRY]
+- "Can I make it street legal" [LEGAL_INQUIRY]
+- "What warranty is included" [WARRANTY_INQUIRY]
+- "Do you deliver to my area" [SERVICE_AREA_INQUIRY]
+
+### Rental Intent
+- "Do you rent golf carts" [RENTAL_INQUIRY]
+- "I need a cart for the weekend" [SHORT_TERM_RENTAL]
+- "What are your rental rates" [RENTAL_PRICING]
+- "Can I rent for a month" [LONG_TERM_RENTAL]
+
+## SENTIMENT ANALYSIS TRAINING DATA
+
+### Positive Sentiment
+- "Love my new EVOLUTION cart!" [POSITIVE: 0.9]
+- "Great service from your team" [POSITIVE: 0.8]
+- "Cart performs exactly as promised" [POSITIVE: 0.7]
+- "Highly recommend this dealership" [POSITIVE: 0.9]
+- "Fast delivery and professional setup" [POSITIVE: 0.8]
+
+### Neutral Sentiment  
+- "When will my cart be ready" [NEUTRAL: 0.0]
+- "I need more information about pricing" [NEUTRAL: 0.1]
+- "What time do you close today" [NEUTRAL: 0.0]
+- "Can you email me the specifications" [NEUTRAL: 0.0]
+
+### Negative Sentiment
+- "Cart broke down again" [NEGATIVE: -0.8]
+- "Poor customer service experience" [NEGATIVE: -0.9]
+- "Battery died after one year" [NEGATIVE: -0.7]
+- "Overpriced compared to competitors" [NEGATIVE: -0.6]
+- "Delivery was two weeks late" [NEGATIVE: -0.5]
+
+## NAMED ENTITY RECOGNITION EXAMPLES
+
+### Input: "I'm interested in the EVOLUTION D5 Maverick 4+2 Plus for use in Doylestown"
+### Output:
+- EVOLUTION [BRAND]
+- D5 Maverick 4+2 Plus [PRODUCT_MODEL]
+- Doylestown [LOCATION]
+
+### Input: "My 48V lithium battery needs replacement under warranty"
+### Output:
+- 48V lithium battery [COMPONENT]
+- replacement [ACTION]
+- warranty [SERVICE_TYPE]
+
+### Input: "Do you service the Bucks County area on weekends"
+### Output:
+- Bucks County [SERVICE_AREA]
+- weekends [TIME_PERIOD]
+- service [ACTION_TYPE]
+
+## QUESTION-ANSWER TRAINING PAIRS
+
+### Technical Questions
+Q: "How long does the battery last?"
+A: "EVOLUTION lithium batteries typically last 1500+ cycles or 5-7 years with proper care. Range per charge is 25-50 miles depending on the model and usage conditions."
+
+Q: "What's the top speed?"
+A: "Standard models reach 12-15 MPH, while street legal configurations can achieve up to 25 MPH with appropriate safety equipment and registration."
+
+Q: "Can it handle hills?"
+A: "Yes, EVOLUTION carts with AC motors provide excellent hill climbing ability. The D6 Max series is specifically designed for challenging terrain with enhanced torque."
+
+### Service Questions
+Q: "How often does it need maintenance?"
+A: "We recommend annual maintenance including battery testing, brake inspection, and general safety check. Heavy use may require more frequent service."
+
+Q: "What if something breaks?"
+A: "All EVOLUTION carts include comprehensive warranty coverage. We stock common parts and can typically complete repairs within 1-2 business days."
+
+### Sales Questions
+Q: "What's included in the price?"
+A: "Base price includes the cart, standard battery, basic accessories, delivery within our service area, and initial setup with operating instructions."
+
+Q: "Do you take trade-ins?"
+A: "Yes, we accept trade-ins of any make or model. We'll evaluate your current cart and apply its value toward your new EVOLUTION purchase."
+
+## CONVERSATIONAL AI TRAINING DATA
+
+### Natural Conversation Flow
+Human: "Hi, I'm looking for a golf cart"
+AI: "Hello! I'd be happy to help you find the perfect golf cart. What will you primarily use it for - golf, property transportation, or commercial purposes?"

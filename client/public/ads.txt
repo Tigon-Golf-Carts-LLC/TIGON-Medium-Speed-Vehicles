@@ -1,0 +1,57 @@
+# ads.txt - Bucks County Golf Carts
+# Authorized Digital Sellers
+
+## AUTHORIZED ADVERTISING PARTNERS
+# This file identifies authorized digital advertising sellers for bucksgolfcarts.com
+
+## GOOGLE ADVERTISING PLATFORMS
+google.com, pub-PLACEHOLDER, DIRECT, f08c47fec0942fa0
+googlesyndication.com, pub-PLACEHOLDER, DIRECT, f08c47fec0942fa0
+doubleclick.net, pub-PLACEHOLDER, DIRECT, f08c47fec0942fa0
+
+## MICROSOFT ADVERTISING
+bing.com, PLACEHOLDER, DIRECT
+microsoft.com, PLACEHOLDER, DIRECT
+
+## FACEBOOK/META ADVERTISING  
+facebook.com, PLACEHOLDER, DIRECT, c3e20eee3f780d68
+instagram.com, PLACEHOLDER, DIRECT, c3e20eee3f780d68
+
+## AMAZON ADVERTISING
+amazon.com, PLACEHOLDER, DIRECT
+aps.amazon.com, PLACEHOLDER, DIRECT
+
+## AUTOMOTIVE INDUSTRY ADVERTISING NETWORKS
+# Specialized automotive advertising platforms
+cars.com, PLACEHOLDER, RESELLER
+autotrader.com, PLACEHOLDER, RESELLER
+edmunds.com, PLACEHOLDER, RESELLER
+
+## LOCAL ADVERTISING PARTNERS
+# Bucks County and Pennsylvania advertising networks
+localmedia.org, PLACEHOLDER, RESELLER
+pennlive.com, PLACEHOLDER, RESELLER
+
+## CONTACT INFORMATION
+# For advertising inquiries and verification:
+# Email: info@bucksgolfcarts.com
+# Business: Bucks County Golf Carts
+# Service Area: Bucks County, Pennsylvania
+# Industry: Electric Golf Cart Sales and Service
+
+## ADVERTISING POLICY
+# We maintain strict advertising standards:
+# - Family-friendly content only
+# - Automotive industry relevant advertisements
+# - Local and regional business partnerships
+# - Transparent pricing and honest representation
+
+## VERIFICATION
+# This ads.txt file is maintained by:
+# Website: bucksgolfcarts.com
+# Contact: info@bucksgolfcarts.com
+# Last Updated: January 2025
+
+# Note: Publisher account IDs marked as PLACEHOLDER
+# Contact info@bucksgolfcarts.com for actual publisher IDs
+# when setting up advertising partnerships

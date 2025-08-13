@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square70x70logo src="/attached_assets/Bucks County Golf Carts (3)_1753284044185.png"/>
+      <square150x150logo src="/attached_assets/Bucks County Golf Carts (3)_1753284044185.png"/>
+      <wide310x150logo src="/attached_assets/Bucks County Golf Carts (3)_1753284044185.png"/>
+      <square310x310logo src="/attached_assets/Bucks County Golf Carts (3)_1753284044185.png"/>
+      <TileColor>#0e2e55</TileColor>
+    </tile>
+    <badge>
+      <polling-uri src="/api/badge"/>
+      <frequency>30</frequency>
+    </badge>
+    <notification>
+      <polling-uri src="/api/notifications"/>
+      <frequency>60</frequency>
+      <cycle>1</cycle>
+    </notification>
+    <task>
+      <name>Inventory Update</name>
+      <frequency>daily</frequency>
+      <uri>/inventory</uri>
+    </task>
+    <task>
+      <name>Service Appointments</name>
+      <frequency>daily</frequency>
+      <uri>/services</uri>
+    </task>
+    <jumplist>
+      <task>
+        <name>Browse Golf Carts</name>
+        <description>View our complete EVOLUTION vehicle inventory</description>
+        <arguments>/inventory</arguments>
+        <iconUri>/attached_assets/Bucks County Golf Carts (3)_1753284044185.png</iconUri>
+      </task>
+      <task>
+        <name>Contact Sales</name>
+        <description>Get in touch with our sales team</description>
+        <arguments>/contact</arguments>
+        <iconUri>/attached_assets/Bucks County Golf Carts (3)_1753284044185.png</iconUri>
+      </task>
+      <task>
+        <name>Schedule Service</name>
+        <description>Book maintenance or repair service</description>
+        <arguments>/services</arguments>
+        <iconUri>/attached_assets/Bucks County Golf Carts (3)_1753284044185.png</iconUri>
+      </task>
+      <task>
+        <name>Rental Information</name>
+        <description>Learn about our rental programs</description>
+        <arguments>/rentals</arguments>
+        <iconUri>/attached_assets/Bucks County Golf Carts (3)_1753284044185.png</iconUri>
+      </task>
+      <task>
+        <name>Financing Options</name>
+        <description>Explore financing and payment plans</description>
+        <arguments>/financing</arguments>
+        <iconUri>/attached_assets/Bucks County Golf Carts (3)_1753284044185.png</iconUri>
+      </task>
+    </jumplist>
+    <tooltip>Bucks County Golf Carts - EVOLUTION Electric Vehicles</tooltip>
+    <startscreen>
+      <image src="/attached_assets/image_1753282400827.png"/>
+      <color>#0e2e55</color>
+    </startscreen>
+  </msapplication>
+</browserconfig>

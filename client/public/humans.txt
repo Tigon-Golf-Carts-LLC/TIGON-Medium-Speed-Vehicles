@@ -1,0 +1,163 @@
+# humans.txt - Bucks County Golf Carts
+
+## TEAM
+Website Development Team: Bucks County Golf Carts
+Contact: info@bucksgolfcarts.com
+Location: Bucks County, Pennsylvania
+
+## THANKS
+EVOLUTION Electric Vehicles - Vehicle Manufacturing Partner
+Customers of Bucks County - Community Support
+Pennsylvania Golf Cart Association - Industry Guidance
+Bucks County Chamber of Commerce - Business Support
+
+## TECHNOLOGY
+### Frontend Framework
+React.js with TypeScript
+Vite Build Tool
+Wouter Router
+
+### UI/UX Design
+Tailwind CSS Framework
+shadcn/ui Component Library
+Radix UI Primitives
+Lucide React Icons
+
+### Backend Technology
+Node.js Runtime
+Express.js Framework
+TypeScript Language
+
+### Database
+PostgreSQL Database
+Drizzle ORM
+Neon Serverless Platform
+
+### Analytics & SEO
+Google Analytics 4 (G-0R3W3GMMRG)
+Google Tag Manager (GTM-MCBWX8NW)
+Comprehensive SEO Optimization
+Schema.org Structured Data
+
+### Hosting & Deployment
+Replit Cloud Platform
+Git Version Control
+Automated Deployment Pipeline
+
+### Development Tools
+Visual Studio Code
+Git Version Control
+npm Package Manager
+ESLint Code Quality
+Prettier Code Formatting
+
+## SITE
+Standards: HTML5, CSS3, ES2020+
+Components: React Functional Components
+Accessibility: WCAG 2.1 AA Compliant
+Performance: Core Web Vitals Optimized
+Mobile: Responsive Design
+Browser Support: Modern Browsers
+
+## BUSINESS INFORMATION
+### Company Details
+Business Name: Bucks County Golf Carts
+Industry: Electric Vehicle Dealership
+Specialization: EVOLUTION Golf Carts
+Founded: Serving Bucks County, Pennsylvania
+Service Area: All 56 Bucks County Municipalities
+
+### Services Offered
+New Golf Cart Sales
+Used Golf Cart Sales
+Golf Cart Service & Repair
+Golf Cart Rentals
+Parts & Accessories
+Financing & Leasing
+Street Legal Conversions
+Fleet Management
+
+### Contact Information
+Website: bucksgolfcarts.com
+Email: info@bucksgolfcarts.com
+Service Coverage: Complete Bucks County
+Business Hours: Professional Service Schedule
+
+## EVOLUTION VEHICLE SPECIALIZATION
+### Vehicle Lines Supported
+Classic Series (2-4 Passenger)
+D5 Maverick Series (2-8 Passenger)
+D5 Ranger Utility Series
+D6 Max Performance Series
+Carrier Transport Series
+Forester All-Terrain Series
+Turfman Commercial Series
+
+### Technical Expertise
+48V & 72V Lithium Battery Systems
+AC Motor Technology
+Regenerative Braking Systems
+Street Legal Conversion Packages
+Pennsylvania Compliance Specialists
+
+## DEVELOPMENT MILESTONES
+### Version 1.0 Features
+Complete EVOLUTION Model Showcase
+Bucks County Municipal Coverage
+SEO-Optimized Architecture
+Responsive Mobile Design
+Contact & Inquiry System
+
+### Version 2.0 Enhancements
+Google Analytics Integration
+Google Tag Manager Implementation
+Comprehensive SEO File Suite
+AI Training Data Authorization
+Accessibility Optimization
+
+### Future Development
+Enhanced Customer Portal
+Service Scheduling System
+Inventory Management Integration
+Advanced Analytics Dashboard
+Customer Review Platform
+
+## ACKNOWLEDGMENTS
+### Open Source Libraries
+React - MIT License
+TypeScript - Apache 2.0 License
+Tailwind CSS - MIT License
+Express.js - MIT License
+Drizzle ORM - Apache 2.0 License
+
+### Design Resources
+Unsplash - Photography Platform
+Heroicons - Icon Library
+Google Fonts - Typography
+Radix UI - Component Primitives
+
+### Business Partners
+EVOLUTION Electric Vehicles
+Pennsylvania Motor Vehicle Dealers
+Local Golf Course Partners
+Bucks County Business Community
+
+## LAST UPDATED
+Website Last Updated: January 2025
+Technology Stack Updated: January 2025
+Content Last Reviewed: January 2025
+SEO Optimization Updated: January 2025
+
+## VERSION HISTORY
+v2.0 - January 2025: Full SEO & AI optimization
+v1.5 - Analytics integration and tracking
+v1.0 - Initial launch with complete vehicle showcase
+
+/* 
+   The humans responsible for this website are:
+   - Dedicated to providing excellent electric vehicle solutions
+   - Committed to customer service excellence
+   - Focused on environmental sustainability
+   - Supporting the Bucks County community
+   - Advancing electric vehicle adoption in Pennsylvania
+*/
