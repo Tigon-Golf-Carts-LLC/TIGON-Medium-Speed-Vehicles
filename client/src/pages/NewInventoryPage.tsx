@@ -45,9 +45,9 @@ export default function NewInventoryPage() {
   return (
     <>
       <SEOHead 
-        title="Golf Cart Inventory - New & Used | Ocean County Golf Carts"
-        description="Browse our extensive inventory of new and used golf carts from top brands like DENAGO and EVOLUTION. Find the perfect electric vehicle for your needs in Ocean County, NJ."
-        keywords="golf cart inventory, new golf carts, used golf carts, DENAGO, EVOLUTION, Ocean County golf carts"
+        title="Golf Cart Inventory"
+        description="Browse our extensive inventory of new and used golf carts from top brands like DENAGO and EVOLUTION in Bucks County, PA. Call 1-844-844-6638."
+        keywords="golf cart inventory, new golf carts, used golf carts, DENAGO, EVOLUTION, Bucks County golf carts"
       />
       
       <div className="min-h-screen bg-gray-50">

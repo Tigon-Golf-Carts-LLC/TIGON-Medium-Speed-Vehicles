@@ -60,8 +60,8 @@ export default function NewAboutPage() {
   return (
     <>
       <SEOHead 
-        title="About Bucks County Golf Carts - Your Premier Golf Cart Dealer"
-        description="Learn about Bucks County Golf Carts, Pennsylvania's trusted golf cart dealer serving all 56 municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
+        title="About Bucks County Golf Carts"
+        description="Pennsylvania's trusted golf cart dealer serving all 56 municipalities with premium DENAGO and EVOLUTION vehicles since 2010. Call 1-844-844-6638."
         keywords="Bucks County golf carts, about us, golf cart dealer Pennsylvania, DENAGO dealer, EVOLUTION dealer"
       />
       

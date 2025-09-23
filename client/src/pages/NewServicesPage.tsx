@@ -40,8 +40,8 @@ export default function NewServicesPage() {
   return (
     <>
       <SEOHead 
-        title="Golf Cart Services & Repair | Bucks County Golf Carts"
-        description="Professional golf cart services including maintenance, repair, battery service, and custom modifications. Serving Bucks County, PA with certified technicians."
+        title="Professional Golf Cart Services"
+        description="Complete maintenance, repair, battery service, and custom modifications served by certified technicians in Bucks County, PA. Call 1-844-844-6638."
         keywords="golf cart service, golf cart repair, battery replacement, maintenance, Bucks County"
       />
       
