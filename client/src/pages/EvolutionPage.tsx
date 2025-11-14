@@ -124,7 +124,7 @@ export default function EvolutionPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-blue-900 to-blue-700 text-white overflow-hidden">
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{backgroundImage: "url('https://tigonmsv.com/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles%206_1763146957907.jpeg')"}}
+            style={{backgroundImage: "url('/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles%206_1763146957907.jpeg')"}}
           ></div>
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40"></div>
           <div className="relative max-w-7xl mx-auto text-center z-10">
