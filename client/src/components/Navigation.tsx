@@ -30,7 +30,7 @@ export default function Navigation() {
           <div className="flex items-center space-x-3">
             <div className="rounded-lg w-16 h-16 flex-shrink-0">
               <img 
-                src="https://bucksgolfcarts.com/attached_assets/Pennsylvania Golf Carts (3)_1753284044185.png" 
+                src="https://bucksgolfcarts.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png" 
                 alt="TIGON Medium Speed Vehicles Logo" 
                 className="h-16 w-16 object-contain"
                 width="64"

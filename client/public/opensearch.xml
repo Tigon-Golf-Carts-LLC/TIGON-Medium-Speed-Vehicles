@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>Bucks County Golf Carts</ShortName>
-  <Description>Search EVOLUTION golf carts, parts, and services in Bucks County, Pennsylvania</Description>
+  <ShortName>TIGON Medium Speed Vehicles</ShortName>
+  <Description>Search medium speed vehicles, parts, and services nationwide - serving all 50 states, Canada, and Mexico</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <OutputEncoding>UTF-8</OutputEncoding>
-  <Image width="16" height="16" type="image/png">/attached_assets/Bucks County Golf Carts (3)_1753284044185.png</Image>
+  <Image width="16" height="16" type="image/png">/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png</Image>
   <Url type="text/html" method="get" template="https://bucksgolfcarts.com/search?q={searchTerms}"/>
   <Url type="application/x-suggestions+json" method="get" template="https://bucksgolfcarts.com/api/suggestions?q={searchTerms}"/>
   <Url type="application/opensearchdescription+xml" rel="self" template="https://bucksgolfcarts.com/opensearch.xml"/>
-  <Query role="example" searchTerms="EVOLUTION D5 Maverick"/>
-  <Developer>Bucks County Golf Carts</Developer>
+  <Query role="example" searchTerms="Evolution D5 Maverick"/>
+  <Developer>TIGON Medium Speed Vehicles</Developer>
   <Contact>info@bucksgolfcarts.com</Contact>
-  <Tags>golf carts electric vehicles EVOLUTION Pennsylvania Bucks County</Tags>
-  <LongName>Bucks County Golf Carts - EVOLUTION Electric Vehicle Search</LongName>
-  <Attribution>Copyright 2025 Bucks County Golf Carts. All rights reserved.</Attribution>
+  <Tags>medium speed vehicles electric MSV Evolution Denago nationwide</Tags>
+  <LongName>TIGON Medium Speed Vehicles - Electric MSV Search</LongName>
+  <Attribution>Copyright 2025 TIGON Medium Speed Vehicles. All rights reserved.</Attribution>
   <SyndicationRight>open</SyndicationRight>
   <AdultContent>false</AdultContent>
   <Language>en-us</Language>

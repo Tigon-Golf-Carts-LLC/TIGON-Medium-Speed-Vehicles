@@ -19,9 +19,9 @@ export const generateOrganizationSchema = () => ({
   "alternateName": "TIGON MSV",
   "description": "Premier medium speed vehicle dealer specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals across North America.",
   "url": "https://bucksgolfcarts.com",
-  "logo": "https://bucksgolfcarts.com/attached_assets/Pennsylvania Golf Carts (3)_1753284044185.png",
+  "logo": "https://bucksgolfcarts.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
   "image": [
-    "https://bucksgolfcarts.com/attached_assets/Pennsylvania Golf Carts (3)_1753284044185.png"
+    "https://bucksgolfcarts.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png"
   ],
   "telephone": "1-844-844-6638",
   "email": "sales@tigongolfcarts.com",

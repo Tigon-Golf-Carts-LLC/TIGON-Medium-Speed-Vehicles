@@ -1,7 +1,7 @@
 {
-  "name": "Bucks County Golf Carts",
-  "short_name": "BucksGolfCarts",
-  "description": "Pennsylvania's premier EVOLUTION golf cart dealership serving all 56 Bucks County municipalities with sales, service, rentals, and financing.",
+  "name": "TIGON Medium Speed Vehicles",
+  "short_name": "TIGON MSV",
+  "description": "Nationwide premier medium speed vehicle dealership serving all 50 states, Canada, and Mexico with sales, service, rentals, and financing.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0e2e55",
@@ -12,13 +12,13 @@
   "scope": "/",
   "icons": [
     {
-      "src": "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
+      "src": "/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
+      "src": "/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -29,18 +29,18 @@
       "src": "/attached_assets/image_1753282400827.png",
       "sizes": "1280x720",
       "type": "image/png",
-      "label": "Bucks County Golf Carts Homepage"
+      "label": "TIGON Medium Speed Vehicles Homepage"
     }
   ],
   "shortcuts": [
     {
       "name": "Vehicle Inventory",
       "short_name": "Inventory",
-      "description": "Browse our complete EVOLUTION golf cart lineup",
+      "description": "Browse our complete medium speed vehicle lineup",
       "url": "/inventory",
       "icons": [
         {
-          "src": "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
+          "src": "/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
           "sizes": "96x96"
         }
       ]
@@ -52,7 +52,7 @@
       "url": "/contact",
       "icons": [
         {
-          "src": "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
+          "src": "/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
           "sizes": "96x96"
         }
       ]
@@ -60,11 +60,11 @@
     {
       "name": "Service Center",
       "short_name": "Service",
-      "description": "Professional golf cart maintenance and repair",
+      "description": "Professional medium speed vehicle maintenance and repair",
       "url": "/services",
       "icons": [
         {
-          "src": "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
+          "src": "/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
           "sizes": "96x96"
         }
       ]
@@ -72,11 +72,11 @@
     {
       "name": "Rental Program",
       "short_name": "Rentals",
-      "description": "Daily, weekly, and seasonal golf cart rentals",
+      "description": "Daily, weekly, and seasonal medium speed vehicle rentals",
       "url": "/rentals",
       "icons": [
         {
-          "src": "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
+          "src": "/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
           "sizes": "96x96"
         }
       ]

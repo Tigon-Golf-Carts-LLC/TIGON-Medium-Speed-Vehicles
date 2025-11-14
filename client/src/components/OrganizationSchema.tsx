@@ -12,8 +12,8 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       "name": "TIGON Medium Speed Vehicles",
       "description": "Premier medium speed vehicle dealership specializing in electric MSV sales, service, rentals, and financing across North America.",
       "url": "https://bucksgolfcarts.com",
-      "logo": "https://bucksgolfcarts.com/attached_assets/Pennsylvania Golf Carts (3)_1753284044185.png",
-      "image": "https://bucksgolfcarts.com/attached_assets/Pennsylvania Golf Carts (3)_1753284044185.png",
+      "logo": "https://bucksgolfcarts.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
+      "image": "https://bucksgolfcarts.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
       "telephone": "1-844-844-6638",
       "email": "info@bucksgolfcarts.com",
       "address": {
