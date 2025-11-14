@@ -44,7 +44,7 @@ export default function VehicleSchema({
         "seller": {
           "@type": "Organization",
           "name": "Pennsylvania Golf Carts",
-          "telephone": "267-736-4890",
+          "telephone": "1-844-844-6638",
           "email": "info@bucksgolfcarts.com",
           "address": {
             "@type": "PostalAddress",

@@ -10,7 +10,7 @@ export default function ShowroomPage() {
     {
       name: "TIGON Medium Speed Vehicles",
       address: "115 Lincoln Hwy, Fairless Hills, PA 19030",
-      phone: "267-736-4890",
+      phone: "1-844-844-6638",
       coordinates: "40.1734,-74.8521",
       googleMapsUrl: "https://www.google.com/maps/place/115+Lincoln+Hwy,+Fairless+Hills,+PA+19030",
       facebookUrl: "https://www.facebook.com/bucksgolfcarts",
@@ -23,7 +23,7 @@ export default function ShowroomPage() {
     {
       name: "TIGON Golf Carts Pennsylvania",
       address: "Online Store - Serving All of Pennsylvania",
-      phone: "267-736-4890",
+      phone: "1-844-844-6638",
       coordinates: "41.1169824,-77.6047047",
       googleMapsUrl: "https://www.google.com/maps?cid=13935683838976847185",
       youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsPennsylvania",
@@ -35,7 +35,7 @@ export default function ShowroomPage() {
     {
       name: "TIGON Golf Cart Philadelphia",
       address: "Online Store - Serving Philadelphia Area",
-      phone: "267-736-4890",
+      phone: "1-844-844-6638",
       coordinates: "40.0024979,-75.1180146",
       googleMapsUrl: "https://www.google.com/maps?cid=6103352888615501339",
       websiteUrl: "https://tigongolfcarts.com/philadelphia/",

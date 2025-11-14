@@ -41,7 +41,7 @@ export default function AboutPage() {
       {/* SEO and Schema Markup */}
       <SEOHead 
         title="About TIGON Medium Speed Vehicles"
-        description="Discover Pennsylvania's premier medium speed vehicle dealership since 2010 with expert team, authorized Denago and Evolution dealer providing comprehensive MSV service. Call 267-736-4890."
+        description="Discover Pennsylvania's premier medium speed vehicle dealership since 2010 with expert team, authorized Denago and Evolution dealer providing comprehensive MSV service. Call 1-844-844-6638."
         keywords="about TIGON Medium Speed Vehicles, MSV dealership Pennsylvania, Denago Evolution dealer, medium speed vehicle service team"
         canonicalUrl="https://bucksgolfcarts.com/about"
         image="https://bucksgolfcarts.com/attached_assets/0f46bdfb-c558-4e28-9473-6c85686c5a80 (1)_1753279436268.png"

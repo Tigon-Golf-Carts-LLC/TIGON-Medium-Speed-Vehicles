@@ -74,7 +74,7 @@ export default function Footer() {
           {/* Mobile: Contact Info */}
           <div className="md:hidden">
             <div className="space-y-2">
-              <p className="text-gray-900 font-semibold text-sm">Phone: 267-736-4890</p>
+              <p className="text-gray-900 font-semibold text-sm">Phone: 1-844-844-6638</p>
               <p className="text-gray-600 text-sm">Email: info@bucksgolfcarts.com</p>
               <p className="text-gray-600 text-sm">Address: 115 Lincoln Hwy, Fairless Hills, PA 19030</p>
               <div className="text-gray-600 text-sm">
@@ -123,7 +123,7 @@ export default function Footer() {
             {/* Contact Info */}
             <div className="md:col-span-1">
               <div className="space-y-2">
-                <p className="text-gray-900 font-semibold text-sm">Phone: 267-736-4890</p>
+                <p className="text-gray-900 font-semibold text-sm">Phone: 1-844-844-6638</p>
                 <p className="text-gray-600 text-sm">Email: info@bucksgolfcarts.com</p>
                 <p className="text-gray-600 text-sm">Address: 115 Lincoln Hwy, Fairless Hills, PA 19030</p>
                 <div className="text-gray-600 text-sm">

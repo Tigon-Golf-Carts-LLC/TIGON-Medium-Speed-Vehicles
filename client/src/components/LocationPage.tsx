@@ -70,10 +70,10 @@ export default function LocationPage({ location }: LocationPageProps) {
             {heroSubtitle}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:2677364890">
+            <a href="tel:18448446638">
               <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white" data-testid="button-call">
                 <Phone className="mr-2 h-5 w-5" />
-                Call 267-736-4890
+                Call 1-844-844-6638
               </Button>
             </a>
             <Link href="/contact">
@@ -243,10 +243,10 @@ export default function LocationPage({ location }: LocationPageProps) {
             Contact us today to learn more about our medium speed vehicles and services
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:2677364890">
+            <a href="tel:18448446638">
               <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white" data-testid="button-call-cta">
                 <Phone className="mr-2 h-5 w-5" />
-                Call 267-736-4890
+                Call 1-844-844-6638
               </Button>
             </a>
             <Link href="/contact">

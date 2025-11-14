@@ -84,7 +84,7 @@ export default function ServicesPage() {
     <div className="min-h-screen bg-white">
       <SEOHead 
         title="Professional Medium Speed Vehicle Services"
-        description="Keep your medium speed vehicle running perfectly with expert maintenance, repair, and customization services from certified technicians. Professional MSV service for all major brands. Call 267-736-4890."
+        description="Keep your medium speed vehicle running perfectly with expert maintenance, repair, and customization services from certified technicians. Professional MSV service for all major brands. Call 1-844-844-6638."
         keywords="medium speed vehicle service, MSV repair, MSV maintenance, nationwide PA, certified technicians, TIGON"
         canonicalUrl="https://bucksgolfcarts.com/services"
         image="https://bucksgolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_c_kG6NR-SA6qC8Vzl1iBww_ILJUjQXFQCGLKMSveOjbrA_1753283141121.png"
@@ -219,9 +219,9 @@ export default function ServicesPage() {
             Keep your medium speed vehicle running smoothly with professional service
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:2677364890">
+            <a href="tel:18448446638">
               <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
-                Call 267-736-4890
+                Call 1-844-844-6638
               </Button>
             </a>
             <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-theme-primary">

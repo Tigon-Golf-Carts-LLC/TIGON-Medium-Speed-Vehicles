@@ -22,7 +22,7 @@ export default function HomePage() {
       {/* SEO and Schema Markup */}
       <SEOHead 
         title="TIGON Medium Speed Vehicles Premier MSV Dealership"
-        description="Transform your outdoor experience with premium medium speed vehicles from Pennsylvania's trusted MSV dealership. Expert sales, service, rentals, and financing for Denago and Evolution medium speed vehicles. Call 267-736-4890."
+        description="Transform your outdoor experience with premium medium speed vehicles from Pennsylvania's trusted MSV dealership. Expert sales, service, rentals, and financing for Denago and Evolution medium speed vehicles. Call 1-844-844-6638."
         keywords="medium speed vehicles nationwide PA, MSV Pennsylvania, Denago MSV, Evolution MSV, medium speed vehicle sales service rentals, TIGON"
         canonicalUrl="https://bucksgolfcarts.com/"
         image="https://bucksgolfcarts.com/attached_assets/a-photograph-of-a-bright-and-airy-modern_cSGtJe7oTWCsurFpyhqrJg_CXQ9jYUGRP2_wh-uk2Htkg_1753199147926.png"
@@ -46,9 +46,9 @@ TIGON Medium Speed Vehicles Premier MSV Dealership
                     View Inventory
                   </Button>
                 </Link>
-                <a href="tel:2677364890">
+                <a href="tel:18448446638">
                   <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-gray-900 w-full sm:w-auto">
-                    Call Now 267-736-4890
+                    Call Now 1-844-844-6638
                   </Button>
                 </a>
               </div>
@@ -496,7 +496,7 @@ TIGON Medium Speed Vehicles Premier MSV Dealership
               <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
               <h3 className="font-semibold text-gray-900 mb-2">Main Location</h3>
               <p className="text-sm text-gray-600 mb-2">115 Lincoln Hwy, Fairless Hills, PA 19030</p>
-              <p className="text-blue-600 font-semibold">267-736-4890</p>
+              <p className="text-blue-600 font-semibold">1-844-844-6638</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
@@ -510,7 +510,7 @@ TIGON Medium Speed Vehicles Premier MSV Dealership
               <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
               <h3 className="font-semibold text-gray-900 mb-2">Contact</h3>
               <p className="text-sm text-gray-600 mb-2">Email: info@bucksgolfcarts.com</p>
-              <p className="text-blue-600 font-semibold">267-736-4890</p>
+              <p className="text-blue-600 font-semibold">1-844-844-6638</p>
             </div>
           </div>
 
@@ -518,7 +518,7 @@ TIGON Medium Speed Vehicles Premier MSV Dealership
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Main Contact</h3>
             <p className="text-gray-600 mb-4">For general inquiries and support</p>
             <div className="flex justify-center items-center gap-4">
-              <a href="tel:2677364890" className="text-2xl font-bold text-blue-600 hover:underline">267-736-4890</a>
+              <a href="tel:18448446638" className="text-2xl font-bold text-blue-600 hover:underline">1-844-844-6638</a>
               <Link href="/contact">
                 <Button className="bg-theme-orange hover:bg-orange-600 text-white">
                   Contact Us

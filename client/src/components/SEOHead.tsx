@@ -143,7 +143,7 @@ export default function SEOHead({
           "addressRegion": "PA",
           "addressCountry": "US"
         },
-        "telephone": "267-736-4890",
+        "telephone": "1-844-844-6638",
         "email": "info@bucksgolfcarts.com",
         "url": canonicalUrl,
         "logo": "https://bucksgolfcarts.com/attached_assets/Pennsylvania Golf Carts (3)_1753284044185.png",

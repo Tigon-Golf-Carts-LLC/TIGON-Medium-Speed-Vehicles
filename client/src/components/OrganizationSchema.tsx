@@ -14,7 +14,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       "url": "https://bucksgolfcarts.com",
       "logo": "https://bucksgolfcarts.com/attached_assets/Pennsylvania Golf Carts (3)_1753284044185.png",
       "image": "https://bucksgolfcarts.com/attached_assets/Pennsylvania Golf Carts (3)_1753284044185.png",
-      "telephone": "267-736-4890",
+      "telephone": "1-844-844-6638",
       "email": "info@bucksgolfcarts.com",
       "address": {
         "@type": "PostalAddress",
@@ -131,7 +131,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "@type": "Organization",
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "267-736-4890",
+          "telephone": "1-844-844-6638",
           "contactType": "customer service",
           "availableLanguage": "English"
         }
