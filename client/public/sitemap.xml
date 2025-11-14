@@ -318,334 +318,322 @@
     </image:image>
   </url>
   
-  <!-- Bucks County Boroughs -->
+  <!-- US States -->
   <url>
-    <loc>https://bucksgolfcarts.com/location/bedminster</loc>
+    <loc>https://bucksgolfcarts.com/alabama</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/bristol</loc>
+    <loc>https://bucksgolfcarts.com/alaska</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/chalfont</loc>
+    <loc>https://bucksgolfcarts.com/arizona</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/doylestown</loc>
+    <loc>https://bucksgolfcarts.com/arkansas</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/dublin</loc>
+    <loc>https://bucksgolfcarts.com/california</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/hulmeville</loc>
+    <loc>https://bucksgolfcarts.com/colorado</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/ivyland</loc>
+    <loc>https://bucksgolfcarts.com/connecticut</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/langhorne</loc>
+    <loc>https://bucksgolfcarts.com/delaware</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/langhorne-manor</loc>
+    <loc>https://bucksgolfcarts.com/florida</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/morrisville</loc>
+    <loc>https://bucksgolfcarts.com/georgia</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/new-britain</loc>
+    <loc>https://bucksgolfcarts.com/hawaii</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/new-hope</loc>
+    <loc>https://bucksgolfcarts.com/idaho</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/newtown</loc>
+    <loc>https://bucksgolfcarts.com/illinois</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/penndel</loc>
+    <loc>https://bucksgolfcarts.com/indiana</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/perkasie</loc>
+    <loc>https://bucksgolfcarts.com/iowa</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/quakertown</loc>
+    <loc>https://bucksgolfcarts.com/kansas</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/richlandtown</loc>
+    <loc>https://bucksgolfcarts.com/kentucky</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/riegelsville</loc>
+    <loc>https://bucksgolfcarts.com/louisiana</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/sellersville</loc>
+    <loc>https://bucksgolfcarts.com/maine</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/silverdale</loc>
+    <loc>https://bucksgolfcarts.com/maryland</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/telford</loc>
+    <loc>https://bucksgolfcarts.com/massachusetts</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/trumbauersville</loc>
+    <loc>https://bucksgolfcarts.com/michigan</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/tullytown</loc>
+    <loc>https://bucksgolfcarts.com/minnesota</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/warminster</loc>
+    <loc>https://bucksgolfcarts.com/mississippi</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/yardley</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  
-  <!-- Bucks County Townships -->
-  <url>
-    <loc>https://bucksgolfcarts.com/location/bensalem</loc>
+    <loc>https://bucksgolfcarts.com/missouri</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/bristol-township</loc>
+    <loc>https://bucksgolfcarts.com/montana</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/buckingham</loc>
+    <loc>https://bucksgolfcarts.com/nebraska</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/doylestown-township</loc>
+    <loc>https://bucksgolfcarts.com/nevada</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/durham</loc>
+    <loc>https://bucksgolfcarts.com/new-hampshire</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/east-rockhill</loc>
+    <loc>https://bucksgolfcarts.com/new-jersey</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/falls</loc>
+    <loc>https://bucksgolfcarts.com/new-mexico</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/haycock</loc>
+    <loc>https://bucksgolfcarts.com/new-york</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/hilltown</loc>
+    <loc>https://bucksgolfcarts.com/north-carolina</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/lower-makefield</loc>
+    <loc>https://bucksgolfcarts.com/north-dakota</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/lower-southampton</loc>
+    <loc>https://bucksgolfcarts.com/ohio</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/middletown</loc>
+    <loc>https://bucksgolfcarts.com/oklahoma</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/milford</loc>
+    <loc>https://bucksgolfcarts.com/oregon</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/new-britain-township</loc>
+    <loc>https://bucksgolfcarts.com/pennsylvania</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/newtown-township</loc>
+    <loc>https://bucksgolfcarts.com/rhode-island</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/nockamixon</loc>
+    <loc>https://bucksgolfcarts.com/south-carolina</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/northampton</loc>
+    <loc>https://bucksgolfcarts.com/south-dakota</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/plumstead</loc>
+    <loc>https://bucksgolfcarts.com/tennessee</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/richland</loc>
+    <loc>https://bucksgolfcarts.com/texas</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/solebury</loc>
+    <loc>https://bucksgolfcarts.com/utah</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/springfield</loc>
+    <loc>https://bucksgolfcarts.com/vermont</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/tinicum</loc>
+    <loc>https://bucksgolfcarts.com/virginia</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/upper-makefield</loc>
+    <loc>https://bucksgolfcarts.com/washington</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/upper-southampton</loc>
+    <loc>https://bucksgolfcarts.com/west-virginia</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/warminster-township</loc>
+    <loc>https://bucksgolfcarts.com/wisconsin</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/warrington</loc>
+    <loc>https://bucksgolfcarts.com/wyoming</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+  <!-- Countries -->
+  <url>
+    <loc>https://bucksgolfcarts.com/united-states</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/warwick</loc>
+    <loc>https://bucksgolfcarts.com/mexico</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <url>
-    <loc>https://bucksgolfcarts.com/location/west-rockhill</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  
-  <url>
-    <loc>https://bucksgolfcarts.com/location/wrightstown</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  
-  <url>
-    <loc>https://bucksgolfcarts.com/location/yardley-township</loc>
+    <loc>https://bucksgolfcarts.com/canada</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>

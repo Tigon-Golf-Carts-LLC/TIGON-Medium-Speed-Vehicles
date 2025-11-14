@@ -1,16 +1,33 @@
 import { Link } from "wouter";
 
 export default function Footer() {
-  const towns = [
-    "Warrington Township", "Newtown Township", "Northampton Township", "Lower Makefield Township",
-    "Upper Makefield Township", "Middletown Township", "Yardley Borough", "Newtown Borough",
-    "Doylestown Township", "Doylestown Borough", "Warwick Township", "Warminster Township",
-    "Upper Southampton Township", "Lower Southampton Township", "Bristol Township", "Bristol Borough",
-    "Bensalem Township", "Falls Township", "Tullytown Borough", "Levittown",
-    "Langhorne Borough", "Langhorne Manor Borough", "Pennsbury Manor", "Morrisville Borough",
-    "Buckingham Township", "New Hope Borough", "Solebury Township", "Wrightstown Township",
-    "Hilltown Township", "Dublin Borough", "Perkasie Borough", "Quakertown Borough",
-    "Richland Township", "Silverdale Borough", "Telford Borough", "West Rockhill Township"
+  // Featured states and countries for footer links
+  const locations = [
+    { name: "Pennsylvania", slug: "pennsylvania" },
+    { name: "California", slug: "california" },
+    { name: "Texas", slug: "texas" },
+    { name: "Florida", slug: "florida" },
+    { name: "New York", slug: "new-york" },
+    { name: "Illinois", slug: "illinois" },
+    { name: "Ohio", slug: "ohio" },
+    { name: "Georgia", slug: "georgia" },
+    { name: "North Carolina", slug: "north-carolina" },
+    { name: "Michigan", slug: "michigan" },
+    { name: "New Jersey", slug: "new-jersey" },
+    { name: "Virginia", slug: "virginia" },
+    { name: "Washington", slug: "washington" },
+    { name: "Arizona", slug: "arizona" },
+    { name: "Massachusetts", slug: "massachusetts" },
+    { name: "Tennessee", slug: "tennessee" },
+    { name: "Indiana", slug: "indiana" },
+    { name: "Missouri", slug: "missouri" },
+    { name: "Maryland", slug: "maryland" },
+    { name: "Wisconsin", slug: "wisconsin" },
+    { name: "Colorado", slug: "colorado" },
+    { name: "Minnesota", slug: "minnesota" },
+    { name: "United States", slug: "united-states" },
+    { name: "Canada", slug: "canada" },
+    { name: "Mexico", slug: "mexico" }
   ];
 
   return (
@@ -119,120 +136,21 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Towns Served - Now with Links */}
+        {/* Locations Served - States and Countries */}
         <div className="border-t border-gray-200 pt-8 mb-8">
           <h3 className="text-lg font-semibold text-gray-900 mb-6 text-center">
-            Bucks County Towns We Serve Medium Speed Vehicles
+            Areas We Serve Medium Speed Vehicles
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 text-center">
-            <Link href="/warrington-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Warrington Township MSV
-            </Link>
-            <Link href="/newtown-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Newtown Township MSV
-            </Link>
-            <Link href="/northampton-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Northampton Township MSV
-            </Link>
-            <Link href="/lower-makefield-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Lower Makefield MSV
-            </Link>
-            <Link href="/upper-makefield-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Upper Makefield MSV
-            </Link>
-            <Link href="/middletown-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Middletown Township MSV
-            </Link>
-            <Link href="/yardley-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Yardley Borough MSV
-            </Link>
-            <Link href="/newtown-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Newtown Borough MSV
-            </Link>
-            <Link href="/doylestown-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Doylestown Township MSV
-            </Link>
-            <Link href="/doylestown-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Doylestown Borough MSV
-            </Link>
-            <Link href="/warwick-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Warwick Township MSV
-            </Link>
-            <Link href="/warminster-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Warminster Township MSV
-            </Link>
-            <Link href="/upper-southampton-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Upper Southampton MSV
-            </Link>
-            <Link href="/lower-southampton-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Lower Southampton MSV
-            </Link>
-            <Link href="/bristol-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Bristol Township MSV
-            </Link>
-            <Link href="/bristol-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Bristol Borough MSV
-            </Link>
-            <Link href="/bensalem-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Bensalem Township MSV
-            </Link>
-            <Link href="/falls-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Falls Township MSV
-            </Link>
-            <Link href="/tullytown-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Tullytown Borough MSV
-            </Link>
-            <Link href="/levittown-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Levittown MSV
-            </Link>
-            <Link href="/langhorne-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Langhorne Borough MSV
-            </Link>
-            <Link href="/langhorne-manor-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Langhorne Manor MSV
-            </Link>
-            <Link href="/pennsbury-manor-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Pennsbury Manor MSV
-            </Link>
-            <Link href="/morrisville-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Morrisville Borough MSV
-            </Link>
-            <Link href="/buckingham-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Buckingham Township MSV
-            </Link>
-            <Link href="/new-hope-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              New Hope Borough MSV
-            </Link>
-            <Link href="/solebury-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Solebury Township MSV
-            </Link>
-            <Link href="/wrightstown-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Wrightstown Township MSV
-            </Link>
-            <Link href="/hilltown-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Hilltown Township MSV
-            </Link>
-            <Link href="/dublin-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Dublin Borough MSV
-            </Link>
-            <Link href="/perkasie-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Perkasie Borough MSV
-            </Link>
-            <Link href="/quakertown-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Quakertown Borough MSV
-            </Link>
-            <Link href="/richland-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Richland Township MSV
-            </Link>
-            <Link href="/silverdale-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Silverdale Borough MSV
-            </Link>
-            <Link href="/telford-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Telford Borough MSV
-            </Link>
-            <Link href="/west-rockhill-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              West Rockhill MSV
-            </Link>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 text-center">
+            {locations.map((location) => (
+              <Link 
+                key={location.slug}
+                href={`/${location.slug}`} 
+                className="text-gray-600 text-sm hover:text-blue-600 transition-colors"
+              >
+                {location.name} MSV
+              </Link>
+            ))}
           </div>
         </div>
 
@@ -245,7 +163,7 @@ export default function Footer() {
               <Link href="/terms-of-service" className="hover:text-gray-900 ml-1">Terms of Service</Link>
             </div>
             <div className="text-gray-600 text-sm">
-              TIGON Medium Speed Vehicles - Serving all Bucks County towns with premium medium speed vehicles and exceptional service.
+              TIGON Medium Speed Vehicles - Serving customers across the United States, Canada, and Mexico with premium medium speed vehicles and exceptional service.
             </div>
           </div>
         </div>
