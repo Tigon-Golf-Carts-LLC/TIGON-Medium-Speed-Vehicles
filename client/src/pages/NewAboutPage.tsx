@@ -253,109 +253,107 @@ export default function NewAboutPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Service Area</h2>
-              <p className="text-lg text-gray-600">Proudly serving all of Bucks County, Pennsylvania</p>
+              <p className="text-lg text-gray-600">Proudly serving customers across North America</p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Northern Bucks County</CardTitle>
+                  <CardTitle>United States</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Quakertown, Perkasie, Sellersville, Telford, and surrounding areas</p>
-                  <Badge variant="secondary">18 Municipalities</Badge>
+                  <p className="text-gray-600 mb-4">Premium medium speed vehicles delivered across all 50 states</p>
+                  <Badge variant="secondary">50 States</Badge>
                 </CardContent>
               </Card>
 
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Central Bucks County</CardTitle>
+                  <CardTitle>Canada</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Doylestown, Warrington, Warminster, New Britain, and neighboring communities</p>
-                  <Badge variant="secondary">19 Municipalities</Badge>
+                  <p className="text-gray-600 mb-4">Serving Canadian customers with quality electric MSVs and expert service</p>
+                  <Badge variant="secondary">International</Badge>
                 </CardContent>
               </Card>
 
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Southern Bucks County</CardTitle>
+                  <CardTitle>Mexico</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Newtown, Yardley, Bristol, Langhorne, and riverfront communities</p>
-                  <Badge variant="secondary">19 Municipalities</Badge>
+                  <p className="text-gray-600 mb-4">Expanding our reach to serve Mexican customers nationwide</p>
+                  <Badge variant="secondary">International</Badge>
                 </CardContent>
               </Card>
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold text-center mb-6">Complete Bucks County Coverage</h3>
+              <h3 className="text-2xl font-bold text-center mb-6">Nationwide & International Coverage</h3>
+              <p className="text-center text-gray-600 mb-8">View our medium speed vehicle services by location</p>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-sm text-gray-600">
                 {[
-                  { name: "Bristol Borough", path: "/bristol-borough-golf-carts" },
-                  { name: "Chalfont Borough", path: "/chalfont-borough-golf-carts" },
-                  { name: "Doylestown Borough", path: "/doylestown-borough-golf-carts" },
-                  { name: "Dublin Borough", path: "/dublin-borough-golf-carts" },
-                  { name: "Hulmeville Borough", path: "/hulmeville-borough-golf-carts" },
-                  { name: "Ivyland Borough", path: "/ivyland-borough-golf-carts" },
-                  { name: "Langhorne Borough", path: "/langhorne-borough-golf-carts" },
-                  { name: "Langhorne Manor Borough", path: "/langhorne-manor-borough-golf-carts" },
-                  { name: "Morrisville Borough", path: "/morrisville-borough-golf-carts" },
-                  { name: "New Britain Borough", path: "/new-britain-borough-golf-carts" },
-                  { name: "New Hope Borough", path: "/new-hope-borough-golf-carts" },
-                  { name: "Newtown Borough", path: "/newtown-borough-golf-carts" },
-                  { name: "Penndel Borough", path: "/penndel-borough-golf-carts" },
-                  { name: "Perkasie Borough", path: "/perkasie-borough-golf-carts" },
-                  { name: "Quakertown Borough", path: "/quakertown-borough-golf-carts" },
-                  { name: "Richlandtown Borough", path: "/richlandtown-borough-golf-carts" },
-                  { name: "Riegelsville Borough", path: "/riegelsville-borough-golf-carts" },
-                  { name: "Sellersville Borough", path: "/sellersville-borough-golf-carts" },
-                  { name: "Silverdale Borough", path: "/silverdale-borough-golf-carts" },
-                  { name: "Telford Borough", path: "/telford-borough-golf-carts" },
-                  { name: "Trumbauersville Borough", path: "/trumbauersville-borough-golf-carts" },
-                  { name: "Tullytown Borough", path: "/tullytown-borough-golf-carts" },
-                  { name: "Yardley Borough", path: "/yardley-borough-golf-carts" },
-                  { name: "Hatboro Borough", path: "/hatboro-borough-golf-carts" },
-                  { name: "Souderton Borough", path: "/souderton-borough-golf-carts" },
-                  { name: "Bedminster Township", path: "/bedminster-township-golf-carts" },
-                  { name: "Bensalem Township", path: "/bensalem-township-golf-carts" },
-                  { name: "Bridgeton Township", path: "/bridgeton-township-golf-carts" },
-                  { name: "Bristol Township", path: "/bristol-township-golf-carts" },
-                  { name: "Buckingham Township", path: "/buckingham-township-golf-carts" },
-                  { name: "Doylestown Township", path: "/doylestown-township-golf-carts" },
-                  { name: "Durham Township", path: "/durham-township-golf-carts" },
-                  { name: "East Rockhill Township", path: "/east-rockhill-township-golf-carts" },
-                  { name: "Falls Township", path: "/falls-township-golf-carts" },
-                  { name: "Haycock Township", path: "/haycock-township-golf-carts" },
-                  { name: "Hilltown Township", path: "/hilltown-township-golf-carts" },
-                  { name: "Lower Makefield Township", path: "/lower-makefield-township-golf-carts" },
-                  { name: "Lower Southampton Township", path: "/lower-southampton-township-golf-carts" },
-                  { name: "Middletown Township", path: "/middletown-township-golf-carts" },
-                  { name: "Milford Township", path: "/milford-township-golf-carts" },
-                  { name: "New Britain Township", path: "/new-britain-township-golf-carts" },
-                  { name: "Newtown Township", path: "/newtown-township-golf-carts" },
-                  { name: "Nockamixon Township", path: "/nockamixon-township-golf-carts" },
-                  { name: "Northampton Township", path: "/northampton-township-golf-carts" },
-                  { name: "Plumstead Township", path: "/plumstead-township-golf-carts" },
-                  { name: "Richland Township", path: "/richland-township-golf-carts" },
-                  { name: "Solebury Township", path: "/solebury-township-golf-carts" },
-                  { name: "Springfield Township", path: "/springfield-township-golf-carts" },
-                  { name: "Tinicum Township", path: "/tinicum-township-golf-carts" },
-                  { name: "Upper Makefield Township", path: "/upper-makefield-township-golf-carts" },
-                  { name: "Upper Southampton Township", path: "/upper-southampton-township-golf-carts" },
-                  { name: "Warminster Township", path: "/warminster-township-golf-carts" },
-                  { name: "Warrington Township", path: "/warrington-township-golf-carts" },
-                  { name: "Warwick Township", path: "/warwick-township-golf-carts" },
-                  { name: "West Rockhill Township", path: "/west-rockhill-township-golf-carts" },
-                  { name: "Wrightstown Township", path: "/wrightstown-township-golf-carts" }
-                ].map((city, index) => (
+                  { name: "Alabama", path: "/alabama" },
+                  { name: "Alaska", path: "/alaska" },
+                  { name: "Arizona", path: "/arizona" },
+                  { name: "Arkansas", path: "/arkansas" },
+                  { name: "California", path: "/california" },
+                  { name: "Colorado", path: "/colorado" },
+                  { name: "Connecticut", path: "/connecticut" },
+                  { name: "Delaware", path: "/delaware" },
+                  { name: "Florida", path: "/florida" },
+                  { name: "Georgia", path: "/georgia" },
+                  { name: "Hawaii", path: "/hawaii" },
+                  { name: "Idaho", path: "/idaho" },
+                  { name: "Illinois", path: "/illinois" },
+                  { name: "Indiana", path: "/indiana" },
+                  { name: "Iowa", path: "/iowa" },
+                  { name: "Kansas", path: "/kansas" },
+                  { name: "Kentucky", path: "/kentucky" },
+                  { name: "Louisiana", path: "/louisiana" },
+                  { name: "Maine", path: "/maine" },
+                  { name: "Maryland", path: "/maryland" },
+                  { name: "Massachusetts", path: "/massachusetts" },
+                  { name: "Michigan", path: "/michigan" },
+                  { name: "Minnesota", path: "/minnesota" },
+                  { name: "Mississippi", path: "/mississippi" },
+                  { name: "Missouri", path: "/missouri" },
+                  { name: "Montana", path: "/montana" },
+                  { name: "Nebraska", path: "/nebraska" },
+                  { name: "Nevada", path: "/nevada" },
+                  { name: "New Hampshire", path: "/new-hampshire" },
+                  { name: "New Jersey", path: "/new-jersey" },
+                  { name: "New Mexico", path: "/new-mexico" },
+                  { name: "New York", path: "/new-york" },
+                  { name: "North Carolina", path: "/north-carolina" },
+                  { name: "North Dakota", path: "/north-dakota" },
+                  { name: "Ohio", path: "/ohio" },
+                  { name: "Oklahoma", path: "/oklahoma" },
+                  { name: "Oregon", path: "/oregon" },
+                  { name: "Pennsylvania", path: "/pennsylvania" },
+                  { name: "Rhode Island", path: "/rhode-island" },
+                  { name: "South Carolina", path: "/south-carolina" },
+                  { name: "South Dakota", path: "/south-dakota" },
+                  { name: "Tennessee", path: "/tennessee" },
+                  { name: "Texas", path: "/texas" },
+                  { name: "Utah", path: "/utah" },
+                  { name: "Vermont", path: "/vermont" },
+                  { name: "Virginia", path: "/virginia" },
+                  { name: "Washington", path: "/washington" },
+                  { name: "West Virginia", path: "/west-virginia" },
+                  { name: "Wisconsin", path: "/wisconsin" },
+                  { name: "Wyoming", path: "/wyoming" },
+                  { name: "Canada", path: "/canada" },
+                  { name: "Mexico", path: "/mexico" },
+                  { name: "United States", path: "/united-states" }
+                ].map((location, index) => (
                   <div key={index} className="text-center py-2">
-                    <Link href={city.path}>
+                    <Link href={location.path}>
                       <span className="text-theme-orange font-medium hover:text-orange-600 cursor-pointer transition-colors">
-                        {city.name}
+                        {location.name}
                       </span>
                     </Link>
                   </div>
@@ -369,10 +367,10 @@ export default function NewAboutPage() {
         <section className="py-16 bg-theme-primary text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold mb-6">
-              Ready to Experience the Bucks County Golf Carts Difference?
+              Ready to Experience the TIGON Difference?
             </h2>
             <p className="text-xl mb-8">
-              Join thousands of satisfied customers who trust us for their golf cart needs.
+              Join thousands of satisfied customers who trust us for their medium speed vehicle needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
