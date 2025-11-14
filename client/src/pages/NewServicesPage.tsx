@@ -47,7 +47,7 @@ export default function NewServicesPage() {
       
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-r from-theme-primary to-blue-700 text-white py-20 px-4 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles%202_1763146957906.jpeg')"}}>
+        <section className="relative bg-gradient-to-r from-theme-primary to-blue-700 text-white py-20 px-4 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(0, 0, 0, 0.8)), url('/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles%202_1763146957906.jpeg')"}}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">

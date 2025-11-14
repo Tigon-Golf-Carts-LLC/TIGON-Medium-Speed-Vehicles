@@ -34,7 +34,7 @@ export default function DenagoEvNomadXL() {
         </nav>
 
         {/* Vehicle Hero Section */}
-        <section className="relative py-12 px-4 bg-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/attached_assets/TIGON - Medium Speed Vehicles 2_1763150117019.jpeg')"}}>
+        <section className="relative py-12 px-4 bg-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(0, 0, 0, 0.8)), url('/attached_assets/TIGON - Medium Speed Vehicles 2_1763150117019.jpeg')"}}>
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">

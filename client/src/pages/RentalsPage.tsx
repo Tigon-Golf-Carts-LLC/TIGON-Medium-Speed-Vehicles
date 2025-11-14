@@ -206,7 +206,7 @@ export default function RentalsPage() {
       
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles%207_1763146957908.jpeg')"}}>
+        <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(0, 0, 0, 0.8)), url('/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles%207_1763146957908.jpeg')"}}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">Medium Speed Vehicle Rentals</h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
