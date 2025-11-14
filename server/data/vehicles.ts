@@ -8,7 +8,7 @@ export const vehicleData: Vehicle[] = [
     category: "Maverick Series",
     price: 12995,
     description: "Premium electric golf cart with advanced features and superior performance. Seats 4 passengers with extended range capability.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg"],
+    images: ["/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg"],
     specifications: {
       topSpeed: "25 mph",
       range: "35-45 miles",
@@ -28,7 +28,7 @@ export const vehicleData: Vehicle[] = [
     category: "D-MAX Series",
     price: 16995,
     description: "High-performance 4-passenger golf cart with cutting-edge technology and sporty design.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350620.jpg"],
+    images: ["/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350620.jpg"],
     specifications: {
       topSpeed: "25+ mph",
       range: "40-55 miles",
@@ -48,7 +48,7 @@ export const vehicleData: Vehicle[] = [
     category: "Urban Series",
     price: 11995,
     description: "Urban mobility solution with street-legal capabilities and modern design for city transportation.",
-    images: ["https://tigonmsv.com/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg"],
+    images: ["/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg"],
     specifications: {
       topSpeed: "25 mph",
       range: "40-50 miles",
@@ -68,7 +68,7 @@ export const vehicleData: Vehicle[] = [
     category: "Maverick Series",
     price: 14995,
     description: "Six-passenger luxury golf cart with premium amenities and extended range for larger groups.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIOND5MAVERICK6PLUS_1751893115781_1753135350622.jpg"],
+    images: ["/attached_assets/EVOLUTIOND5MAVERICK6PLUS_1751893115781_1753135350622.jpg"],
     specifications: {
       topSpeed: "25 mph",
       range: "35-45 miles",
@@ -88,7 +88,7 @@ export const vehicleData: Vehicle[] = [
     category: "Maverick Series", 
     price: 11995,
     description: "Standard 4-passenger version of the popular Maverick series with reliable performance.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIOND5MAVERICK4_1751893115780_1753135231312.jpg"],
+    images: ["/attached_assets/EVOLUTIOND5MAVERICK4_1751893115780_1753135231312.jpg"],
     specifications: {
       topSpeed: "25 mph",
       range: "30-40 miles",
@@ -108,7 +108,7 @@ export const vehicleData: Vehicle[] = [
     category: "Maverick Series",
     price: 13995,
     description: "Six-passenger golf cart perfect for family outings and group transportation.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIOND5MAVERICK6_1751893115781_1753135350621.jpg"],
+    images: ["/attached_assets/EVOLUTIOND5MAVERICK6_1751893115781_1753135350621.jpg"],
     specifications: {
       topSpeed: "25 mph",
       range: "30-40 miles", 
@@ -128,7 +128,7 @@ export const vehicleData: Vehicle[] = [
     category: "Utility Series",
     price: 13995,
     description: "Premium utility golf cart with heavy-duty features and rugged construction for work applications.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIONFORESTER4PLUS_1751893159005_1753135437836.jpg"],
+    images: ["/attached_assets/EVOLUTIONFORESTER4PLUS_1751893159005_1753135437836.jpg"],
     specifications: {
       topSpeed: "25 mph",
       range: "35-50 miles",
@@ -148,7 +148,7 @@ export const vehicleData: Vehicle[] = [
     category: "Commercial Series",
     price: 15995,
     description: "Heavy-duty commercial utility vehicle for landscaping and maintenance work with superior durability.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIONTURFMAN1000_1751893159006_1753135437836.jpg"],
+    images: ["/attached_assets/EVOLUTIONTURFMAN1000_1751893159006_1753135437836.jpg"],
     specifications: {
       topSpeed: "15 mph",
       range: "40-60 miles",
@@ -168,7 +168,7 @@ export const vehicleData: Vehicle[] = [
     category: "Adventure Series",
     price: 14995,
     description: "Adventure-ready electric vehicle designed for off-road capability and outdoor exploration.",
-    images: ["https://tigonmsv.com/attached_assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg"],
+    images: ["/attached_assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg"],
     specifications: {
       topSpeed: "25 mph",
       range: "45-60 miles",
@@ -188,7 +188,7 @@ export const vehicleData: Vehicle[] = [
     category: "Luxury Series",
     price: 17995,
     description: "Extended range luxury electric vehicle with premium amenities and superior comfort for discerning customers.",
-    images: ["https://tigonmsv.com/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg"],
+    images: ["/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg"],
     specifications: {
       topSpeed: "25 mph",
       range: "50-65 miles",
@@ -208,7 +208,7 @@ export const vehicleData: Vehicle[] = [
     category: "Classic Series",
     price: 12995,
     description: "Timeless design meets modern performance in this classic 4-passenger golf cart with premium features.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIONCLASSIC4PLUS_1751893115779_1753135231314.jpg"],
+    images: ["/attached_assets/EVOLUTIONCLASSIC4PLUS_1751893115779_1753135231314.jpg"],
     specifications: {
       topSpeed: "19 mph",
       range: "35-45 miles",
@@ -228,7 +228,7 @@ export const vehicleData: Vehicle[] = [
     category: "Ranger Series",
     price: 15995,
     description: "Premium 6-passenger Ranger with advanced features and superior performance for larger groups.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIOND5RANGER6PLUS_1751893159004_1753135350619.jpg"],
+    images: ["/attached_assets/EVOLUTIOND5RANGER6PLUS_1751893159004_1753135350619.jpg"],
     specifications: {
       topSpeed: "25 mph",
       range: "40-55 miles",
@@ -249,7 +249,7 @@ export const vehicleData: Vehicle[] = [
     category: "Adventure Series",
     price: 15995,
     description: "Extended version of the popular Nomad with enhanced storage and seating capacity for larger adventures.",
-    images: ["https://tigonmsv.com/attached_assets/DENAGONEVNOMADXL_1751893047472_1753135231313.jpg"],
+    images: ["/attached_assets/DENAGONEVNOMADXL_1751893047472_1753135231313.jpg"],
     specifications: {
       topSpeed: "25 mph",
       range: "45-55 miles",
@@ -269,7 +269,7 @@ export const vehicleData: Vehicle[] = [
     category: "Luxury Series",
     price: 18995,
     description: "Six-passenger luxury rover with premium features and extended range for ultimate comfort and performance.",
-    images: ["https://tigonmsv.com/attached_assets/DENAGONEVROVERXL6_1751893047473_1753135231313.jpg"],
+    images: ["/attached_assets/DENAGONEVROVERXL6_1751893047473_1753135231313.jpg"],
     specifications: {
       topSpeed: "25 mph",
       range: "50-65 miles",
@@ -289,7 +289,7 @@ export const vehicleData: Vehicle[] = [
     category: "Luxury Series",
     price: 19995,
     description: "Our largest luxury model with maximum seating and cargo capacity for ultimate group transportation.",
-    images: ["https://tigonmsv.com/attached_assets/DENAGONEVROVERXXL_1751893047473_1753135231313.jpg"],
+    images: ["/attached_assets/DENAGONEVROVERXXL_1751893047473_1753135231313.jpg"],
     specifications: {
       topSpeed: "25 mph",
       range: "50-65 miles",
@@ -309,7 +309,7 @@ export const vehicleData: Vehicle[] = [
     category: "Carrier Series",
     price: 13995,
     description: "Six-passenger carrier with enhanced cargo capacity and utility features for work and recreation.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIONCARRIER6PLUS_1751893115778_1753135231314.jpg"],
+    images: ["/attached_assets/EVOLUTIONCARRIER6PLUS_1751893115778_1753135231314.jpg"],
     specifications: {
       topSpeed: "20 mph",
       range: "30-40 miles",
@@ -329,7 +329,7 @@ export const vehicleData: Vehicle[] = [
     category: "Carrier Series",
     price: 15995,
     description: "Eight-passenger carrier with maximum seating and cargo capacity for large group transportation.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIONCARRIER8PLUS_1751893115779_1753135231314.jpg"],
+    images: ["/attached_assets/EVOLUTIONCARRIER8PLUS_1751893115779_1753135231314.jpg"],
     specifications: {
       topSpeed: "20 mph",
       range: "30-40 miles",
@@ -349,7 +349,7 @@ export const vehicleData: Vehicle[] = [
     category: "Classic Series",
     price: 9995,
     description: "Compact two-passenger classic golf cart with timeless design and reliable performance.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIONCLASSIC2PLUS_1751893115779_1753135231314.jpg"],
+    images: ["/attached_assets/EVOLUTIONCLASSIC2PLUS_1751893115779_1753135231314.jpg"],
     specifications: {
       topSpeed: "19 mph",
       range: "25-35 miles",
@@ -369,7 +369,7 @@ export const vehicleData: Vehicle[] = [
     category: "Classic Series",
     price: 11995,
     description: "Professional grade two-passenger classic with enhanced features and performance.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIONCLASSIC2PRO_1751893115779_1753135231314.jpg"],
+    images: ["/attached_assets/EVOLUTIONCLASSIC2PRO_1751893115779_1753135231314.jpg"],
     specifications: {
       topSpeed: "19 mph",
       range: "30-40 miles",
@@ -391,7 +391,7 @@ export const vehicleData: Vehicle[] = [
     category: "D-MAX Series",
     price: 18995,
     description: "Six-passenger high-performance golf cart with maximum power and luxury features.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIOND6MAXGT6_1751893159004_1753135350620.jpg"],
+    images: ["/attached_assets/EVOLUTIOND6MAXGT6_1751893159004_1753135350620.jpg"],
     specifications: {
       topSpeed: "25+ mph",
       range: "45-60 miles",
@@ -411,7 +411,7 @@ export const vehicleData: Vehicle[] = [
     category: "D-MAX Series",
     price: 17995,
     description: "Four-passenger extreme terrain model with enhanced off-road capabilities and rugged design.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg"],
+    images: ["/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg"],
     specifications: {
       topSpeed: "25+ mph",
       range: "40-55 miles",
@@ -431,7 +431,7 @@ export const vehicleData: Vehicle[] = [
     category: "D-MAX Series",
     price: 19995,
     description: "Six-passenger extreme terrain model with maximum off-road capability and adventure features.",
-    images: ["https://tigonmsv.com/attached_assets/EVOLUTIOND6MAXXT6_1751893159005_1753135437836.jpg"],
+    images: ["/attached_assets/EVOLUTIOND6MAXXT6_1751893159005_1753135437836.jpg"],
     specifications: {
       topSpeed: "25+ mph",
       range: "40-55 miles",
