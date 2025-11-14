@@ -75,7 +75,7 @@ export default function NewAboutPage() {
             }}
           >
             {/* Overlay for better text readability */}
-            <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-black/30"></div>
+            <div className="absolute inset-0" style={{ background: 'linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8))' }}></div>
           </div>
           
           {/* Hero Content */}

@@ -34,7 +34,7 @@ export default function HomePage() {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{backgroundImage: "url('/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles_1763146957906.jpeg')"}}
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-theme-primary/80 to-black/80"></div>
+          <div className="absolute inset-0" style={{ background: 'linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8))' }}></div>
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
