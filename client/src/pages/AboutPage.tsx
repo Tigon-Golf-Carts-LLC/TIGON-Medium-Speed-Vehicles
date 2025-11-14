@@ -48,7 +48,7 @@ export default function AboutPage() {
       />
       <OrganizationSchema pageType="about" />
       {/* Hero Section */}
-      <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('https://tigonmsv.com/attached_assets/0f46bdfb-c558-4e28-9473-6c85686c5a80 (1)_1753279436268.png')"}}>
+      <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('https://tigonmsv.com/attached_assets/TIGON - Medium Speed Vehicles 1_1763146957906.jpeg')"}}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">About TIGON Medium Speed Vehicles</h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">

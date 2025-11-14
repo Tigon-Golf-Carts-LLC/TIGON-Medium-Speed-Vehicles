@@ -52,7 +52,7 @@ export default function NewInventoryPage() {
       
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-blue-600 to-green-600 text-white py-16">
+        <section className="bg-gradient-to-r from-blue-600 to-green-600 text-white py-16 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(37, 99, 235, 0.8), rgba(22, 163, 74, 0.8)), url('https://tigonmsv.com/attached_assets/TIGON - Medium Speed Vehicles 3_1763146957907.jpeg')"}}>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">

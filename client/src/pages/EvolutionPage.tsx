@@ -16,6 +16,7 @@ import evolutionD6MaxXT4Image from "@assets/EVOLUTIOND6MAXXT4_1751893159005_1753
 import evolutionClassic4PlusImage from "@assets/EVOLUTIONCLASSIC4PLUS_1751893115779_1753135231314.jpg";
 import evolutionCarrier6PlusImage from "@assets/EVOLUTIONCARRIER6PLUS_1751893115778_1753135231314.jpg";
 import evolutionD5Maverick4PlusImage from "@assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg";
+import tigonHeroImage from "@assets/TIGON - Medium Speed Vehicles 6_1763146957907.jpeg";
 
 interface Vehicle {
   id: string;
@@ -124,7 +125,7 @@ export default function EvolutionPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-blue-900 to-blue-700 text-white overflow-hidden">
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{backgroundImage: `url('${evolutionD6MaxXT4Image}')`}}
+            style={{backgroundImage: `url('${tigonHeroImage}')`}}
           ></div>
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40"></div>
           <div className="relative max-w-7xl mx-auto text-center z-10">
