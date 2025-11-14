@@ -759,7 +759,7 @@ export default function EvolutionPage() {
               Ready to Experience EVOLUTION?
             </h2>
             <p className="text-xl mb-8">
-              Contact Bucks County Golf Carts today to explore the complete EVOLUTION lineup 
+              Contact TIGON Medium Speed Vehicles today to explore the complete EVOLUTION lineup 
               and find the perfect electric vehicle for your needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

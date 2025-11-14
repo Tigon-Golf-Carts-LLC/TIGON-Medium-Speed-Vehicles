@@ -413,7 +413,7 @@ export default function DenagoPage() {
               Ready to Experience DENAGO?
             </h2>
             <p className="text-xl mb-8">
-              Contact Bucks County Golf Carts today to schedule a test drive or learn more 
+              Contact TIGON Medium Speed Vehicles today to schedule a test drive or learn more 
               about DENAGO's revolutionary electric vehicle technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

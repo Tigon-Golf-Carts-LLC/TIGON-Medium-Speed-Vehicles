@@ -14,7 +14,7 @@ interface SEOHeadProps {
 export default function SEOHead({ 
   title, 
   description, 
-  keywords = "golf carts, Bucks County, electric golf carts, golf cart sales, golf cart service", 
+  keywords = "medium speed vehicles, MSV, electric vehicles, street legal vehicles, low speed vehicles, TIGON", 
   canonicalUrl,
   townName,
   image,
@@ -135,7 +135,7 @@ export default function SEOHead({
       const structuredData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": `Bucks County Golf Carts - ${townName}`,
+        "name": `TIGON Medium Speed Vehicles - ${townName}`,
         "description": description,
         "address": {
           "@type": "PostalAddress",
@@ -159,13 +159,13 @@ export default function SEOHead({
         },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
-          "name": "Golf Cart Services",
+          "name": "Medium Speed Vehicle Services",
           "itemListElement": [
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Product",
-                "name": "Electric Golf Carts",
+                "name": "Electric Medium Speed Vehicles",
                 "brand": ["Denago", "Evolution"]
               }
             },
@@ -173,28 +173,28 @@ export default function SEOHead({
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Golf Cart Sales"
+                "name": "Medium Speed Vehicle Sales"
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Golf Cart Maintenance"
+                "name": "Medium Speed Vehicle Maintenance"
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Golf Cart Rentals"
+                "name": "Medium Speed Vehicle Rentals"
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Golf Cart Financing"
+                "name": "Medium Speed Vehicle Financing"
               }
             }
           ]

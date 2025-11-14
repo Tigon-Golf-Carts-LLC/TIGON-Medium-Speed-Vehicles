@@ -31,7 +31,7 @@ export default function Navigation() {
             <div className="rounded-lg w-16 h-16 flex-shrink-0">
               <img 
                 src="https://bucksgolfcarts.com/attached_assets/Bucks County Golf Carts (3)_1753284044185.png" 
-                alt="Bucks County Golf Carts Logo" 
+                alt="TIGON Medium Speed Vehicles Logo" 
                 className="h-16 w-16 object-contain"
                 width="64"
                 height="64"
@@ -40,8 +40,8 @@ export default function Navigation() {
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="text-lg font-bold text-theme-primary">BUCKS COUNTY</div>
-                <div className="text-lg font-bold text-theme-primary -mt-1">GOLF CARTS</div>
+                <div className="text-lg font-bold text-theme-primary">TIGON</div>
+                <div className="text-lg font-bold text-theme-primary -mt-1">MEDIUM SPEED VEHICLES</div>
               </div>
             </Link>
           </div>

@@ -8,7 +8,7 @@ import SEOHead from "@/components/SEOHead";
 export default function ShowroomPage() {
   const locations = [
     {
-      name: "Bucks County Golf Carts",
+      name: "TIGON Medium Speed Vehicles",
       address: "115 Lincoln Hwy, Fairless Hills, PA 19030",
       phone: "267-736-4890",
       coordinates: "40.1734,-74.8521",

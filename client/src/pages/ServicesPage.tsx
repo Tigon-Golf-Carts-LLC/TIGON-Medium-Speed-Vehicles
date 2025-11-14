@@ -83,18 +83,18 @@ export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-white">
       <SEOHead 
-        title="Professional Services"
-        description="Keep your golf cart running perfectly with expert maintenance, repair, and customization services from certified technicians. Professional service for all major brands. Call 1-844-844-6638."
-        keywords="golf cart service, golf cart repair, golf cart maintenance, Bucks County PA, certified technicians"
+        title="Professional Medium Speed Vehicle Services"
+        description="Keep your medium speed vehicle running perfectly with expert maintenance, repair, and customization services from certified technicians. Professional MSV service for all major brands. Call 267-736-4890."
+        keywords="medium speed vehicle service, MSV repair, MSV maintenance, Bucks County PA, certified technicians, TIGON"
         canonicalUrl="https://bucksgolfcarts.com/services"
         image="https://bucksgolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_c_kG6NR-SA6qC8Vzl1iBww_ILJUjQXFQCGLKMSveOjbrA_1753283141121.png"
       />
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('https://bucksgolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_c_kG6NR-SA6qC8Vzl1iBww_ILJUjQXFQCGLKMSveOjbrA_1753283141121.png')"}}>
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-6">Professional Services</h1>
+          <h1 className="text-5xl font-bold mb-6">Professional MSV Services</h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Expert maintenance, repair, and customization services to keep your golf cart 
+            Expert maintenance, repair, and customization services to keep your medium speed vehicle 
             running perfectly and looking great.
           </p>
           <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -107,9 +107,9 @@ export default function ServicesPage() {
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 text-gray-900">Our Services</h2>
+            <h2 className="text-4xl font-bold mb-4 text-gray-900">Our MSV Services</h2>
             <p className="text-xl text-gray-600">
-              Complete golf cart services from certified professionals
+              Complete medium speed vehicle services from certified professionals
             </p>
           </div>
 
@@ -146,9 +146,9 @@ export default function ServicesPage() {
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 text-gray-900">Why Choose Our Service?</h2>
+            <h2 className="text-4xl font-bold mb-4 text-gray-900">Why Choose Our MSV Service?</h2>
             <p className="text-xl text-gray-600">
-              Experience the difference of professional golf cart service
+              Experience the difference of professional medium speed vehicle service
             </p>
           </div>
 
@@ -159,7 +159,7 @@ export default function ServicesPage() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Certified Technicians</h3>
               <p className="text-gray-600">
-                Our team is factory-trained and certified to work on all major golf cart brands
+                Our team is factory-trained and certified to work on all major medium speed vehicle brands
               </p>
             </div>
 
@@ -213,10 +213,10 @@ export default function ServicesPage() {
       <section className="py-16 px-4 bg-theme-primary text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">
-            Schedule Your Service Today
+            Schedule Your MSV Service Today
           </h2>
           <p className="text-xl mb-8">
-            Keep your golf cart running smoothly with professional service
+            Keep your medium speed vehicle running smoothly with professional service
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:2677364890">

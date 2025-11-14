@@ -110,17 +110,17 @@ export default function ContactPage() {
   return (
     <>
       <SEOHead 
-        title="Contact Bucks County Golf Carts"
-        description="Get expert golf cart sales, service, and support from Pennsylvania's trusted dealership. Visit our Fairless Hills location at 115 Lincoln Hwy or call 1-844-844-6638."
-        keywords="contact Bucks County golf carts, Fairless Hills location, golf cart sales Pennsylvania, Bucks County dealer contact"
+        title="Contact TIGON Medium Speed Vehicles"
+        description="Get expert medium speed vehicle sales, service, and support from Pennsylvania's trusted dealership. Visit our Fairless Hills location at 115 Lincoln Hwy or call 1-844-844-6638."
+        keywords="contact Bucks County medium speed vehicles, Fairless Hills location, medium speed vehicle sales Pennsylvania, Bucks County dealer contact"
         canonicalUrl="https://bucksgolfcarts.com/contact"
-        image="https://bucksgolfcarts.com/attached_assets/Bucks County Golf Carts (3)_1753284044185.png"
+        image="https://bucksgolfcarts.com/attached_assets/TIGON Medium Speed Vehicles (3)_1753284044185.png"
       />
       
       <div className="max-w-7xl mx-auto px-4 py-8">
       <div className="text-center mb-12">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Contact Bucks County Golf Carts
+          Contact TIGON Medium Speed Vehicles
         </h1>
         <p className="text-xl text-gray-600">
           Get in touch with our team for sales, service, and support

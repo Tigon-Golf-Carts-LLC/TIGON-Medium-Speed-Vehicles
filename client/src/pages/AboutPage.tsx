@@ -11,25 +11,25 @@ export default function AboutPage() {
       name: "Mike Johnson",
       role: "General Manager",
       experience: "15+ years",
-      description: "Leading our team with passion for customer service and golf cart expertise"
+      description: "Leading our team with passion for customer service and medium speed vehicle expertise"
     },
     {
       name: "Sarah Davis",
       role: "Service Manager",
       experience: "12+ years",
-      description: "Certified technician ensuring quality service and customer satisfaction"
+      description: "Certified technician ensuring quality MSV service and customer satisfaction"
     },
     {
       name: "Tom Wilson",
       role: "Sales Director",
       experience: "10+ years",
-      description: "Helping customers find the perfect golf cart for their needs"
+      description: "Helping customers find the perfect medium speed vehicle for their needs"
     }
   ];
 
   const milestones = [
-    { year: "2010", event: "Bucks County Golf Carts founded in Bucks County" },
-    { year: "2012", event: "Became authorized EVOLUTION dealer" },
+    { year: "2010", event: "TIGON Medium Speed Vehicles founded in Bucks County" },
+    { year: "2012", event: "Became authorized EVOLUTION MSV dealer" },
     { year: "2015", event: "Expanded to serve all of Pennsylvania" },
     { year: "2018", event: "Added DENAGO to our brand portfolio" },
     { year: "2020", event: "Opened second service location" },
@@ -40,9 +40,9 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="About Bucks County Golf Carts"
-        description="Discover Pennsylvania's premier golf cart dealership since 2010 with expert team, authorized Denago and Evolution dealer providing comprehensive service. Call 1-844-844-6638."
-        keywords="about Bucks County Golf Carts, golf cart dealership Pennsylvania, Denago Evolution dealer, golf cart service team"
+        title="About TIGON Medium Speed Vehicles"
+        description="Discover Pennsylvania's premier medium speed vehicle dealership since 2010 with expert team, authorized Denago and Evolution dealer providing comprehensive MSV service. Call 267-736-4890."
+        keywords="about TIGON Medium Speed Vehicles, MSV dealership Pennsylvania, Denago Evolution dealer, medium speed vehicle service team"
         canonicalUrl="https://bucksgolfcarts.com/about"
         image="https://bucksgolfcarts.com/attached_assets/0f46bdfb-c558-4e28-9473-6c85686c5a80 (1)_1753279436268.png"
       />
@@ -50,10 +50,10 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('https://bucksgolfcarts.com/attached_assets/0f46bdfb-c558-4e28-9473-6c85686c5a80 (1)_1753279436268.png')"}}>
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-6">About Bucks County Golf Carts</h1>
+          <h1 className="text-5xl font-bold mb-6">About TIGON Medium Speed Vehicles</h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Bucks County's premier golf cart dealership, dedicated to providing 
-            exceptional service and quality vehicles since 2010.
+            Pennsylvania's premier medium speed vehicle dealership, dedicated to providing 
+            exceptional MSV service and quality vehicles since 2010.
           </p>
         </div>
       </section>
@@ -65,17 +65,17 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2010 in Bucks County, Bucks County Golf Carts began with a simple mission: 
-                to provide high-quality golf carts and exceptional service to customers throughout the region.
+                Founded in 2010 in Bucks County, TIGON Medium Speed Vehicles began with a simple mission: 
+                to provide high-quality medium speed vehicles and exceptional service to customers throughout the region.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                What started as a small local dealership has grown into the area's premier golf cart destination, 
+                What started as a small local dealership has grown into the area's premier MSV destination, 
                 serving customers across multiple counties with a comprehensive selection of new and pre-owned vehicles, 
                 professional service, and rental options.
               </p>
               <p className="text-lg text-gray-600 mb-8">
                 Today, we're proud to be authorized dealers for leading brands like EVOLUTION and DENAGO, 
-                offering our customers the latest in golf cart technology and innovation.
+                offering our customers the latest in medium speed vehicle technology and innovation.
               </p>
               <Button className="bg-theme-orange hover:bg-orange-600 text-white w-full sm:w-auto">
                 Learn More About Our Services
@@ -207,10 +207,10 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-4xl font-bold mb-6 text-gray-900">About Bucks County Golf Carts</h2>
+              <h2 className="text-4xl font-bold mb-6 text-gray-900">About TIGON Medium Speed Vehicles</h2>
               <p className="text-lg text-gray-600 mb-6">
                 From our location at 115 Lincoln Hwy in Fairless Hills, we proudly serve customers throughout 
-                Bucks County and the surrounding region. Our commitment to quality service extends 
+                Bucks County and the surrounding region. Our commitment to quality MSV service extends 
                 across our entire service area.
               </p>
               <div className="flex items-center gap-4 mb-6">
@@ -236,14 +236,14 @@ export default function AboutPage() {
                 allowFullScreen 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Bucks County Golf Carts Location Map"
+                title="TIGON Medium Speed Vehicles Location Map"
               />
             </div>
           </div>
           
           {/* Towns List Below Map */}
           <div className="mt-12 bg-blue-50 p-8 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4 text-center">Bucks County Towns We Serve</h3>
+            <h3 className="text-xl font-semibold mb-4 text-center">Bucks County Towns We Serve Medium Speed Vehicles</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 text-sm text-gray-700">
               {[
                 "Warrington Township", "Newtown Township", "Northampton Township", "Lower Makefield Township",
@@ -272,7 +272,7 @@ export default function AboutPage() {
             Ready to Join Our Family?
           </h2>
           <p className="text-xl mb-8">
-            Experience the Bucks County Golf Carts difference for yourself
+            Experience the TIGON Medium Speed Vehicles difference for yourself
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">

@@ -9,10 +9,10 @@ export default function ThankYouPage() {
     <div className="min-h-screen bg-gray-50">
       <SEOHead 
         title="Thank You for Your Message!"
-        description="Thank you for contacting Bucks County Golf Carts. We'll respond to your inquiry within 24 hours and help you find the perfect golf cart solution. Call 1-844-844-6638."
-        keywords="thank you, contact confirmation, Bucks County Golf Carts"
+        description="Thank you for contacting TIGON Medium Speed Vehicles. We'll respond to your inquiry within 24 hours and help you find the perfect golf cart solution. Call 1-844-844-6638."
+        keywords="thank you, contact confirmation, TIGON Medium Speed Vehicles"
         canonicalUrl="https://bucksgolfcarts.com/thank-you"
-        image="https://bucksgolfcarts.com/attached_assets/Bucks County Golf Carts (3)_1753284044185.png"
+        image="https://bucksgolfcarts.com/attached_assets/TIGON Medium Speed Vehicles (3)_1753284044185.png"
       />
       
       <div className="py-20 px-4">
@@ -26,7 +26,7 @@ export default function ThankYouPage() {
               Thank You for Your Message!
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              We've received your inquiry and appreciate your interest in Bucks County Golf Carts. 
+              We've received your inquiry and appreciate your interest in TIGON Medium Speed Vehicles. 
               Our team will review your message and get back to you soon.
             </p>
           </div>

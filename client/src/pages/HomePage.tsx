@@ -21,9 +21,9 @@ export default function HomePage() {
     <div className="min-h-screen">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="Bucks County Golf Carts Premier Dealership"
-        description="Transform your outdoor experience with premium electric golf carts from Pennsylvania's trusted dealership. Expert sales, service, rentals, and financing for Denago and Evolution golf carts. Call 1-844-844-6638."
-        keywords="golf carts Bucks County PA, electric golf carts Pennsylvania, Denago golf carts, Evolution golf carts, golf cart sales service rentals"
+        title="TIGON Medium Speed Vehicles Premier MSV Dealership"
+        description="Transform your outdoor experience with premium medium speed vehicles from Pennsylvania's trusted MSV dealership. Expert sales, service, rentals, and financing for Denago and Evolution medium speed vehicles. Call 267-736-4890."
+        keywords="medium speed vehicles Bucks County PA, MSV Pennsylvania, Denago MSV, Evolution MSV, medium speed vehicle sales service rentals, TIGON"
         canonicalUrl="https://bucksgolfcarts.com/"
         image="https://bucksgolfcarts.com/attached_assets/a-photograph-of-a-bright-and-airy-modern_cSGtJe7oTWCsurFpyhqrJg_CXQ9jYUGRP2_wh-uk2Htkg_1753199147926.png"
       />
@@ -34,10 +34,10 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold mb-6 leading-tight">
-Bucks County Golf Carts Premier Dealership
+TIGON Medium Speed Vehicles Premier MSV Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
-                Discover our extensive selection of new electric golf carts from Evolution and Denago with professional services. 
+                Discover our extensive selection of new medium speed vehicles from Evolution and Denago with professional services. 
                 Serving Bucks County, and all surrounding towns, townships, and Pennsylvania communities In Bucks County.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -56,7 +56,7 @@ Bucks County Golf Carts Premier Dealership
             <div className="relative">
               <img 
                 src="https://bucksgolfcarts.com/attached_assets/D6-XT6-4wd-color-PORTIMAO-BLUE_1753135231312.png" 
-                alt="Golf Cart" 
+                alt="Medium Speed Vehicle" 
                 className="w-full h-auto max-w-lg mx-auto"
               />
             </div>
@@ -68,10 +68,10 @@ Bucks County Golf Carts Premier Dealership
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Why Choose Bucks County Golf Carts?
+            Why Choose TIGON Medium Speed Vehicles?
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
-            We're more than just a dealership - we're your partner in golf cart ownership 
+            We're more than just a dealership - we're your partner in medium speed vehicle ownership 
             with comprehensive services and unmatched expertise.
           </p>
           
@@ -82,7 +82,7 @@ Bucks County Golf Carts Premier Dealership
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Premium Quality</h3>
               <p className="text-gray-600">
-                Top-rated brands including Yamaha, Club Car, EZGO, and Evolution with rigorous quality standards.
+                Top-rated MSV brands including Evolution and Denago with rigorous quality standards.
               </p>
             </div>
             
@@ -112,7 +112,7 @@ Bucks County Golf Carts Premier Dealership
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Eco-Friendly</h3>
               <p className="text-gray-600">
-                Electric golf carts for sustainable, quiet, and efficient transportation.
+                Electric medium speed vehicles for sustainable, quiet, and efficient transportation.
               </p>
             </div>
           </div>
@@ -123,32 +123,32 @@ Bucks County Golf Carts Premier Dealership
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Bucks County Golf Carts - Top Golf Cart and LSV Brands
+            TIGON Medium Speed Vehicles - Top MSV and LSV Brands
           </h2>
           <p className="text-xl text-gray-600 mb-12">
-            We carry the most trusted names in Golf Carts and Low Speed Vehicles
+            We carry the most trusted names in Medium Speed Vehicles and Low Speed Vehicles
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-6 gap-6 mb-12">
             <div className="bg-gray-100 p-6 rounded-lg text-center">
               <h3 className="font-semibold text-gray-700 mb-2">Club Car</h3>
-              <p className="text-sm text-gray-600">Premium golf carts with advanced technology</p>
+              <p className="text-sm text-gray-600">Premium MSV with advanced technology</p>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg text-center">
               <h3 className="font-semibold text-gray-700 mb-2">EZ-GO</h3>
-              <p className="text-sm text-gray-600">Reliable and efficient golf cart solutions</p>
+              <p className="text-sm text-gray-600">Reliable and efficient MSV solutions</p>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg text-center">
               <h3 className="font-semibold text-gray-700 mb-2">Denago</h3>
-              <p className="text-sm text-gray-600">High-quality performance golf carts</p>
+              <p className="text-sm text-gray-600">High-quality performance medium speed vehicles</p>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg text-center">
               <h3 className="font-semibold text-gray-700 mb-2">Evolution</h3>
-              <p className="text-sm text-gray-600">Luxury golf carts with premium features</p>
+              <p className="text-sm text-gray-600">Luxury medium speed vehicles with premium features</p>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg text-center">
               <h3 className="font-semibold text-gray-700 mb-2">Tomberlin</h3>
-              <p className="text-sm text-gray-600">Street-legal LSV and golf cart options</p>
+              <p className="text-sm text-gray-600">Street-legal LSV and MSV options</p>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg text-center">
               <h3 className="font-semibold text-gray-700 mb-2">Swift EV</h3>
@@ -181,14 +181,14 @@ Bucks County Golf Carts Premier Dealership
         </div>
       </section>
 
-      {/* Featured Golf Carts Section */}
+      {/* Featured MSV Section */}
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Featured Golf Carts
+            Featured Medium Speed Vehicles
           </h2>
           <p className="text-xl text-gray-600 mb-12">
-            Check out some of our most popular models
+            Check out some of our most popular MSV models
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -210,7 +210,7 @@ Bucks County Golf Carts Premier Dealership
               <CardHeader className="pb-3">
                 <CardTitle className="text-xl font-semibold">Evolution D5 Maverick 4 Plus</CardTitle>
                 <CardDescription className="text-left text-gray-600 text-sm">
-                  Premium electric golf cart with advanced features and superior performance. Seats 4 passengers with extended range capability.
+                  Premium electric medium speed vehicle with advanced features and superior performance. Seats 4 passengers with extended range capability.
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-0">
@@ -245,7 +245,7 @@ Bucks County Golf Carts Premier Dealership
               <CardHeader className="pb-3">
                 <CardTitle className="text-xl font-semibold">Evolution D6 Max GT4</CardTitle>
                 <CardDescription className="text-left text-gray-600 text-sm">
-                  High-performance 4-passenger golf cart with cutting-edge technology and sporty design.
+                  High-performance 4-passenger medium speed vehicle with cutting-edge technology and sporty design.
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-0">
@@ -306,16 +306,16 @@ Bucks County Golf Carts Premier Dealership
         </div>
       </section>
 
-      {/* About NJ Golf Carts Section */}
+      {/* About TIGON MSV Section */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">
-                About Bucks County Golf Carts
+                About TIGON Medium Speed Vehicles
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout Bucks County and surrounding areas.
+                With over 15 years of experience in the medium speed vehicle industry, we've built our reputation on providing exceptional service and quality products to customers throughout Bucks County and surrounding areas.
               </p>
               
               <div className="grid grid-cols-2 gap-8 mb-8">
@@ -343,7 +343,7 @@ Bucks County Golf Carts Premier Dealership
                   allowFullScreen={true} 
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Bucks County, PA Map"
+                  title="TIGON Medium Speed Vehicles Bucks County, PA Map"
                 />
               </div>
             </div>
@@ -355,10 +355,10 @@ Bucks County Golf Carts Premier Dealership
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Golf Carts for Every Bucks County Township
+            Medium Speed Vehicles for Every Bucks County Township
           </h2>
           <p className="text-xl text-gray-600 mb-12">
-            Professional golf cart services delivered to your township
+            Professional MSV services delivered to your township
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-12">

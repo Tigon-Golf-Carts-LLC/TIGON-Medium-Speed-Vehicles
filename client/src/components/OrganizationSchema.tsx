@@ -9,8 +9,8 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Bucks County Golf Carts",
-      "description": "Premier golf cart dealership in Bucks County, Pennsylvania specializing in electric golf carts, sales, service, rentals, and financing.",
+      "name": "TIGON Medium Speed Vehicles",
+      "description": "Premier medium speed vehicle dealership in Bucks County, Pennsylvania specializing in electric MSV, sales, service, rentals, and financing.",
       "url": "https://bucksgolfcarts.com",
       "logo": "https://bucksgolfcarts.com/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
       "image": "https://bucksgolfcarts.com/attached_assets/Bucks County Golf Carts (3)_1753284044185.png",
@@ -39,29 +39,29 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Golf Cart Services & Products",
+        "name": "Medium Speed Vehicle Services & Products",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Product",
-              "name": "Denago Electric Golf Carts",
-              "category": "Electric Golf Carts"
+              "name": "Denago Electric Medium Speed Vehicles",
+              "category": "Electric Medium Speed Vehicles"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Product",
-              "name": "Evolution Electric Golf Carts",
-              "category": "Electric Golf Carts"
+              "name": "Evolution Electric Medium Speed Vehicles",
+              "category": "Electric Medium Speed Vehicles"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Golf Cart Sales",
+              "name": "Medium Speed Vehicle Sales",
               "category": "Sales Service"
             }
           },
@@ -69,7 +69,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Golf Cart Rentals",
+              "name": "Medium Speed Vehicle Rentals",
               "category": "Rental Service"
             }
           },
@@ -77,7 +77,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Golf Cart Maintenance & Repair",
+              "name": "Medium Speed Vehicle Maintenance & Repair",
               "category": "Maintenance Service"
             }
           },
@@ -85,7 +85,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Golf Cart Financing",
+              "name": "Medium Speed Vehicle Financing",
               "category": "Financial Service"
             }
           }
@@ -132,7 +132,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "@type": "Organization",
         "provider": {
           "@type": "Organization",
-          "name": "Bucks County Golf Carts"
+          "name": "TIGON Medium Speed Vehicles"
         }
       } as any;
     }
