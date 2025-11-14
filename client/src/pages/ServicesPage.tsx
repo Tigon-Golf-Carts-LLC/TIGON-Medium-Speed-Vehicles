@@ -90,7 +90,7 @@ export default function ServicesPage() {
         image="https://tigonmsv.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_c_kG6NR-SA6qC8Vzl1iBww_ILJUjQXFQCGLKMSveOjbrA_1753283141121.png"
       />
       {/* Hero Section */}
-      <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('https://tigonmsv.com/attached_assets/TIGON - Medium Speed Vehicles 2_1763146957906.jpeg')"}}>
+      <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('https://tigonmsv.com/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles%202_1763146957906.jpeg')"}}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">Professional MSV Services</h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">

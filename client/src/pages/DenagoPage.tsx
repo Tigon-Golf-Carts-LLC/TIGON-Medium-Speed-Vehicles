@@ -14,7 +14,6 @@ import denagoEvNomadXLImage from "@assets/DENAGONEVNOMADXL_1751893047472_1753135
 import denagoEvRoverXLImage from "@assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg";
 import denagoEvRoverXL6Image from "@assets/DENAGONEVROVERXL6_1751893047473_1753135231313.jpg";
 import denagoEvRoverXXLImage from "@assets/DENAGONEVROVERXXL_1751893047473_1753135231313.jpg";
-import tigonHeroImage from "@assets/TIGON - Medium Speed Vehicles 5_1763146957907.jpeg";
 
 interface Vehicle {
   id: string;
@@ -150,7 +149,7 @@ export default function DenagoPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-gray-900 to-gray-700 text-white overflow-hidden">
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{backgroundImage: `url('${tigonHeroImage}')`}}
+            style={{backgroundImage: "url('https://tigonmsv.com/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles%205_1763146957907.jpeg')"}}
           ></div>
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40"></div>
           <div className="relative max-w-7xl mx-auto text-center z-10">

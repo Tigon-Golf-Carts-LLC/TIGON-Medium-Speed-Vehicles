@@ -29,7 +29,7 @@ export default function HomePage() {
       />
       <OrganizationSchema pageType="home" />
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-theme-primary via-blue-800 to-theme-primary text-white py-20 px-4 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(59, 130, 246, 0.8), rgba(14, 46, 85, 0.8)), url('https://tigonmsv.com/attached_assets/TIGON - Medium Speed Vehicles_1763146957906.jpeg')"}}>
+      <section className="relative bg-gradient-to-br from-theme-primary via-blue-800 to-theme-primary text-white py-20 px-4 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(59, 130, 246, 0.8), rgba(14, 46, 85, 0.8)), url('https://tigonmsv.com/attached_assets/TIGON%20-%20Medium%20Speed%20Vehicles_1763146957906.jpeg')"}}>
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
