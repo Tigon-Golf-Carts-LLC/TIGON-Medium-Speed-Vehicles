@@ -101,9 +101,10 @@ function App() {
             <Route path="/vehicles/evolution-d6-max-xt4" component={EvolutionD6MaxXT4} />
             <Route path="/vehicles/evolution-d6-max-xt6" component={EvolutionD6MaxXT6} />
             
-            {/* Dynamic Location Pages (All States and Countries) */}
+            {/* Dynamic Location Pages (All States and Countries) - Must be last before 404 */}
             <Route path="/:slug" component={DynamicLocationPage} />
             
+            {/* 404 Not Found - Must be absolute last */}
             <Route component={NotFound} />
           </Switch>
         </main>
