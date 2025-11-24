@@ -1,3 +1,5 @@
+import { SITE_URL, getAbsoluteUrl } from "@/lib/utils";
+
 interface SchemaMarkupProps {
   schema: object;
 }
@@ -18,10 +20,10 @@ export const generateOrganizationSchema = () => ({
   "name": "TIGON Medium Speed Vehicles",
   "alternateName": "TIGON MSV",
   "description": "Premier medium speed vehicle dealer specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals across North America.",
-  "url": "https://tigonmsv.com",
-  "logo": "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
+  "url": SITE_URL,
+  "logo": getAbsoluteUrl("/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png"),
   "image": [
-    "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png"
+    getAbsoluteUrl("/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png")
   ],
   "telephone": "1-844-844-6638",
   "email": "info@tigonmsv.com",
@@ -79,12 +81,12 @@ export const generateOrganizationSchema = () => ({
 export const generateLocalBusinessSchema = () => ({
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://oceancountygolfcarts.com/#localbusiness",
-  "name": "Ocean County Golf Carts",
-  "description": "Premier golf cart dealer serving all 33 Ocean County municipalities with electric vehicle sales, service, and rentals.",
-  "url": "https://oceancountygolfcarts.com",
+  "@id": `${SITE_URL}/#localbusiness`,
+  "name": "TIGON Medium Speed Vehicles",
+  "description": "Premier medium speed vehicle dealer specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals across North America.",
+  "url": SITE_URL,
   "telephone": "1-844-844-6638",
-  "email": "sales@tigongolfcarts.com",
+  "email": "info@tigonmsv.com",
   "priceRange": "$$$",
   "currenciesAccepted": "USD",
   "paymentAccepted": "Cash, Credit Card, Financing",
@@ -140,21 +142,21 @@ export const generateLocalBusinessSchema = () => ({
 export const generateWebsiteSchema = () => ({
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://oceancountygolfcarts.com/#website",
-  "name": "Ocean County Golf Carts",
-  "description": "Official website for Ocean County Golf Carts - New Jersey's premier electric golf cart dealer",
-  "url": "https://oceancountygolfcarts.com",
+  "@id": `${SITE_URL}/#website`,
+  "name": "TIGON Medium Speed Vehicles",
+  "description": "Official website for TIGON MSV - North America's premier medium speed vehicle dealer",
+  "url": SITE_URL,
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://oceancountygolfcarts.com/inventory?search={search_term_string}"
+      "urlTemplate": `${SITE_URL}/inventory?search={search_term_string}`
     },
     "query-input": "required name=search_term_string"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Ocean County Golf Carts"
+    "name": "TIGON Medium Speed Vehicles"
   }
 });
 
@@ -165,14 +167,14 @@ export const generateBreadcrumbSchema = (items: Array<{name: string, url: string
     "@type": "ListItem",
     "position": index + 1,
     "name": item.name,
-    "item": item.url
+    "item": getAbsoluteUrl(item.url)
   }))
 });
 
 export const generateProductSchema = (vehicle: any) => ({
   "@context": "https://schema.org",
   "@type": "Product",
-  "@id": `https://oceancountygolfcarts.com/vehicles/${vehicle.id}#product`,
+  "@id": getAbsoluteUrl(`/vehicles/${vehicle.id}#product`),
   "name": vehicle.name,
   "description": vehicle.description,
   "brand": {
@@ -180,7 +182,7 @@ export const generateProductSchema = (vehicle: any) => ({
     "name": vehicle.brand
   },
   "category": vehicle.category,
-  "image": vehicle.images?.map((img: string) => `https://oceancountygolfcarts.com${img}`) || [],
+  "image": vehicle.images?.map((img: string) => getAbsoluteUrl(img)) || [],
   "offers": {
     "@type": "Offer",
     "price": vehicle.price,
@@ -188,9 +190,9 @@ export const generateProductSchema = (vehicle: any) => ({
     "availability": vehicle.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
     "seller": {
       "@type": "Organization",
-      "name": "Ocean County Golf Carts"
+      "name": "TIGON Medium Speed Vehicles"
     },
-    "url": `https://oceancountygolfcarts.com/vehicles/${vehicle.id}`
+    "url": getAbsoluteUrl(`/vehicles/${vehicle.id}`)
   },
   "additionalProperty": [
     {
@@ -227,7 +229,7 @@ export const generateServiceSchema = () => ({
   "description": "Comprehensive golf cart sales, service, repair, and rental services in Ocean County, New Jersey",
   "provider": {
     "@type": "LocalBusiness",
-    "name": "Ocean County Golf Carts"
+    "name": "TIGON Medium Speed Vehicles"
   },
   "areaServed": {
     "@type": "State",
@@ -276,45 +278,45 @@ export const generateServiceSchema = () => ({
 export const generateOfferCatalogSchema = (vehicles: any[]) => ({
   "@context": "https://schema.org",
   "@type": "OfferCatalog",
-  "name": "Golf Cart Inventory",
-  "description": "Complete inventory of electric golf carts available for sale",
+  "name": "Medium Speed Vehicle Inventory",
+  "description": "Complete inventory of electric medium speed vehicles available for sale",
   "itemListElement": vehicles.map(vehicle => ({
     "@type": "Offer",
     "itemOffered": {
       "@type": "Product",
       "name": vehicle.name,
       "brand": vehicle.brand,
-      "image": vehicle.images?.[0] ? `https://oceancountygolfcarts.com${vehicle.images[0]}` : undefined
+      "image": vehicle.images?.[0] ? getAbsoluteUrl(vehicle.images[0]) : undefined
     },
     "price": vehicle.price,
     "priceCurrency": "USD",
     "availability": vehicle.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
-    "url": `https://oceancountygolfcarts.com/vehicles/${vehicle.id}`
+    "url": getAbsoluteUrl(`/vehicles/${vehicle.id}`)
   }))
 });
 
 export const generateContactPageSchema = () => ({
   "@context": "https://schema.org",
   "@type": "ContactPage",
-  "name": "Contact Ocean County Golf Carts",
-  "description": "Get in touch with Ocean County Golf Carts for sales, service, rentals, and support",
-  "url": "https://oceancountygolfcarts.com/contact",
+  "name": "Contact TIGON Medium Speed Vehicles",
+  "description": "Get in touch with TIGON MSV for sales, service, rentals, and support",
+  "url": getAbsoluteUrl("/contact"),
   "mainEntity": {
     "@type": "Organization",
-    "name": "Ocean County Golf Carts",
+    "name": "TIGON Medium Speed Vehicles",
     "contactPoint": [
       {
         "@type": "ContactPoint",
         "telephone": "1-844-844-6638",
         "contactType": "customer service",
-        "areaServed": "US",
+        "areaServed": ["US", "CA", "MX"],
         "availableLanguage": "English"
       },
       {
         "@type": "ContactPoint",
-        "email": "sales@tigongolfcarts.com",
+        "email": "info@tigonmsv.com",
         "contactType": "sales",
-        "areaServed": "US"
+        "areaServed": ["US", "CA", "MX"]
       }
     ]
   }
@@ -323,12 +325,12 @@ export const generateContactPageSchema = () => ({
 export const generateTownPageSchema = (townName: string) => ({
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": `Golf Carts in ${townName}`,
-  "description": `Professional golf cart sales, service, and rentals delivered to ${townName}, Pennsylvania, Pennsylvania`,
-  "url": `https://tigonmsv.com/${townName.toLowerCase().replace(/\s+/g, '-')}-golf-carts`,
+  "name": `Medium Speed Vehicles in ${townName}`,
+  "description": `Professional medium speed vehicle sales, service, and rentals delivered to ${townName}, Pennsylvania`,
+  "url": getAbsoluteUrl(`/${townName.toLowerCase().replace(/\s+/g, '-')}-golf-carts`),
   "mainEntity": {
     "@type": "LocalBusiness",
-    "name": "Pennsylvania Golf Carts",
+    "name": "TIGON Medium Speed Vehicles",
     "areaServed": {
       "@type": "City",
       "name": townName,
@@ -349,13 +351,13 @@ export const generateTownPageSchema = (townName: string) => ({
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://tigonmsv.com"
+        "item": SITE_URL
       },
       {
         "@type": "ListItem", 
         "position": 2,
-        "name": `${townName} Golf Carts`,
-        "item": `https://tigonmsv.com/${townName.toLowerCase().replace(/\s+/g, '-')}-golf-carts`
+        "name": `${townName} Medium Speed Vehicles`,
+        "item": getAbsoluteUrl(`/${townName.toLowerCase().replace(/\s+/g, '-')}-golf-carts`)
       }
     ]
   }

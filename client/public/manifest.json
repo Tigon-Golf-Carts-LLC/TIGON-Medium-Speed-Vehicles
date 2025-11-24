@@ -2,23 +2,23 @@
   "name": "TIGON Medium Speed Vehicles",
   "short_name": "TIGON MSV",
   "description": "Nationwide premier medium speed vehicle dealership serving all 50 states, Canada, and Mexico with sales, service, rentals, and financing.",
-  "start_url": "/",
+  "start_url": "https://tigonmsv.com/",
   "display": "standalone",
   "background_color": "#0e2e55",
   "theme_color": "#0e2e55",
   "orientation": "portrait-primary",
   "categories": ["automotive", "business", "shopping"],
   "lang": "en-US",
-  "scope": "/",
+  "scope": "https://tigonmsv.com/",
   "icons": [
     {
-      "src": "/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
+      "src": "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
+      "src": "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -26,7 +26,7 @@
   ],
   "screenshots": [
     {
-      "src": "/attached_assets/image_1753282400827.png",
+      "src": "https://tigonmsv.com/attached_assets/image_1753282400827.png",
       "sizes": "1280x720",
       "type": "image/png",
       "label": "TIGON Medium Speed Vehicles Homepage"
@@ -37,10 +37,10 @@
       "name": "Vehicle Inventory",
       "short_name": "Inventory",
       "description": "Browse our complete medium speed vehicle lineup",
-      "url": "/inventory",
+      "url": "https://tigonmsv.com/inventory",
       "icons": [
         {
-          "src": "/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
+          "src": "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
           "sizes": "96x96"
         }
       ]
@@ -49,10 +49,10 @@
       "name": "Contact Us",
       "short_name": "Contact",
       "description": "Get in touch for sales, service, or rentals",
-      "url": "/contact",
+      "url": "https://tigonmsv.com/contact",
       "icons": [
         {
-          "src": "/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
+          "src": "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
           "sizes": "96x96"
         }
       ]
@@ -61,10 +61,10 @@
       "name": "Service Center",
       "short_name": "Service",
       "description": "Professional medium speed vehicle maintenance and repair",
-      "url": "/services",
+      "url": "https://tigonmsv.com/services",
       "icons": [
         {
-          "src": "/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
+          "src": "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
           "sizes": "96x96"
         }
       ]
@@ -73,10 +73,10 @@
       "name": "Rental Program",
       "short_name": "Rentals",
       "description": "Daily, weekly, and seasonal medium speed vehicle rentals",
-      "url": "/rentals",
+      "url": "https://tigonmsv.com/rentals",
       "icons": [
         {
-          "src": "/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
+          "src": "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
           "sizes": "96x96"
         }
       ]
@@ -91,7 +91,7 @@
     "client_mode": "navigate-existing"
   },
   "share_target": {
-    "action": "/contact",
+    "action": "https://tigonmsv.com/contact",
     "method": "GET",
     "params": {
       "title": "title",
@@ -102,12 +102,12 @@
   "protocol_handlers": [
     {
       "protocol": "mailto",
-      "url": "/contact?email=%s"
+      "url": "https://tigonmsv.com/contact?email=%s"
     }
   ],
   "file_handlers": [
     {
-      "action": "/contact",
+      "action": "https://tigonmsv.com/contact",
       "accept": {
         "text/plain": [".txt"],
         "application/pdf": [".pdf"]

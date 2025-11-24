@@ -1,15 +1,16 @@
-# Bucks County Golf Carts - Replit Project Guide
+# TIGON Medium Speed Vehicles - Replit Project Guide
 
 ## Overview
 
-Bucks County Golf Carts is a full-stack web application for a Pennsylvania-based golf cart dealership. The application serves as both a marketing website and a business management platform, featuring inventory management, customer inquiries, rental systems, and comprehensive service information.
+TIGON Medium Speed Vehicles (TIGON MSV) is a full-stack web application for a nationwide medium speed vehicle dealership. The application serves as both a marketing website and a business management platform, featuring inventory management, customer inquiries, rental systems, and comprehensive service information across all 50 US states, Canada, and Mexico.
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
-Theme Colors: Primary theme color #0e2e55 (dark blue), Orange accent #ff6100 for buttons and highlights.
-SEO Requirements: Complete sitemap.xml with all pages, towns, vehicles, images. Robots.txt allowing all bots and algorithms to crawl and index site.
-Logo: Bucks County Golf Carts logo (Bucks County Golf Carts (3)_1753284044185.png) used as primary logo and favicon across all pages.
+Theme Colors: Primary theme color #0e2e55 (dark blue), Teal/Cyan accent #0087a9 for buttons and highlights.
+SEO Requirements: Complete sitemap.xml with all pages, towns, vehicles, images. Robots.txt allowing all bots and algorithms to crawl and index site. All URLs must use absolute URL format (https://tigonmsv.com/...).
+Logo: TIGON Medium Speed Vehicles logo (TIGON Medium Speed Vehicles_1764003013392.png) used as primary logo and favicon across all pages.
+Contact: Phone 1-844-844-6638, Email info@tigonmsv.com, No physical address in header.
 
 ## System Architecture
 
@@ -39,28 +40,37 @@ Logo: Bucks County Golf Carts logo (Bucks County Golf Carts (3)_1753284044185.pn
 
 ### Core Pages
 1. **Home** (`/`) - Landing page with featured inventory and company overview
-2. **Inventory** (`/inventory`) - Golf cart listings with filtering capabilities
+2. **Inventory** (`/inventory`) - Medium speed vehicle listings with filtering capabilities
 3. **Rentals** (`/rentals`) - Rental packages and pricing information
 4. **Services** (`/services`) - Service offerings and maintenance information
 5. **About** (`/about`) - Company history and team information
 6. **Contact** (`/contact`) - Contact forms and location details
 7. **Financing** (`/financing`) - Financing options and calculators
+8. **Showroom** (`/showroom`) - Physical dealership locations across 9 states with 17 showrooms
 
 ### Shared Components
-- **Navigation** - Responsive header with mobile menu
+- **Navigation** - Responsive header with mobile menu, TIGON MSV branding
 - **Footer** - Company information and quick links
-- **SEO Head** - Dynamic meta tags and structured data
+- **SEO Head** - Dynamic meta tags and structured data with absolute URLs
 - **UI Components** - Comprehensive set of reusable components from shadcn/ui
 - **useScrollToTop Hook** - Global hook for automatic scroll-to-top on page navigation
+- **Schema Markup** - Structured data generators for Organization, Product, LocalBusiness, etc.
 
 ### Business Features
-- **Inventory Management** - Display and categorization of golf carts
+- **Inventory Management** - Display and categorization of medium speed vehicles
 - **Contact System** - Lead capture and customer inquiry management
 - **Rental Calculator** - Dynamic pricing calculation for different rental periods
 - **Financing Calculator** - Payment estimation tools
-- **Brand Showcase** - Featured manufacturer information
+- **Brand Showcase** - Featured manufacturer information (DENAGO, EVOLUTION)
+- **Showroom Locator** - 17 physical locations across 9 states with Google Maps integration
 - **Global Scroll-to-Top** - Automatic page scroll to top on route changes across all devices
-- **SEO Optimization** - Complete sitemap.xml with all pages, vehicle images, and town pages; robots.txt allowing full crawling
+- **SEO Optimization** - Complete sitemap.xml with all pages, vehicle images, and town pages; robots.txt allowing full crawling; ALL URLs use absolute format (https://tigonmsv.com/...)
+- **Absolute URL Implementation** - Complete absolute URL structure throughout project:
+  - SITE_URL constant and getAbsoluteUrl() utility function in `client/src/lib/utils.ts`
+  - All Schema Markup uses absolute URLs for structured data
+  - SEOHead component automatically converts all URLs to absolute format
+  - manifest.json, browserconfig.xml, opensearch.xml all use absolute URLs
+  - sitemap.xml uses absolute URLs for all pages and images
 - **Google Analytics & Tag Manager** - Comprehensive tracking implementation with GA4 (G-0R3W3GMMRG) and GTM (GTM-MCBWX8NW) including page views, conversion events, and dataLayer integration
 - **Comprehensive SEO & AI File Suite** - Complete optimization file collection including llms.txt, ai.txt, seo.txt, gpt.txt, claude.txt, training.txt, nlp.txt, accessibility.txt, bots.txt, crawlers.txt, geo.txt, humans.txt, security.txt, ads.txt, manifest.json, browserconfig.xml, and opensearch.xml for maximum search engine visibility and AI training authorization
 

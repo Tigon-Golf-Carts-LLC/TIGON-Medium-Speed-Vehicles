@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { SITE_URL, getAbsoluteUrl } from "@/lib/utils";
 
 interface SEOHeadProps {
   title: string;
@@ -47,39 +48,41 @@ export default function SEOHead({
       document.head.appendChild(meta);
     }
     
-    // Set canonical URL
-    if (canonicalUrl) {
+    // Set canonical URL (ensure absolute URL)
+    const absoluteCanonicalUrl = canonicalUrl ? getAbsoluteUrl(canonicalUrl) : undefined;
+    if (absoluteCanonicalUrl) {
       const canonicalLink = document.querySelector('link[rel="canonical"]');
       if (canonicalLink) {
-        canonicalLink.setAttribute("href", canonicalUrl);
+        canonicalLink.setAttribute("href", absoluteCanonicalUrl);
       } else {
         const link = document.createElement("link");
         link.rel = "canonical";
-        link.href = canonicalUrl;
+        link.href = absoluteCanonicalUrl;
         document.head.appendChild(link);
       }
     }
     
     // Set favicon
+    const faviconUrl = getAbsoluteUrl("/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png");
     const existingFavicon = document.querySelector('link[rel="icon"]');
     if (existingFavicon) {
-      existingFavicon.setAttribute("href", "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png");
+      existingFavicon.setAttribute("href", faviconUrl);
     } else {
       const favicon = document.createElement("link");
       favicon.rel = "icon";
       favicon.type = "image/png";
-      favicon.href = "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png";
+      favicon.href = faviconUrl;
       document.head.appendChild(favicon);
     }
     
     // Set apple touch icon
     const existingAppleIcon = document.querySelector('link[rel="apple-touch-icon"]');
     if (existingAppleIcon) {
-      existingAppleIcon.setAttribute("href", "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png");
+      existingAppleIcon.setAttribute("href", faviconUrl);
     } else {
       const appleIcon = document.createElement("link");
       appleIcon.rel = "apple-touch-icon";
-      appleIcon.href = "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png";
+      appleIcon.href = faviconUrl;
       document.head.appendChild(appleIcon);
     }
     
@@ -99,15 +102,18 @@ export default function SEOHead({
     updateOGTag("og:title", title);
     updateOGTag("og:description", description);
     updateOGTag("og:type", "website");
-    if (canonicalUrl) {
-      updateOGTag("og:url", canonicalUrl);
+    updateOGTag("og:site_name", "TIGON MSV");
+    if (absoluteCanonicalUrl) {
+      updateOGTag("og:url", absoluteCanonicalUrl);
     }
     
-    // Set Open Graph image (use provided image or fallback to logo)
-    const ogImage = image || "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png";
+    // Set Open Graph image (use provided image or fallback to logo) - ensure absolute URL
+    const defaultLogoUrl = getAbsoluteUrl("/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png");
+    const ogImage = image ? getAbsoluteUrl(image) : defaultLogoUrl;
     updateOGTag("og:image", ogImage);
     updateOGTag("og:image:width", imageWidth.toString());
     updateOGTag("og:image:height", imageHeight.toString());
+    updateOGTag("og:image:alt", title);
     
     // Twitter Card tags
     const updateTwitterTag = (name: string, content: string) => {
@@ -125,10 +131,12 @@ export default function SEOHead({
     updateTwitterTag("twitter:card", "summary_large_image");
     updateTwitterTag("twitter:title", title);
     updateTwitterTag("twitter:description", description);
+    updateTwitterTag("twitter:site", "@tigonmsv");
     
-    // Set Twitter image (use provided image or fallback to logo)
-    const twitterImage = image || "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png";
+    // Set Twitter image (use provided image or fallback to logo) - ensure absolute URL
+    const twitterImage = image ? getAbsoluteUrl(image) : defaultLogoUrl;
     updateTwitterTag("twitter:image", twitterImage);
+    updateTwitterTag("twitter:image:alt", title);
     
     // Structured Data (JSON-LD)
     if (townName) {
@@ -145,9 +153,9 @@ export default function SEOHead({
         },
         "telephone": "1-844-844-6638",
         "email": "info@tigonmsv.com",
-        "url": canonicalUrl,
-        "logo": "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
-        "image": "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
+        "url": absoluteCanonicalUrl,
+        "logo": defaultLogoUrl,
+        "image": defaultLogoUrl,
         "serviceArea": {
           "@type": "GeoCircle",
           "geoMidpoint": {
