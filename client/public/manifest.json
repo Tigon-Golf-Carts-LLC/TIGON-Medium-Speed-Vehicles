@@ -12,13 +12,13 @@
   "scope": "/",
   "icons": [
     {
-      "src": "/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
+      "src": "/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
+      "src": "/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -40,7 +40,7 @@
       "url": "/inventory",
       "icons": [
         {
-          "src": "/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
+          "src": "/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
           "sizes": "96x96"
         }
       ]
@@ -52,7 +52,7 @@
       "url": "/contact",
       "icons": [
         {
-          "src": "/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
+          "src": "/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
           "sizes": "96x96"
         }
       ]
@@ -64,7 +64,7 @@
       "url": "/services",
       "icons": [
         {
-          "src": "/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
+          "src": "/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
           "sizes": "96x96"
         }
       ]
@@ -76,7 +76,7 @@
       "url": "/rentals",
       "icons": [
         {
-          "src": "/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
+          "src": "/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
           "sizes": "96x96"
         }
       ]

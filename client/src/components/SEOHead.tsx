@@ -63,23 +63,23 @@ export default function SEOHead({
     // Set favicon
     const existingFavicon = document.querySelector('link[rel="icon"]');
     if (existingFavicon) {
-      existingFavicon.setAttribute("href", "https://tigonmsv.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png");
+      existingFavicon.setAttribute("href", "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png");
     } else {
       const favicon = document.createElement("link");
       favicon.rel = "icon";
       favicon.type = "image/png";
-      favicon.href = "https://tigonmsv.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png";
+      favicon.href = "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png";
       document.head.appendChild(favicon);
     }
     
     // Set apple touch icon
     const existingAppleIcon = document.querySelector('link[rel="apple-touch-icon"]');
     if (existingAppleIcon) {
-      existingAppleIcon.setAttribute("href", "https://tigonmsv.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png");
+      existingAppleIcon.setAttribute("href", "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png");
     } else {
       const appleIcon = document.createElement("link");
       appleIcon.rel = "apple-touch-icon";
-      appleIcon.href = "https://tigonmsv.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png";
+      appleIcon.href = "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png";
       document.head.appendChild(appleIcon);
     }
     
@@ -104,7 +104,7 @@ export default function SEOHead({
     }
     
     // Set Open Graph image (use provided image or fallback to logo)
-    const ogImage = image || "https://tigonmsv.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png";
+    const ogImage = image || "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png";
     updateOGTag("og:image", ogImage);
     updateOGTag("og:image:width", imageWidth.toString());
     updateOGTag("og:image:height", imageHeight.toString());
@@ -127,7 +127,7 @@ export default function SEOHead({
     updateTwitterTag("twitter:description", description);
     
     // Set Twitter image (use provided image or fallback to logo)
-    const twitterImage = image || "https://tigonmsv.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png";
+    const twitterImage = image || "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png";
     updateTwitterTag("twitter:image", twitterImage);
     
     // Structured Data (JSON-LD)
@@ -146,8 +146,8 @@ export default function SEOHead({
         "telephone": "1-844-844-6638",
         "email": "info@tigonmsv.com",
         "url": canonicalUrl,
-        "logo": "https://tigonmsv.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
-        "image": "https://tigonmsv.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
+        "logo": "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
+        "image": "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
         "serviceArea": {
           "@type": "GeoCircle",
           "geoMidpoint": {

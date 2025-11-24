@@ -3,7 +3,7 @@ import { Link, useLocation } from "wouter";
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import tigonLogo from "@assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png";
+import tigonLogo from "@assets/TIGON Medium Speed Vehicles_1764003013392.png";
 
 export default function Navigation() {
   const [location] = useLocation();

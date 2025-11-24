@@ -112,7 +112,7 @@ export default function ContactPage() {
         title="Contact TIGON Medium Speed Vehicles"
         description="Get in touch with TIGON Medium Speed Vehicles for sales, service, rentals, and support. Call 1-844-844-6638 or fill out our contact form for a quick response."
         canonicalUrl="https://tigonmsv.com/contact"
-        image="/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png"
+        image="/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png"
       />
       
       <div className="max-w-7xl mx-auto px-4 py-8">

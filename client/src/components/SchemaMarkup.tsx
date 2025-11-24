@@ -19,9 +19,9 @@ export const generateOrganizationSchema = () => ({
   "alternateName": "TIGON MSV",
   "description": "Premier medium speed vehicle dealer specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals across North America.",
   "url": "https://tigonmsv.com",
-  "logo": "https://tigonmsv.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png",
+  "logo": "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
   "image": [
-    "https://tigonmsv.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png"
+    "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png"
   ],
   "telephone": "1-844-844-6638",
   "email": "info@tigonmsv.com",

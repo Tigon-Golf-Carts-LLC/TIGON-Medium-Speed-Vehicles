@@ -57,7 +57,7 @@ export default function LocationPage({ location }: LocationPageProps) {
         description={seoDescription}
         keywords={`medium speed vehicles, MSV, ${name}, TIGON, electric vehicles, ${type === 'state' ? 'state' : 'country'}`}
         canonicalUrl={`https://tigonmsv.com/${slug}`}
-        image="https://tigonmsv.com/attached_assets/TIGON - MEDIUM SPEED VEHICLE_1763145320465.png"
+        image="https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png"
       />
 
       {/* Hero Section */}
