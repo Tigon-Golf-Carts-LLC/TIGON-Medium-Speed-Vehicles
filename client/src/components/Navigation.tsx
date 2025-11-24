@@ -41,7 +41,7 @@ export default function Navigation() {
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="text-xl font-bold text-theme-primary">TIGON MSV</div>
+                <div className="text-xl font-bold" style={{ color: '#0087a9' }}>TIGON MSV</div>
               </div>
             </Link>
           </div>
