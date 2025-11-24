@@ -14,7 +14,7 @@ export function usePageTracking() {
 
   useEffect(() => {
     if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('config', 'G-0R3W3GMMRG', {
+      window.gtag('config', 'G-VY8MBD2Y75', {
         page_path: location,
       });
     }
