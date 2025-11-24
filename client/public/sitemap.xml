@@ -46,12 +46,21 @@
     <loc>https://tigonmsv.com/financing</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
+    <lastmod>2025-01-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tigonmsv.com/showroom</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2025-01-24</lastmod>
   </url>
   
   <url>
     <loc>https://tigonmsv.com/policies</loc>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
+    <lastmod>2025-01-24</lastmod>
   </url>
   
   <!-- Brand Pages -->
