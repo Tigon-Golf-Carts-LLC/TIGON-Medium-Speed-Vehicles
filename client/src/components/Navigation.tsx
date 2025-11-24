@@ -41,8 +41,7 @@ export default function Navigation() {
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="text-lg font-bold text-theme-primary">TIGON</div>
-                <div className="text-lg font-bold text-theme-primary -mt-1">MEDIUM SPEED VEHICLES</div>
+                <div className="text-xl font-bold text-theme-primary">TIGON MSV</div>
               </div>
             </Link>
           </div>
