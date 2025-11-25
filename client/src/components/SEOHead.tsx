@@ -62,8 +62,8 @@ export default function SEOHead({
       }
     }
     
-    // Set favicon
-    const faviconUrl = getAbsoluteUrl("/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png");
+    // Set favicon - Using absolute URL for Google Search compatibility
+    const faviconUrl = getAbsoluteUrl("/favicon.png");
     const existingFavicon = document.querySelector('link[rel="icon"]');
     if (existingFavicon) {
       existingFavicon.setAttribute("href", faviconUrl);
@@ -76,13 +76,14 @@ export default function SEOHead({
     }
     
     // Set apple touch icon
+    const appleIconUrl = getAbsoluteUrl("/apple-touch-icon.png");
     const existingAppleIcon = document.querySelector('link[rel="apple-touch-icon"]');
     if (existingAppleIcon) {
-      existingAppleIcon.setAttribute("href", faviconUrl);
+      existingAppleIcon.setAttribute("href", appleIconUrl);
     } else {
       const appleIcon = document.createElement("link");
       appleIcon.rel = "apple-touch-icon";
-      appleIcon.href = faviconUrl;
+      appleIcon.href = appleIconUrl;
       document.head.appendChild(appleIcon);
     }
     

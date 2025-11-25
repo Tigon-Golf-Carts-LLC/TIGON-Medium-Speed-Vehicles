@@ -12,13 +12,37 @@
   "scope": "https://tigonmsv.com/",
   "icons": [
     {
-      "src": "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
+      "src": "https://tigonmsv.com/favicon.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://tigonmsv.com/favicon.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://tigonmsv.com/favicon.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://tigonmsv.com/favicon.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://tigonmsv.com/favicon.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png",
+      "src": "https://tigonmsv.com/logo.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

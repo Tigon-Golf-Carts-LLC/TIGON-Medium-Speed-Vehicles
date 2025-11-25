@@ -5,7 +5,7 @@
   <Description>Search medium speed vehicles, parts, and services nationwide - serving all 50 states, Canada, and Mexico</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <OutputEncoding>UTF-8</OutputEncoding>
-  <Image width="16" height="16" type="image/png">https://tigonmsv.com/attached_assets/TIGON Medium Speed Vehicles_1764003013392.png</Image>
+  <Image width="16" height="16" type="image/png">https://tigonmsv.com/favicon.png</Image>
   <Url type="text/html" method="get" template="https://tigonmsv.com/search?q={searchTerms}"/>
   <Url type="application/x-suggestions+json" method="get" template="https://tigonmsv.com/api/suggestions?q={searchTerms}"/>
   <Url type="application/opensearchdescription+xml" rel="self" template="https://tigonmsv.com/opensearch.xml"/>
