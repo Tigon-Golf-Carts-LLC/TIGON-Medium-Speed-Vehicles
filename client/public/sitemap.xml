@@ -76,17 +76,7 @@
     <changefreq>weekly</changefreq>
   </url>
   
-  <!-- Vehicle Detail Pages -->
-  <url>
-    <loc>https://tigonmsv.com/vehicles/denago-ev-city</loc>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-    <image:image>
-      <image:loc>https://tigonmsv.com/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg</image:loc>
-      <image:title>Denago EV City Medium Speed Vehicle</image:title>
-    </image:image>
-  </url>
-  
+  <!-- DENAGO Vehicle Detail Pages (5 models) -->
   <url>
     <loc>https://tigonmsv.com/vehicles/denago-ev-nomad</loc>
     <priority>0.8</priority>
@@ -137,6 +127,7 @@
     </image:image>
   </url>
   
+  <!-- EVOLUTION Vehicle Detail Pages (30 models) -->
   <url>
     <loc>https://tigonmsv.com/vehicles/evolution-carrier-6-plus</loc>
     <priority>0.8</priority>
@@ -324,6 +315,116 @@
     <image:image>
       <image:loc>https://tigonmsv.com/attached_assets/EVOLUTIOND5RANGER6PLUS_1751893159004_1753135350619.jpg</image:loc>
       <image:title>Evolution D5 Ranger 6 Plus Medium Speed Vehicle</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://tigonmsv.com/vehicles/evolution-d5-ranger-4-2-plus</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://tigonmsv.com/attached_assets/EVOLUTIOND5RANGER4%2B2PLUS_1751893115782_1753135350622.jpg</image:loc>
+      <image:title>Evolution D5 Ranger 4+2 Plus Medium Speed Vehicle</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://tigonmsv.com/vehicles/evolution-d6-max-gt4</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://tigonmsv.com/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350623.jpg</image:loc>
+      <image:title>Evolution D6-MAX GT4 Medium Speed Vehicle</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://tigonmsv.com/vehicles/evolution-d6-max-gt6</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://tigonmsv.com/attached_assets/EVOLUTIOND6MAXGT6_1751893159004_1753135350623.jpg</image:loc>
+      <image:title>Evolution D6-MAX GT6 Medium Speed Vehicle</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://tigonmsv.com/vehicles/evolution-d6-max-xt4</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://tigonmsv.com/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135350623.jpg</image:loc>
+      <image:title>Evolution D6-MAX XT4 Medium Speed Vehicle</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://tigonmsv.com/vehicles/evolution-d6-max-xt6</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://tigonmsv.com/attached_assets/EVOLUTIOND6MAXXT6_1751893159005_1753135350623.jpg</image:loc>
+      <image:title>Evolution D6-MAX XT6 Medium Speed Vehicle</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://tigonmsv.com/vehicles/evolution-forester-4</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://tigonmsv.com/attached_assets/EVOLUTIONFORESTER4_1751893159005_1753135350620.jpg</image:loc>
+      <image:title>Evolution Forester 4 Medium Speed Vehicle</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://tigonmsv.com/vehicles/evolution-forester-4-plus</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://tigonmsv.com/attached_assets/EVOLUTIONFORESTER4PLUS_1751893159005_1753135350620.jpg</image:loc>
+      <image:title>Evolution Forester 4 Plus Medium Speed Vehicle</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://tigonmsv.com/vehicles/evolution-forester-6-plus</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://tigonmsv.com/attached_assets/EVOLUTIONFORESTER6PLUS_1751893159005_1753135350620.jpg</image:loc>
+      <image:title>Evolution Forester 6 Plus Medium Speed Vehicle</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://tigonmsv.com/vehicles/evolution-turman-200-plus</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://tigonmsv.com/attached_assets/EVOLUTIONTURMAN200PLUS_1751893159006_1753135350620.jpg</image:loc>
+      <image:title>Evolution TURMAN 200 PLUS Medium Speed Vehicle</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://tigonmsv.com/vehicles/evolution-turman-800-plus</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://tigonmsv.com/attached_assets/EVOLUTIONTURMAN800PLUS_1751893159006_1753135350621.jpg</image:loc>
+      <image:title>Evolution TURMAN 800 PLUS Medium Speed Vehicle</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://tigonmsv.com/vehicles/evolution-turman-1000-plus</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://tigonmsv.com/attached_assets/EVOLUTIONTURMAN1000PLUS_1751893159006_1753135350621.jpg</image:loc>
+      <image:title>Evolution TURMAN 1000 PLUS Medium Speed Vehicle</image:title>
     </image:image>
   </url>
   

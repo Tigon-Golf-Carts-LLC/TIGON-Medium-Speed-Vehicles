@@ -102,6 +102,26 @@ export const vehicleData: Vehicle[] = [
     isNew: true
   },
   {
+    id: "evolution-forester-4",
+    name: "Evolution Forester 4",
+    brand: "EVOLUTION",
+    category: "Utility Series",
+    price: 12495,
+    description: "Reliable utility golf cart with standard features and rugged construction for work applications.",
+    images: ["/attached_assets/EVOLUTIONFORESTER4_1751893159005_1753135437836.jpg"],
+    specifications: {
+      topSpeed: "25 mph",
+      range: "30-40 miles",
+      seatingCapacity: 4,
+      batteryType: "Lead Acid",
+      chargingTime: "8-10 hours",
+      payload: "1000 lbs"
+    },
+    features: ["Utility Bed", "Work Ready", "Rugged Construction", "Standard Features"],
+    inStock: true,
+    isNew: true
+  },
+  {
     id: "evolution-forester-4-plus",
     name: "Evolution Forester 4 Plus",
     brand: "EVOLUTION",
@@ -521,6 +541,26 @@ export const vehicleData: Vehicle[] = [
       payload: "900 lbs"
     },
     features: ["2+2 Configuration", "Ranger Performance", "Flexible Seating", "Premium Build"],
+    inStock: true,
+    isNew: true
+  },
+  {
+    id: "evolution-d5-ranger-2-2-plus",
+    name: "Evolution D5 Ranger 2+2 Plus",
+    brand: "EVOLUTION",
+    category: "Ranger Series",
+    price: 13995,
+    description: "Premium Ranger with 2+2 seating configuration featuring enhanced features and extended range.",
+    images: ["/attached_assets/EVOLUTIOND5RANGER2+2PLUS_1751893115782_1753135350622.jpg"],
+    specifications: {
+      topSpeed: "25 mph",
+      range: "40-50 miles",
+      seatingCapacity: 4,
+      batteryType: "Lithium Ion",
+      chargingTime: "6-8 hours",
+      payload: "900 lbs"
+    },
+    features: ["2+2 Plus Configuration", "Enhanced Performance", "Extended Range", "Premium Features"],
     inStock: true,
     isNew: true
   },

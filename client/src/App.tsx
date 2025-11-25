@@ -53,6 +53,7 @@ import EvolutionD5Ranger4Plus from "@/pages/vehicles/EvolutionD5Ranger4Plus";
 import EvolutionD5Ranger42Plus from "@/pages/vehicles/EvolutionD5Ranger42Plus";
 import EvolutionD5Ranger6 from "@/pages/vehicles/EvolutionD5Ranger6";
 import EvolutionD5Ranger6Plus from "@/pages/vehicles/EvolutionD5Ranger6Plus";
+import EvolutionForester4 from "@/pages/vehicles/EvolutionForester4";
 import EvolutionForester4Plus from "@/pages/vehicles/EvolutionForester4Plus";
 import EvolutionForester6Plus from "@/pages/vehicles/EvolutionForester6Plus";
 import EvolutionTurman200Plus from "@/pages/vehicles/EvolutionTurman200Plus";
@@ -120,6 +121,7 @@ function App() {
             <Route path="/vehicles/evolution-d5-ranger-4-2-plus" component={EvolutionD5Ranger42Plus} />
             <Route path="/vehicles/evolution-d5-ranger-6" component={EvolutionD5Ranger6} />
             <Route path="/vehicles/evolution-d5-ranger-6-plus" component={EvolutionD5Ranger6Plus} />
+            <Route path="/vehicles/evolution-forester-4" component={EvolutionForester4} />
             <Route path="/vehicles/evolution-forester-4-plus" component={EvolutionForester4Plus} />
             <Route path="/vehicles/evolution-forester-6-plus" component={EvolutionForester6Plus} />
             <Route path="/vehicles/evolution-turman-200-plus" component={EvolutionTurman200Plus} />
