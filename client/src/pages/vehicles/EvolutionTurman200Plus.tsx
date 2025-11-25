@@ -6,14 +6,14 @@ import { Zap, Shield, Settings, Award, Phone, MapPin, Clock, Users, Battery, Gau
 import SEOHead from "@/components/SEOHead";
 import vehicleImage from "@assets/EVOLUTIONTURFMAN200_1751893159006_1753135437837.jpg";
 
-export default function EvolutionTurfman200() {
+export default function EvolutionTurman200Plus() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION TURFMAN 200 Medium Speed Vehicle"
+        title="EVOLUTION TURMAN 200 PLUS Medium Speed Vehicle"
         description="Compact commercial utility vehicle for light-duty maintenance and landscaping work. Entry-level commercial solution. Call 1-844-844-6638."
-        keywords="EVOLUTION TURFMAN 200, compact commercial vehicle, light-duty maintenance, landscaping cart, entry-level commercial, EVOLUTION dealer nationwide"
-        canonicalUrl="https://tigonmsv.com/vehicles/evolution-turfman-200"
+        keywords="EVOLUTION TURMAN 200 PLUS, compact commercial vehicle, light-duty maintenance, landscaping cart, entry-level commercial, EVOLUTION dealer nationwide"
+        canonicalUrl="https://tigonmsv.com/vehicles/evolution-turman-200-plus"
         image="/attached_assets/EVOLUTIONTURFMAN200_1751893159006_1753135437837.jpg"
       />
       
@@ -27,7 +27,7 @@ export default function EvolutionTurfman200() {
               <span>→</span>
               <a href="/evolution" className="text-theme-primary hover:text-blue-800">EVOLUTION</a>
               <span>→</span>
-              <span className="drop-shadow-lg">Turfman 200</span>
+              <span className="drop-shadow-lg">TURMAN 200 PLUS</span>
             </div>
           </div>
         </nav>
@@ -45,11 +45,11 @@ export default function EvolutionTurfman200() {
               <div className="order-2 lg:order-1 text-white">
                 <div className="mb-4">
                   <Badge className="bg-theme-orange text-white px-4 py-2 text-sm font-semibold shadow-lg">
-                    EVOLUTION® TURFMAN
+                    EVOLUTION® TURMAN
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 drop-shadow-lg">
-                  Turfman 200
+                  TURMAN 200 PLUS
                 </h1>
                 <p className="text-xl drop-shadow-md mb-8 leading-relaxed">
                   Compact commercial utility vehicle for light-duty maintenance and landscaping work. Entry-level commercial solution with reliable performance.
@@ -230,7 +230,7 @@ export default function EvolutionTurfman200() {
               Compact Commercial, Professional Performance
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact TIGON Medium Speed Vehicles today for your EVOLUTION Turfman 200.
+              Contact TIGON Medium Speed Vehicles today for your EVOLUTION TURMAN 200 PLUS.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

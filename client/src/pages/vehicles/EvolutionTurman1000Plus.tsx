@@ -6,14 +6,14 @@ import { ArrowLeft, Zap, Shield, Settings, Award, Phone, MapPin, Clock, Users, B
 import SEOHead from "@/components/SEOHead";
 import turfmanImage from "@assets/EVOLUTIONTURFMAN1000_1751893159006_1753135437836.jpg";
 
-export default function EvolutionTurfman1000() {
+export default function EvolutionTurman1000Plus() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION TURFMAN 1000 Medium Speed Vehicle"
+        title="EVOLUTION TURMAN 1000 PLUS Medium Speed Vehicle"
         description="Professional commercial utility vehicle for landscaping and maintenance work. Heavy-duty build with 1,000 lbs payload and superior durability. Call 1-844-844-6638."
-        keywords="EVOLUTION TURFMAN 1000, commercial utility vehicle, landscaping cart, maintenance vehicle, EVOLUTION dealer nationwide"
-        canonicalUrl="https://tigonmsv.com/vehicles/evolution-turfman-1000"
+        keywords="EVOLUTION TURMAN 1000 PLUS, commercial utility vehicle, landscaping cart, maintenance vehicle, EVOLUTION dealer nationwide"
+        canonicalUrl="https://tigonmsv.com/vehicles/evolution-turman-1000-plus"
         image="/attached_assets/EVOLUTIONTURFMAN1000_1751893159006_1753135437836.jpg"
       />
       
@@ -28,7 +28,7 @@ export default function EvolutionTurfman1000() {
               <span>→</span>
               <a href="/evolution" className="text-theme-primary hover:text-blue-800">EVOLUTION</a>
               <span>→</span>
-              <span className="drop-shadow-lg">TURFMAN 1000</span>
+              <span className="drop-shadow-lg">TURMAN 1000 PLUS</span>
             </div>
           </div>
         </nav>
@@ -51,10 +51,10 @@ export default function EvolutionTurfman1000() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 drop-shadow-lg">
-                  TURFMAN 1000
+                  TURMAN 1000 PLUS
                 </h1>
                 <p className="text-xl drop-shadow-md mb-8 leading-relaxed">
-                  Discover the EVOLUTION® TURFMAN 1000 lineup and its unique features. Built for commercial applications with superior durability and heavy-duty performance.
+                  Discover the EVOLUTION® TURMAN 1000 PLUS lineup and its unique features. Built for commercial applications with superior durability and heavy-duty performance.
                 </p>
                 
                 {/* Key Features Grid */}
@@ -96,7 +96,7 @@ export default function EvolutionTurfman1000() {
                 <div className="relative">
                   <img 
                     src={turfmanImage} 
-                    alt="EVOLUTION® TURFMAN 1000 - Commercial utility vehicle" 
+                    alt="EVOLUTION® TURMAN 1000 PLUS - Commercial utility vehicle" 
                     className="w-full h-auto rounded-2xl shadow-2xl drop-shadow-2xl"
                   />
                 </div>
@@ -247,7 +247,7 @@ export default function EvolutionTurfman1000() {
         <section className="py-16 px-4 bg-theme-primary text-white">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-6">
-              Ready to Experience the EVOLUTION® TURFMAN 1000?
+              Ready to Experience the EVOLUTION® TURMAN 1000 PLUS?
             </h2>
             <p className="text-xl mb-8">
               Contact TIGON Medium Speed Vehicles today for commercial pricing, availability, and to schedule a demonstration.

@@ -42,26 +42,6 @@ export const vehicleData: Vehicle[] = [
     isNew: true
   },
   {
-    id: "denago-ev-city",
-    name: "Denago EV City",
-    brand: "DENAGO",
-    category: "Urban Series",
-    price: 11995,
-    description: "Urban mobility solution with street-legal capabilities and modern design for city transportation.",
-    images: ["/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg"],
-    specifications: {
-      topSpeed: "25 mph",
-      range: "40-50 miles",
-      seatingCapacity: 4,
-      batteryType: "Lithium Ion",
-      chargingTime: "6-8 hours",
-      payload: "900 lbs"
-    },
-    features: ["Street Legal", "DOT Approved", "Modern Design", "City Ready"],
-    inStock: true,
-    isNew: true
-  },
-  {
     id: "evolution-d5-maverick-6-plus",
     name: "Evolution D5 Maverick 6 Plus",
     brand: "EVOLUTION",
@@ -142,8 +122,8 @@ export const vehicleData: Vehicle[] = [
     isNew: true
   },
   {
-    id: "evolution-turfman-1000",
-    name: "Evolution Turfman 1000", 
+    id: "evolution-turman-1000-plus",
+    name: "Evolution Turman 1000 Plus", 
     brand: "EVOLUTION",
     category: "Commercial Series",
     price: 15995,
@@ -645,8 +625,8 @@ export const vehicleData: Vehicle[] = [
     isNew: true
   },
   {
-    id: "evolution-turfman-200",
-    name: "Evolution Turfman 200",
+    id: "evolution-turman-200-plus",
+    name: "Evolution Turman 200 Plus",
     brand: "EVOLUTION",
     category: "Commercial Series",
     price: 12995,
@@ -665,8 +645,8 @@ export const vehicleData: Vehicle[] = [
     isNew: true
   },
   {
-    id: "evolution-turfman-800",
-    name: "Evolution Turfman 800",
+    id: "evolution-turman-800-plus",
+    name: "Evolution Turman 800 Plus",
     brand: "EVOLUTION",
     category: "Commercial Series",
     price: 14995,
