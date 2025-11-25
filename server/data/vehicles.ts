@@ -443,5 +443,245 @@ export const vehicleData: Vehicle[] = [
     features: ["Extreme Terrain", "6-Passenger", "Adventure Ready", "Maximum Capability"],
     inStock: true,
     isNew: true
+  },
+  {
+    id: "evolution-classic-4-pro",
+    name: "Evolution Classic 4 Pro",
+    brand: "EVOLUTION",
+    category: "Classic Series",
+    price: 13995,
+    description: "Professional grade 4-passenger classic with enhanced performance features and premium appointments.",
+    images: ["/attached_assets/EVOLUTIONCLASSIC4PRO_1751893115780_1753135231314.jpg"],
+    specifications: {
+      topSpeed: "19 mph",
+      range: "40-50 miles",
+      seatingCapacity: 4,
+      batteryType: "Enhanced Deep Cycle",
+      chargingTime: "8-10 hours",
+      payload: "900 lbs"
+    },
+    features: ["Professional Grade", "Enhanced Performance", "Premium Features", "Classic Styling"],
+    inStock: true,
+    isNew: true
+  },
+  {
+    id: "evolution-d5-maverick-2-2",
+    name: "Evolution D5 Maverick 2+2",
+    brand: "EVOLUTION",
+    category: "Maverick Series",
+    price: 11495,
+    description: "Versatile 2+2 configuration for flexible passenger and cargo arrangements.",
+    images: ["/attached_assets/EVOLUTIOND5MAVERICK2+2_1751893115780_1753135231312.jpg"],
+    specifications: {
+      topSpeed: "25 mph",
+      range: "30-40 miles",
+      seatingCapacity: 4,
+      batteryType: "Lead Acid",
+      chargingTime: "8-10 hours",
+      payload: "800 lbs"
+    },
+    features: ["2+2 Configuration", "Flexible Seating", "Cargo Versatility", "Compact Design"],
+    inStock: true,
+    isNew: true
+  },
+  {
+    id: "evolution-d5-maverick-2-2-plus",
+    name: "Evolution D5 Maverick 2+2 Plus",
+    brand: "EVOLUTION",
+    category: "Maverick Series",
+    price: 12495,
+    description: "Premium 2+2 configuration with enhanced features and extended range capability.",
+    images: ["/attached_assets/EVOLUTIOND5MAVERICK2+2PLUS_1751893115780_1753135231312.jpg"],
+    specifications: {
+      topSpeed: "25 mph",
+      range: "35-45 miles",
+      seatingCapacity: 4,
+      batteryType: "Lithium Ion",
+      chargingTime: "6-8 hours",
+      payload: "800 lbs"
+    },
+    features: ["Premium 2+2", "Extended Range", "Enhanced Features", "Lithium Power"],
+    inStock: true,
+    isNew: true
+  },
+  {
+    id: "evolution-d5-maverick-4-2-plus",
+    name: "Evolution D5 Maverick 4+2 Plus",
+    brand: "EVOLUTION",
+    category: "Maverick Series",
+    price: 14495,
+    description: "Premium 4+2 configuration offering 6 passengers with flexible rear seating options.",
+    images: ["/attached_assets/EVOLUTIOND5MAVERICK4+2PLUS_1751893115780_1753135231312.jpg"],
+    specifications: {
+      topSpeed: "25 mph",
+      range: "35-45 miles",
+      seatingCapacity: 6,
+      batteryType: "Lithium Ion",
+      chargingTime: "6-8 hours",
+      payload: "1000 lbs"
+    },
+    features: ["4+2 Configuration", "Flexible Seating", "Extended Range", "Premium Features"],
+    inStock: true,
+    isNew: true
+  },
+  {
+    id: "evolution-d5-ranger-2-2",
+    name: "Evolution D5 Ranger 2+2",
+    brand: "EVOLUTION",
+    category: "Ranger Series",
+    price: 12995,
+    description: "Versatile Ranger with 2+2 seating configuration for flexible passenger arrangements.",
+    images: ["/attached_assets/EVOLUTIOND5RANGER2+2_1751893115781_1753135350622.jpg"],
+    specifications: {
+      topSpeed: "25 mph",
+      range: "35-45 miles",
+      seatingCapacity: 4,
+      batteryType: "Lithium Ion",
+      chargingTime: "6-8 hours",
+      payload: "900 lbs"
+    },
+    features: ["2+2 Configuration", "Ranger Performance", "Flexible Seating", "Premium Build"],
+    inStock: true,
+    isNew: true
+  },
+  {
+    id: "evolution-d5-ranger-4",
+    name: "Evolution D5 Ranger 4",
+    brand: "EVOLUTION",
+    category: "Ranger Series",
+    price: 12495,
+    description: "Standard 4-passenger Ranger with reliable performance and essential features.",
+    images: ["/attached_assets/EVOLUTIOND5RANGER4_1751893115782_1753135350622.jpg"],
+    specifications: {
+      topSpeed: "25 mph",
+      range: "30-40 miles",
+      seatingCapacity: 4,
+      batteryType: "Lead Acid",
+      chargingTime: "8-10 hours",
+      payload: "800 lbs"
+    },
+    features: ["Standard Features", "Reliable Performance", "4-Passenger", "Proven Design"],
+    inStock: true,
+    isNew: true
+  },
+  {
+    id: "evolution-d5-ranger-4-2-plus",
+    name: "Evolution D5 Ranger 4+2 Plus",
+    brand: "EVOLUTION",
+    category: "Ranger Series",
+    price: 15495,
+    description: "Premium 4+2 Ranger configuration with 6-passenger capacity and advanced features.",
+    images: ["/attached_assets/EVOLUTIOND5RANGER4+2PLUS(9)_1751893115782_1753135350622.jpg"],
+    specifications: {
+      topSpeed: "25 mph",
+      range: "40-50 miles",
+      seatingCapacity: 6,
+      batteryType: "Lithium Ion",
+      chargingTime: "6-8 hours",
+      payload: "1100 lbs"
+    },
+    features: ["4+2 Configuration", "Premium Features", "Extended Range", "6-Passenger"],
+    inStock: true,
+    isNew: true
+  },
+  {
+    id: "evolution-d5-ranger-4-plus",
+    name: "Evolution D5 Ranger 4 Plus",
+    brand: "EVOLUTION",
+    category: "Ranger Series",
+    price: 13995,
+    description: "Premium 4-passenger Ranger with enhanced features and superior performance.",
+    images: ["/attached_assets/EVOLUTIOND5RANGER4PLUS_1751893115782_1753135350622.jpg"],
+    specifications: {
+      topSpeed: "25 mph",
+      range: "35-45 miles",
+      seatingCapacity: 4,
+      batteryType: "Lithium Ion",
+      chargingTime: "6-8 hours",
+      payload: "900 lbs"
+    },
+    features: ["Premium Features", "Enhanced Performance", "4-Passenger", "Extended Range"],
+    inStock: true,
+    isNew: true
+  },
+  {
+    id: "evolution-d5-ranger-6",
+    name: "Evolution D5 Ranger 6",
+    brand: "EVOLUTION",
+    category: "Ranger Series",
+    price: 14495,
+    description: "Standard 6-passenger Ranger perfect for larger groups and family transportation.",
+    images: ["/attached_assets/EVOLUTIOND5RANGER6_1751893159004_1753135350623.jpg"],
+    specifications: {
+      topSpeed: "25 mph",
+      range: "30-40 miles",
+      seatingCapacity: 6,
+      batteryType: "Lead Acid",
+      chargingTime: "8-10 hours",
+      payload: "1100 lbs"
+    },
+    features: ["6-Passenger", "Group Ready", "Reliable Performance", "Family Transportation"],
+    inStock: true,
+    isNew: true
+  },
+  {
+    id: "evolution-forester-6-plus",
+    name: "Evolution Forester 6 Plus",
+    brand: "EVOLUTION",
+    category: "Utility Series",
+    price: 15995,
+    description: "Premium 6-passenger utility vehicle with heavy-duty features for work and recreation.",
+    images: ["/attached_assets/EVOLUTIONFORESTER6PLUS_1751893159005_1753135437837.jpg"],
+    specifications: {
+      topSpeed: "25 mph",
+      range: "35-50 miles",
+      seatingCapacity: 6,
+      batteryType: "Deep Cycle",
+      chargingTime: "6-8 hours",
+      payload: "1400 lbs"
+    },
+    features: ["6-Passenger", "Heavy Duty", "Utility Features", "Work Ready"],
+    inStock: true,
+    isNew: true
+  },
+  {
+    id: "evolution-turfman-200",
+    name: "Evolution Turfman 200",
+    brand: "EVOLUTION",
+    category: "Commercial Series",
+    price: 12995,
+    description: "Compact commercial utility vehicle for light-duty maintenance and landscaping work.",
+    images: ["/attached_assets/EVOLUTIONTURFMAN200_1751893159006_1753135437837.jpg"],
+    specifications: {
+      topSpeed: "15 mph",
+      range: "35-50 miles",
+      seatingCapacity: 2,
+      batteryType: "Commercial Grade",
+      chargingTime: "6-8 hours",
+      payload: "200 lbs"
+    },
+    features: ["Compact Design", "Light Duty", "Commercial Grade", "Maintenance Ready"],
+    inStock: true,
+    isNew: true
+  },
+  {
+    id: "evolution-turfman-800",
+    name: "Evolution Turfman 800",
+    brand: "EVOLUTION",
+    category: "Commercial Series",
+    price: 14995,
+    description: "Mid-range commercial utility vehicle with versatile payload capacity for various work applications.",
+    images: ["/attached_assets/EVOLUTIONTURFMAN800_1751893159006_1753135437836.jpg"],
+    specifications: {
+      topSpeed: "15 mph",
+      range: "40-55 miles",
+      seatingCapacity: 2,
+      batteryType: "Commercial Grade",
+      chargingTime: "8-10 hours",
+      payload: "800 lbs"
+    },
+    features: ["Mid-Range Capacity", "Versatile Payload", "Commercial Grade", "Professional Use"],
+    inStock: true,
+    isNew: true
   }
 ];
