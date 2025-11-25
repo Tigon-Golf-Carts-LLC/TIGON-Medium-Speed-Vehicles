@@ -10,9 +10,9 @@ export default function EvolutionClassic2Pro() {
   return (
     <>
       <SEOHead 
-        title="Classic 2 Pro"
+        title="EVOLUTION CLASSIC 2 PRO Medium Speed Vehicle"
         description="Enhanced features and performance define this professional grade 2-passenger medium speed vehicle with premium reliability. Call 1-844-844-6638."
-        keywords="EVOLUTION Classic 2 Pro, professional medium speed vehicle, 2-passenger, enhanced performance, EVOLUTION dealer nationwide PA"
+        keywords="EVOLUTION CLASSIC 2 PRO, professional medium speed vehicle, 2-passenger, enhanced performance, EVOLUTION dealer nationwide"
         canonicalUrl="https://tigonmsv.com/vehicles/evolution-classic-2-pro"
         image="/attached_assets/EVOLUTIONCLASSIC2PRO_1751893115779_1753135231314.jpg"
       />

@@ -10,9 +10,9 @@ export default function EvolutionClassic4Plus() {
   return (
     <>
       <SEOHead 
-        title="CLASSIC 4 PLUS"
+        title="EVOLUTION CLASSIC 4 PLUS Medium Speed Vehicle"
         description="Experience timeless design with modern electric performance. Classic styling meets contemporary technology and comfort for premium medium speed vehicle experience. Call 1-844-844-6638."
-        keywords="EVOLUTION CLASSIC 4 PLUS, classic medium speed vehicle, premium electric vehicle, traditional styling, EVOLUTION dealer nationwide PA"
+        keywords="EVOLUTION CLASSIC 4 PLUS, classic medium speed vehicle, premium electric vehicle, traditional styling, EVOLUTION dealer nationwide"
         canonicalUrl="https://tigonmsv.com/vehicles/evolution-classic-4-plus"
         image="/attached_assets/EVOLUTIONCLASSIC4PLUS_1751893115779_1753135231314.jpg"
       />

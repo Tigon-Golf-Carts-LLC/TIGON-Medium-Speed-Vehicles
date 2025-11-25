@@ -10,9 +10,9 @@ export default function EvolutionClassic2Plus() {
   return (
     <>
       <SEOHead 
-        title="Classic 2 Plus"
-        description="Timeless design and reliable performance in this perfect compact 2-passenger medium speed vehicle for traditional golf. Call 1-844-844-6638."
-        keywords="EVOLUTION Classic 2 Plus, 2-passenger medium speed vehicle, compact medium speed vehicle, traditional design, EVOLUTION dealer nationwide PA"
+        title="EVOLUTION CLASSIC 2 PLUS Medium Speed Vehicle"
+        description="Timeless design and reliable performance in this perfect compact 2-passenger medium speed vehicle for traditional use. Call 1-844-844-6638."
+        keywords="EVOLUTION CLASSIC 2 PLUS, 2-passenger medium speed vehicle, compact medium speed vehicle, traditional design, EVOLUTION dealer nationwide"
         canonicalUrl="https://tigonmsv.com/vehicles/evolution-classic-2-plus"
         image="/attached_assets/EVOLUTIONCLASSIC2PLUS_1751893115779_1753135231314.jpg"
       />

@@ -10,9 +10,9 @@ export default function EvolutionForester4Plus() {
   return (
     <>
       <SEOHead 
-        title="FORESTER 4 PLUS"
+        title="EVOLUTION FORESTER 4 PLUS Medium Speed Vehicle"
         description="Premium electric utility vehicle designed for rugged terrain and heavy-duty work. Built for utility work with rugged construction and reliable electric power. Call 1-844-844-6638."
-        keywords="EVOLUTION FORESTER 4 PLUS, utility medium speed vehicle, electric utility vehicle, work cart, EVOLUTION dealer nationwide PA"
+        keywords="EVOLUTION FORESTER 4 PLUS, utility medium speed vehicle, electric utility vehicle, work cart, EVOLUTION dealer nationwide"
         canonicalUrl="https://tigonmsv.com/vehicles/evolution-forester-4-plus"
         image="/attached_assets/EVOLUTIONFORESTER4PLUS_1751893159005_1753135437836.jpg"
       />

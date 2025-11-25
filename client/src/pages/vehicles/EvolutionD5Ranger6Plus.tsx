@@ -10,9 +10,9 @@ export default function EvolutionD5Ranger6Plus() {
   return (
     <>
       <SEOHead 
-        title="D5 RANGER 6 PLUS"
+        title="EVOLUTION D5 RANGER 6 PLUS Medium Speed Vehicle"
         description="Ultimate in electric vehicle performance with advanced capabilities and premium features for discerning buyers. Call 1-844-844-6638."
-        keywords="EVOLUTION D5 RANGER 6 PLUS, electric medium speed vehicle, premium electric vehicle, EVOLUTION dealer nationwide PA"
+        keywords="EVOLUTION D5 RANGER 6 PLUS, electric medium speed vehicle, premium electric vehicle, EVOLUTION dealer nationwide"
         canonicalUrl="https://tigonmsv.com/vehicles/evolution-d5-ranger-6-plus"
         image="/attached_assets/EVOLUTIOND5RANGER6PLUS_1751893159004_1753135350619.jpg"
       />

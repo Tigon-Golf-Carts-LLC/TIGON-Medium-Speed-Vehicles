@@ -10,9 +10,9 @@ export default function EvolutionD5Maverick6Plus() {
   return (
     <>
       <SEOHead 
-        title="Maverick 6 Plus"
+        title="EVOLUTION D5 MAVERICK 6 PLUS Medium Speed Vehicle"
         description="Six-passenger luxury medium speed vehicle with premium amenities and extended range capability. Perfect for larger families and group outings with enhanced comfort features. Call 1-844-844-6638."
-        keywords="EVOLUTION D5 Maverick 6 Plus, luxury medium speed vehicle, 6-passenger, family ready, premium comfort, EVOLUTION dealer nationwide PA"
+        keywords="EVOLUTION D5 MAVERICK 6 PLUS, luxury medium speed vehicle, 6-passenger, family ready, premium comfort, EVOLUTION dealer nationwide"
         canonicalUrl="https://tigonmsv.com/vehicles/evolution-d5-maverick-6-plus"
         image="/attached_assets/EVOLUTIOND5MAVERICK6PLUS_1751893115781_1753135350622.jpg"
       />

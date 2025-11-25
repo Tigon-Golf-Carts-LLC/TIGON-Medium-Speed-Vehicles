@@ -10,9 +10,9 @@ export default function DenagoEvRoverXL6() {
   return (
     <>
       <SEOHead 
-        title="Rover XL6"
+        title="DENAGO EV ROVER XL6 Medium Speed Vehicle"
         description="Premium luxury features and 6-passenger seating deliver ultimate comfort and performance for discerning customers. Call 1-844-844-6638."
-        keywords="DENAGO EV Rover XL6, luxury electric vehicle, 6-passenger medium speed vehicle, premium comfort, DENAGO dealer nationwide PA"
+        keywords="DENAGO EV ROVER XL6, luxury electric vehicle, 6-passenger medium speed vehicle, premium comfort, DENAGO dealer nationwide"
         canonicalUrl="https://tigonmsv.com/vehicles/denago-ev-rover-xl6"
         image="/attached_assets/DENAGONEVROVERXL6_1751893047473_1753135231313.jpg"
       />

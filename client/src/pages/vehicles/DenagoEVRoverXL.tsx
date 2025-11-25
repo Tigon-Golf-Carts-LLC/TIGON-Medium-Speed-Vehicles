@@ -10,9 +10,9 @@ export default function DenagoEVRoverXL() {
   return (
     <>
       <SEOHead 
-        title="EV ROVER XL"
+        title="DENAGO EV ROVER XL Medium Speed Vehicle"
         description="Ultimate electric vehicle performance with advanced capabilities and premium features designed for the modern explorer. All-wheel drive technology and luxury comfort. Call 1-844-844-6638."
-        keywords="DENAGO EV ROVER XL, electric medium speed vehicle, premium electric vehicle, DENAGO dealer nationwide PA"
+        keywords="DENAGO EV ROVER XL, electric medium speed vehicle, premium electric vehicle, DENAGO dealer nationwide"
         canonicalUrl="https://tigonmsv.com/vehicles/denago-ev-rover-xl"
         image="/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg"
       />

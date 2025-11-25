@@ -10,9 +10,9 @@ export default function DenagoEvNomadXL() {
   return (
     <>
       <SEOHead 
-        title="Nomad XL"
+        title="DENAGO EV NOMAD XL Medium Speed Vehicle"
         description="Extended seating and enhanced storage for larger adventure groups. Perfect for group exploration and outdoor activities with superior performance. Call 1-844-844-6638."
-        keywords="DENAGO EV Nomad XL, adventure electric vehicle, 6-passenger medium speed vehicle, DENAGO dealer nationwide PA"
+        keywords="DENAGO EV NOMAD XL, adventure electric vehicle, 6-passenger medium speed vehicle, DENAGO dealer nationwide"
         canonicalUrl="https://tigonmsv.com/vehicles/denago-ev-nomad-xl"
         image="/attached_assets/DENAGONEVNOMADXL_1751893047472_1753135231313.jpg"
       />

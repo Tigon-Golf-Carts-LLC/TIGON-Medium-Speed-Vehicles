@@ -10,9 +10,9 @@ export default function EvolutionCarrier8Plus() {
   return (
     <>
       <SEOHead 
-        title="Carrier 8 Plus"
+        title="EVOLUTION CARRIER 8 PLUS Medium Speed Vehicle"
         description="Maximum seating and cargo capacity for large group transportation and utility work. Eight-passenger carrier for demanding applications. Call 1-844-844-6638."
-        keywords="EVOLUTION Carrier 8 Plus, 8-passenger medium speed vehicle, maximum capacity, utility vehicle, EVOLUTION dealer nationwide PA"
+        keywords="EVOLUTION CARRIER 8 PLUS, 8-passenger medium speed vehicle, maximum capacity, utility vehicle, EVOLUTION dealer nationwide"
         canonicalUrl="https://tigonmsv.com/vehicles/evolution-carrier-8-plus"
         image="/attached_assets/EVOLUTIONCARRIER8PLUS_1751893115779_1753135231314.jpg"
       />

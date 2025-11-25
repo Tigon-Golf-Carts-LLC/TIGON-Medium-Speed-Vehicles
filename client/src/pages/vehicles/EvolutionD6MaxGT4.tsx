@@ -10,9 +10,9 @@ export default function EvolutionD6MaxGT4() {
   return (
     <>
       <SEOHead 
-        title="MAX GT4"
+        title="EVOLUTION D6 MAX GT4 Medium Speed Vehicle"
         description="High-performance electric medium speed vehicle with premium performance features and luxury appointments. Ultimate technology for discerning drivers. Call 1-844-844-6638."
-        keywords="EVOLUTION D6 MAX GT4, performance medium speed vehicle, luxury electric vehicle, high performance, EVOLUTION dealer nationwide PA"
+        keywords="EVOLUTION D6 MAX GT4, performance medium speed vehicle, luxury electric vehicle, high performance, EVOLUTION dealer nationwide"
         canonicalUrl="https://tigonmsv.com/vehicles/evolution-d6-max-gt4"
         image="/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350620.jpg"
       />

@@ -10,9 +10,9 @@ export default function EvolutionCarrier6Plus() {
   return (
     <>
       <SEOHead 
-        title="Carrier 6 Plus"
+        title="EVOLUTION CARRIER 6 PLUS Medium Speed Vehicle"
         description="Six-passenger carrier with enhanced cargo capacity and utility features for work and recreation. Perfect balance of passenger comfort and utility functionality. Call 1-844-844-6638."
-        keywords="EVOLUTION Carrier 6 Plus, utility medium speed vehicle, cargo capacity, 6-passenger, work vehicle, EVOLUTION dealer nationwide PA"
+        keywords="EVOLUTION CARRIER 6 PLUS, utility medium speed vehicle, cargo capacity, 6-passenger, work vehicle, EVOLUTION dealer nationwide"
         canonicalUrl="https://tigonmsv.com/vehicles/evolution-carrier-6-plus"
         image="/attached_assets/EVOLUTIONCARRIER6PLUS_1751893115778_1753135231314.jpg"
       />

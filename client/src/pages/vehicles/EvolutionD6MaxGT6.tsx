@@ -10,9 +10,9 @@ export default function EvolutionD6MaxGT6() {
   return (
     <>
       <SEOHead 
-        title="Max GT6"
+        title="EVOLUTION D6 MAX GT6 Medium Speed Vehicle"
         description="High performance and luxury features combine in this six-passenger medium speed vehicle with maximum power and premium comfort. Call 1-844-844-6638."
-        keywords="EVOLUTION D6 Max GT6, high performance medium speed vehicle, 6-passenger, luxury features, maximum power, EVOLUTION dealer nationwide PA"
+        keywords="EVOLUTION D6 MAX GT6, high performance medium speed vehicle, 6-passenger, luxury features, maximum power, EVOLUTION dealer nationwide"
         canonicalUrl="https://tigonmsv.com/vehicles/evolution-d6-max-gt6"
         image="/attached_assets/EVOLUTIOND6MAXGT6_1751893159004_1753135350620.jpg"
       />

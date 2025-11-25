@@ -10,9 +10,9 @@ export default function EvolutionD5Maverick4() {
   return (
     <>
       <SEOHead 
-        title="Maverick 4"
+        title="EVOLUTION D5 MAVERICK 4 Medium Speed Vehicle"
         description="Reliable performance and essential features make this the perfect 4-passenger medium speed vehicle for standard transportation needs. Call 1-844-844-6638."
-        keywords="EVOLUTION D5 Maverick 4, 4-passenger medium speed vehicle, standard features, reliable performance, EVOLUTION dealer nationwide PA"
+        keywords="EVOLUTION D5 MAVERICK 4, 4-passenger medium speed vehicle, standard features, reliable performance, EVOLUTION dealer nationwide"
         canonicalUrl="https://tigonmsv.com/vehicles/evolution-d5-maverick-4"
         image="/attached_assets/EVOLUTIOND5MAVERICK4_1751893115780_1753135231312.jpg"
       />
